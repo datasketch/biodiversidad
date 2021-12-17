@@ -47,6 +47,36 @@
                 </div>
             </div>
         </div>
+        <div class="mt-20 grid lg:grid-cols-4">
+            {{ with .Params.especies_amenazadas }}
+                <div class="text-center font-open-sans-condensed">
+                    <p class="block font-bold font-oswald lg:text-6xl">{{ . }}</p>
+                    <span>Especies amenazadas</span>
+                    <img class="mx-auto mt-4" src="/images/sample/pie-chart.svg" alt="">
+                </div>
+            {{ end }}
+            {{ with .Params.especies_endemicas }}
+                <div class="text-center font-open-sans-condensed">
+                    <p class="block font-bold font-oswald lg:text-6xl">{{ . }}</p>
+                    <span>Especies endémicas</span>
+                    <img class="mx-auto mt-4" src="/images/sample/pie-chart.svg" alt="">
+                </div>
+            {{ end }}
+            {{ with .Params.especies_exoticas }}
+                <div class="text-center font-open-sans-condensed">
+                    <p class="block font-bold font-oswald lg:text-6xl">{{ . }}</p>
+                    <span>Especies exóticas</span>
+                    <img class="mx-auto mt-4" src="/images/sample/pie-chart.svg" alt="">
+                </div>
+            {{ end }}
+            {{ with .Params.especies_cites }}
+                <div class="text-center font-open-sans-condensed">
+                    <p class="block font-bold font-oswald lg:text-6xl">{{ . }}</p>
+                    <span>Especies CITES</span>
+                    <img class="mx-auto mt-4" src="/images/sample/pie-chart.svg" alt="">
+                </div>
+            {{ end }}
+        </div>
     </div>
 </div>
 <section class="bg-cultured px-6 py-24 text-center">

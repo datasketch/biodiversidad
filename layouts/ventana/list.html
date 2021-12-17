@@ -1,13 +1,56 @@
 {{ define "main" }}
-    <div class="bg-top bg-cover bg-no-repeat h-screen" style="background-image: url({{.Params.image}});">
-        <div class="flex h-full justify-center items-end py-12 text-white lg:space-x-12">
-            <h1 class="font-extrabold font-open-sans-condensed uppercase border-white lg:border-r-2 lg:pr-12 lg:text-7xl">{{ .Title }}</h1>
-            {{ with .Params.especies_registradas }}
-                <h2 class="text-center font-open-sans-condensed">
-                    <span class="block font-bold font-oswald lg:text-6xl">{{ . }}</span>
-                    <span>Especies registradas</span>
-                </h2>
+<div class="bg-top bg-cover bg-no-repeat h-screen" style="background-image: linear-gradient(transparent 0 60%, #1C75AD), url({{.Params.image}})">
+    <div class="flex h-full justify-center items-end py-12 text-white lg:space-x-12">
+        <h1 class="font-extrabold font-open-sans-condensed uppercase border-white lg:border-r-2 lg:pr-12 lg:text-7xl">{{ .Title }}</h1>
+        {{ with .Params.especies_registradas }}
+            <p class="text-center font-open-sans-condensed">
+                <span class="block font-bold font-oswald lg:text-6xl">{{ . }}</span>
+                <span>Especies registradas</span>
+            </p>
+        {{ end }}
+    </div>
+</div>
+<div class="py-24 px-6 bg-command-blue text-white">
+    <div class="mx-auto max-w-6xl w-10/12">
+        <div class="flex items-start">
+            {{ with .Params.registros_continentales }}
+                <div class="lg:w-1/5">
+                    <p class="text-center font-open-sans-condensed">
+                        <span class="block font-bold font-oswald lg:text-6xl">{{ . }}</span>
+                        <span>Registros continentales</span>
+                        <img class="mx-auto h-6" src="/images/continental.png" alt="">
+                    </p>
+                </div>
             {{ end }}
+            {{ with .Params.registros_maritimos }}
+                <div class="lg:w-1/5">
+                    <h2 class="text-center font-open-sans-condensed">
+                        <span class="block font-bold font-oswald lg:text-6xl">{{ . }}</span>
+                        <span>Registros marítimos</span>
+                        <img class="mx-auto h-6" src="/images/maritimo.png" alt="">
+                    </h2>
+                </div>
+            {{ end }}
+            <div class="lg:w-3/5">
+                <p class="text-lg max-w-md lg:ml-auto">
+                    {{ .Params.observacion_registros }}
+                </p>
+            </div>
+        </div>
+        <div class="flex items-start mt-20">
+            <div class="w-2/5">
+                <h2 class="font-bold lg:text-2xl border-b">Nariño vs. Colombia</h2>
+                <div class="space-y-6 mt-6">
+                    {{ .Params.comparacion | markdownify }}
+                </div>
+            </div>
         </div>
     </div>
+</div>
+<section class="bg-cultured px-6 py-24 text-center">
+    <h2 class="font-bold lg:text-2xl">
+        Explorador de cifras de <span class="text-command-blue">{{ .Title }}</span>
+    </h2>
+</section>
+{{ partial "publicadores.html" . }}
 {{ end }}

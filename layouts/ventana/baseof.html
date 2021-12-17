@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="{{ $fonts.Permalink }}">
     <link rel="stylesheet" href="{{ $base.Permalink }}">
 </head>
-<body class="font-open-sans">
+<body class="font-open-sans text-eerie-black">
     {{ partial "navbar.html" . }}
     {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
 </body>
 </html>

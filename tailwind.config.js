@@ -21,10 +21,10 @@ module.exports = {
         bittersweet: '#ED6B60',
         forest: '#217866'
       }
-    },
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }

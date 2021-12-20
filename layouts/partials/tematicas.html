@@ -1,55 +1,16 @@
 <div class="pt-24 px-6 bg-forest">
     <div class="mx-auto max-w-6xl w-11/12">
-        <h2 class="text-white font-bold text-xl lg:text-2xl"><span class="font-normal text-lg">Conoce las cifras por
-            </span>Grupos Biológicos</h2>
+        <h2 class="text-white font-bold text-xl lg:text-2xl">
+            <span class="font-normal text-lg">Conoce las cifras por
+            </span>Temáticas
+        </h2>
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 mt-16">
-            <div>
-                <div class="bg-white py-8 px-2 text-center" style="height: 150px;">
-                    <img class="mx-auto" src="/images/especies-amenazadas.svg" alt="Especies Amenazadas">
-                    <p class="mt-4 font-bold text-lg">Especies Amenazadas</p>
-                </div>
-                <div class="bg-white py-4 border border-forest cursor-pointer">
-                    <img class="mx-auto" src="/images/arrow-bottom-green.svg" alt="arrow bottom">
-                </div>
-            </div>
-            <div>
-                <div class="bg-white py-8 px-2 text-center" style="height: 150px;">
-                    <img class="mx-auto" src="/images/especies-endemicas.svg" alt="Especies Endémicas">
-                    <p class="mt-4 font-bold text-lg">Especies Endémicas</p>
-                </div>
-                <div class="bg-white py-4 border border-forest cursor-pointer">
-                    <img class="mx-auto" src="/images/arrow-bottom-green.svg" alt="arrow bottom">
-                </div>
-            </div>
-            <div>
-                <div class="bg-white py-8 px-2 text-center" style="height: 150px;">
-                    <img class="mx-auto" src="/images/especies-exoticas.svg" alt="Especies Exóticas">
-                    <p class="mt-4 font-bold text-lg">Especies Exóticas</p>
-                </div>
-                <div class="bg-white py-4 border border-forest cursor-pointer">
-                    <img class="mx-auto" src="/images/arrow-bottom-green.svg" alt="arrow bottom">
-                </div>
-            </div>
-            <div>
-                <div class="bg-white py-8 px-2 text-center" style="height: 150px;">
-                    <div class="mx-auto" style="height: 29px; background-color: #217866; opacity: 0.27; width: 100px;">
-                        &nbsp;</div>
-                    <p class="mt-4 font-bold text-lg">Especies CITES</p>
-                </div>
-                <div class="bg-white py-4 border border-forest cursor-pointer">
-                    <img class="mx-auto" src="/images/arrow-bottom-green.svg" alt="arrow bottom">
-                </div>
-            </div>
-            <div>
-                <div class="bg-white py-8 px-2 text-center" style="height: 150px;">
-                    <img class="mx-auto" src="/images/especies-migratorias.svg" alt="Especies Migratorias">
-                    <p class="mt-4 font-bold text-lg">Especies Migratorias</p>
-                </div>
-                <div class="bg-white py-4 border border-forest cursor-pointer">
-                    <img class="mx-auto" src="/images/arrow-bottom-green.svg" alt="arrow bottom">
-                </div>
-            </div>
+            {{ partial "category-card.html" (dict "icon" "/images/especies-amenazadas.svg" "category" "Especies amenazadas" "color" "forest") }}
+            {{ partial "category-card.html" (dict "icon" "/images/especies-endemicas.svg" "category" "Especies endémicas" "color" "forest") }}
+            {{ partial "category-card.html" (dict "icon" "/images/especies-exoticas.svg" "category" "Especies exóticas" "color" "forest") }}
+            {{ partial "category-card.html" (dict "category" "Especies CITES" "color" "forest") }}
+            {{ partial "category-card.html" (dict "icon" "/images/especies-migratorias.svg" "category" "Especies migratorias" "color" "forest") }}
         </div>
     </div>
 </div>
-<div style="height: 125px; background-color: #FBF9F8; margin-top: -46px;"></div>
+<div class="bg-cultured h-32" style="margin-top: -36px;"></div>

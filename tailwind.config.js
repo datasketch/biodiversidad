@@ -19,7 +19,8 @@ module.exports = {
         'eerie-black': '#1A1A1A',
         cultured: '#FBF9F8',
         bittersweet: '#ED6B60',
-        forest: '#217866'
+        forest: '#217866',
+        'blue-section': '#E6E7ED',
       }
     },
   },

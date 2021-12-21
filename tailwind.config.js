@@ -21,7 +21,8 @@ module.exports = {
         bittersweet: '#ED6B60',
         forest: '#217866',
         'blue-section': '#E6E7ED',
-        'patricks-blue': '#192D7B'
+        'patricks-blue': '#192D7B',
+        'command-blue-dark': '#192D7B',
       }
     }
   },

@@ -23,6 +23,9 @@ module.exports = {
         'blue-section': '#E6E7ED',
         'patricks-blue': '#192D7B',
         'command-blue-dark': '#192D7B',
+        'command-green': '#2B6055',
+        'alice-blue': '#BBE2F5',
+        'command-green-light': '#217866'
       }
     }
   },

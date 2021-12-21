@@ -21,11 +21,12 @@ module.exports = {
         bittersweet: '#ED6B60',
         forest: '#217866',
         'blue-section': '#E6E7ED',
+        'patricks-blue': '#192D7B'
       }
-    },
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }

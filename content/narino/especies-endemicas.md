@@ -1,5 +1,5 @@
 ---
-title: Especies endemicas
-type: ventanas
-image: 
+title: Especies endémicas
+layout: especies-endemicas
+type: ventana
 ---

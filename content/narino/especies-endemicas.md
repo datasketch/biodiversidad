@@ -2,7 +2,7 @@
 title: Especies endémicas
 layout: especies-endemicas
 type: ventana
-image: /images/ventana-regional-narino.png
+image: /images/ventana-regional-especies-endemicas.png
 especies_registradas: 1234
 registros_continentales: 1234
 registros_maritimos: 1234

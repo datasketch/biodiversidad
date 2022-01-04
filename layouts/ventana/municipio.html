@@ -83,9 +83,12 @@
         </div>
     </div>
 </div>
-{{ partial "grupos-biologicos" . }}
-{{ partial "areas-geograficas" . }}
-{{ partial "tematicas" . }}
+<div id="app"></div>
 {{ partial "app" . }}
 {{ partial "publicadores" . }}
+{{ end }}
+
+{{ define "js" }}
+{{ $js := resources.Get "js/ventana.js" | babel | js.Build (dict "minify" hugo.IsProduction) }}
+<script src="{{ $js.Permalink }}"></script>
 {{ end }}

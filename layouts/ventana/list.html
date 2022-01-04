@@ -94,6 +94,7 @@
         </div>
     </div>
 </div>
+<div id="app"></div>
 {{ partial "grupos-biologicos" . }}
 {{ partial "areas-geograficas" . }}
 {{ partial "tematicas" }}
@@ -154,6 +155,10 @@
     </div>
 </div>
 {{ partial "app" . }}
-
 {{ partial "publicadores.html" . }}
+{{ end }}
+
+{{ define "js" }}
+{{ $js := resources.Get "js/ventana.js" | babel | js.Build (dict "minify" hugo.IsProduction) }}
+<script src="{{ $js.Permalink }}"></script>
 {{ end }}

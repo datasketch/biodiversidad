@@ -13,20 +13,7 @@ module.exports = {
         oswald: ['oswald', 'sans-serif'],
         'open-sans-condensed': ['"open sans condensed"', 'sans-serif']
       },
-      colors: {
-        'command-blue': '#1C75AD',
-        xiketic: '#0E1223',
-        'eerie-black': '#1A1A1A',
-        cultured: '#FBF9F8',
-        bittersweet: '#ED6B60',
-        forest: '#217866',
-        'blue-section': '#E6E7ED',
-        'patricks-blue': '#192D7B',
-        'command-blue-dark': '#192D7B',
-        'command-green': '#2B6055',
-        'alice-blue': '#BBE2F5',
-        'command-green-light': '#217866'
-      }
+      colors: {}
     }
   },
   variants: {

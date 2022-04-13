@@ -34,7 +34,8 @@ module.exports = {
         'blue-title': '#024863'
       },
       backgroundImage: {
-        'banner-home-desktop': 'url(/images/home/banner-home-desktop.png)'
+        'banner-home-desktop': 'url(/images/home/banner-home-desktop.png)',
+        'banner-explorador-desktop': 'url(/images/explorador/banner-explorador-desktop.png)'
       },
       screens: {
         xs: '320px',

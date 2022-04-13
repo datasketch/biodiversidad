@@ -24,11 +24,14 @@ module.exports = {
         'white-2': '#F1F1F1',
         'white-3': '#FBF9F8',
         'white-4': '#D1D1D1',
+        'white-5': '#FCFCFC',
         red: '#E34065',
         orange: '#FFB341',
         yellow: '#FFEC41',
         black: '#0E1223',
-        'blue-picker': '#013246'
+        'blue-picker': '#013246',
+        'blue-section': '#003045',
+        'blue-title': '#024863'
       },
       backgroundImage: {
         'banner-home-desktop': 'url(/images/home/banner-home-desktop.png)'

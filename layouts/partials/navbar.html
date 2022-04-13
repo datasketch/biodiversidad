@@ -1,3 +1,23 @@
-<header>
-    NAVBAR
+<header class="bg-white-3 py-4">
+    <div class="mx-auto w-11/12 max-w-screen-xl">
+        <div class="flex justify-between items-center">
+            <div class="flex-shrink-0">
+                <a href="/">
+                    <img src="/images/public/logo-header.svg" alt="logo header">
+                </a>
+            </div>
+            <nav class="lg:w-7/12 text-blue-picker">
+                <ul class="hidden lg:flex items-center justify-between">
+                    {{ $current_page := . }}
+                    {{ range .Site.Menus.main }}
+                      <li>
+                        <a href="{{ .URL }}" {{ if $current_page.IsMenuCurrent "main" . }}class="font-bold text-blue"{{ end }}>
+                          {{ .Name }}
+                        </a>
+                      </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>

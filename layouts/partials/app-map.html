@@ -1,0 +1,18 @@
+<section class="py-16">
+    <div class="mx-auto space-y-8">
+        {{if .titleMap }}
+        <div class="mx-auto w-11/12 md:w-7/12 lg:w-1/3 text-center">
+            <h2 class="font-bold text-3xl text-center">Explora <span class="text-blue-dark">{{ .titleMap }} </span>
+            </h2>
+            <p class="text-lg my-4">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
+                euismod tincidunt ut laoreet.</p>
+        </div>
+        {{ end }}
+        <div class="mx-auto w-10/12 md:w-1/4 lg:w-1/3 px-3 py-2 text-center md:text-lg border-2 border-blue-section">
+            <select>
+                <option>Como funciona esta herramienta</option>
+            </select>
+        </div>
+        <img class="pt-6" src="{{ .imageMap }}" alt="">
+    </div>
+</section>

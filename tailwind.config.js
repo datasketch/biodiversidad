@@ -35,7 +35,9 @@ module.exports = {
       },
       backgroundImage: {
         'banner-home-desktop': 'url(/images/home/banner-home-desktop.png)',
-        'banner-explorador-desktop': 'url(/images/explorador/banner-explorador-desktop.png)'
+        'banner-explorador-desktop': 'url(/images/explorador/banner-explorador-desktop.png)',
+        'banner-colombia-desktop': 'url(/images/colombia/banner-colombia-desktop.png)',
+        'banner-publicadores-desktop': 'url(/images/publicadores/banner-publicadores-desktop.png)'
       },
       screens: {
         xs: '320px',

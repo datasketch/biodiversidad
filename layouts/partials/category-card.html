@@ -1,0 +1,14 @@
+<div class="bg-cultured border border-{{ .color }}">
+    <div class="py-8 px-2 text-center h-36">
+        {{ if .icon }}
+        <img class="mx-auto h-7" src="{{ .icon }}" alt="{{ .category | lower }}">
+        {{ else }}
+        <div class="mx-auto bg-{{ .color }} bg-opacity-20 w-24 h-7">
+            &nbsp;</div>
+        {{ end }}
+        <p class="mt-4 font-bold text-lg">{{ .category }}</p>
+    </div>
+    <button class="w-full border-t border-{{ .color }} py-3">
+        <img class="mx-auto h-3" src="/images/arrow-bottom-{{ .color }}.svg" alt="arrow bottom">
+    </button>
+</div>

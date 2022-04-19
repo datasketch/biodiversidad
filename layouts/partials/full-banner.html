@@ -1,41 +1,35 @@
-<div class="relative bg-{{ .banner }} bg-cover bg-center" style="height: 677px;">
-    <div class="mx-auto max-w-screen-xl">
-        <div class="absolute top-1/2 transform translate-x-1/2 text-white-3">
-            <div class="flex flex-col lg:flex-row space-x-16 w-1/4">
-                <h2 class="font-open-sans-condensed uppercase font-bold text-3xl md:text-7xl">{{.titleBanner}}</h2>
-                <span class="block lg:border-l-[1px] bg-white">
+<div class="relative bg-{{ .banner }} bg-cover bg-center h-screen" style="height: 677px;">
+    <div class="flex flex-col h-full justify-end items-center text-white lg:space-x-12">
+        <div class="mx-auto max-w-screen-xl w-4/6 sm:w-4/5 text-white-3 sm:space-y-8">
+            <div class="flex flex-col w-2/5 md:w-full space-y-3 justify-center md:flex-row md:space-x-16 ">
+                <h2 class="font-open-sans-condensed uppercase font-bold text-2xl sm:text-5xl md:text-7xl">
+                    {{.titleBanner}}
+                </h2>
+                <span class="hidden md:block border-l-[1px] bg-white">
                     &nbsp;
                 </span>
-                <div>
-                    <p class="font-open-sans-condensed uppercase font-bold text-3xl md:text-7xl">63.303</p>
-                    <span>Especies observadas</span>
+                <span class="block md:hidden bg-white" style="height: 1px;">
+                    &nbsp;
+                </span>
+                <div class="">
+                    <p class="font-open-sans-condensed uppercase font-bold text-2xl sm:text-5xl md:text-7xl">
+                        63.303</p>
+                    <span class="">Especies observadas</span>
+                </div>
+            </div>
+            <div class="space-y-2">
+                <img class="h-5" src="/images/colombia/colombia-barra.svg" alt="barra" />
+                <div class="flex justify-between text-white-3">
+                    <p class="text-xs w-1/4 md:text-sm">Cifra de riqueza actual</p>
+                    <p class="text-xs w-1/4 md:text-sm text-right">Cifra de riqueza estimada</p>
                 </div>
             </div>
         </div>
-        <div class="absolute top-3/4 left-1/5 w-3/5 space-y-2   ">
-            <img src="/images/colombia/colombia-barra.svg" alt="barra" />
-            <div class="flex justify-between text-white-3">
-                <p class="text-sm">Cifra de riqueza actual</p>
-                <p class="text-sm">Cifra de riqueza estimada</p>
+        <div class="p-5 self-end">
+            <div class="flex space-x-3 text-white-3">
+                <img src="/images/public/icon-camera.svg" alt="icono camara" />
+                <span class="italic">Lorem ipsum dolor</span>
             </div>
         </div>
     </div>
-    <div class="absolute bottom-0 right-0 p-8">
-        <div class="flex space-x-3 text-white-3 ">
-            <img src="/images/public/icon-camera.svg" alt="icono camara" />
-            <span class="italic">Lorem ipsum dolor</span>
-        </div>
-    </div>
 </div>
-{{/* <div class="mt-16 space-y-16">
-    <div class="mx-auto">
-        <h2> Explora Colombia</h2>
-        <p>Proident reprehenderit deserunt qui elit.</p>
-        <select>
-            <option>Como funciona esta herramienta</option>
-        </select>
-    </div>
-    <div>
-        <img src="/images/colombia/app-mapa.png" alt="Mapa Colombia" class="w-full">
-    </div>
-</div> */}}

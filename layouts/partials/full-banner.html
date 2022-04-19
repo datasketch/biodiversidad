@@ -1,9 +1,9 @@
 <div class="relative bg-{{ .banner }} bg-cover bg-center" style="height: 677px;">
     <div class="mx-auto max-w-screen-xl">
-        <div class="absolute top-1/2 transform translate-x-1/2 text-white-3 space-y-14">
-            <div class="flex md:flex-row space-x-9">
+        <div class="absolute top-1/2 transform translate-x-1/2 text-white-3">
+            <div class="flex flex-col lg:flex-row space-x-16 w-1/4">
                 <h2 class="font-open-sans-condensed uppercase font-bold text-3xl md:text-7xl">{{.titleBanner}}</h2>
-                <span class="block bg-white" style="border-left: 1px;">
+                <span class="block lg:border-l-[1px] bg-white">
                     &nbsp;
                 </span>
                 <div>
@@ -11,9 +11,19 @@
                     <span>Especies observadas</span>
                 </div>
             </div>
-            <div>
-                Luis
+        </div>
+        <div class="absolute top-3/4 left-1/5 w-3/5 space-y-2   ">
+            <img src="/images/colombia/colombia-barra.svg" alt="barra" />
+            <div class="flex justify-between text-white-3">
+                <p class="text-sm">Cifra de riqueza actual</p>
+                <p class="text-sm">Cifra de riqueza estimada</p>
             </div>
+        </div>
+    </div>
+    <div class="absolute bottom-0 right-0 p-8">
+        <div class="flex space-x-3 text-white-3 ">
+            <img src="/images/public/icon-camera.svg" alt="icono camara" />
+            <span class="italic">Lorem ipsum dolor</span>
         </div>
     </div>
 </div>

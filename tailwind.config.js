@@ -61,7 +61,13 @@ module.exports = {
       inset: {
         '1/5': '20%',
         '1/10': '10%'
-      }
+      },
+      safelist: [
+        'banner-home-desktop',
+        'banner-explorador-desktop',
+        'banner-colombia-desktop',
+        'banner-publicadores-desktop'
+      ]
     }
   },
   variants: {

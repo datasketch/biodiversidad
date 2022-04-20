@@ -3,47 +3,66 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: Oswald;
-        src: url("/fonts/Oswald-Bold.ttf");
-        font-weight: 700;
-    }
-    
-    @font-face {
-        font-family: "Open Sans";
-        src: url("/fonts/OpenSans-Regular.ttf");
-        font-weight: 400;
-    }
-    
-    @font-face {
-        font-family: "Open Sans";
-        src: url("/fonts/OpenSans-Bold.ttf");
-        font-weight: 700;
-    }
-    
-    @font-face {
-        font-family: "Open Sans Condensed";
-        src: url("/fonts/OpenSans_Condensed-Regular.ttf");
-        font-weight: 400;
-    }
-    
-    @font-face {
-        font-family: "Open Sans Condensed";
-        src: url("/fonts/OpenSans_Condensed-Italic.ttf");
-        font-style: italic;
-    }
-    
-    @font-face {
-        font-family: "Open Sans Condensed";
-        src: url("/fonts/OpenSans_Condensed-ExtraBold.ttf");
-        font-weight: 800;
-    }
+  @font-face {
+    font-family: Oswald;
+    src: url("/fonts/Oswald-Bold.ttf");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Bold.ttf");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Open Sans Condensed";
+    src: url("/fonts/OpenSans_Condensed-Regular.ttf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Open Sans Condensed";
+    src: url("/fonts/OpenSans_Condensed-Italic.ttf");
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Open Sans Condensed";
+    src: url("/fonts/OpenSans_Condensed-ExtraBold.ttf");
+    font-weight: 800;
+  }
+
+  details {
+    @apply relative;
+  }
+  details > summary {
+    @apply cursor-pointer list-none select-none;
+  }
+  details > summary:focus {
+    @apply outline-none;
+  }
+  details > summary::-webkit-details-marker {
+    @apply hidden;
+  }
+
+  details.with-hover ul {
+    @apply hidden;
+  }
+
+  details.with-hover:hover ul {
+    @apply block;
+  }
 }
 
 @layer components {
-
 }
 
-@layer utilities {
-    
+@la yer utilities {
 }

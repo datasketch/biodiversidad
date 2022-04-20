@@ -1,0 +1,27 @@
+<section class="pt-24 px-6 bg-blue-dark">
+    <div class="mx-auto max-w-6xl w-10/12">
+        <h2 class="text-white font-bold text-xl lg:text-2xl">
+            <span class="font-normal text-lg">Conoce las cifras por </span>Regiones
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 mt-16">
+            {{ partial "category-card.html" (dict "icon" "/images/regiones/departamentos.svg" "category"
+            "Departamentos" "color" "blue-dark" "button" "/images/regiones/-tematicas.svg"
+            ) }}
+            {{ partial "category-card.html" (dict "icon" "/images/regiones/areas-protegidas.svg" "category"
+            "Áreas protegidas" "color" "blue-dark" "button" "/images/regiones/-tematicas.svg")
+            }}
+            {{ partial "category-card.html" (dict "icon" "/images/regiones/areas-marinas.svg" "category"
+            "Áreas marinas" "color" "blue-dark" "button" "/images/regiones/-tematicas.svg")
+            }}
+            {{ partial "category-card.html" (dict "icon" "/images/regiones/regiones-naturales.svg" "category"
+            "Regiones naturales" "color" "blue-dark" "button" "/images/regiones/-tematicas.svg") }}
+
+            {{ partial "category-card.html" (dict "icon" "/images/regiones/ecosistemas-estratetigicos.svg" "category"
+            "Ecosistemas estratégicos" "color" "blue-dark" ) }}
+
+            {{ partial "category-card.html" (dict "icon" "/images/regiones/territorios-indigenas.svg" "category"
+            "Territorios indígenas" "color" "blue-dark" ) }}
+        </div>
+    </div>
+</section>
+<div class="bg-white h-32 -mt-9"></div>

@@ -1,5 +1,5 @@
 <div class="bg-cultured border border-{{ .color }}">
-    <div class="py-8 px-2 text-center h-36">
+    <div class="bg-white py-8 px-2 text-center h-36">
         {{ if .icon }}
         <img class="mx-auto h-7" src="{{ .icon }}" alt="{{ .category | lower }}">
         {{ else }}
@@ -8,7 +8,7 @@
         {{ end }}
         <p class="mt-4 font-bold text-lg">{{ .category }}</p>
     </div>
-    <button class="w-full border-t border-{{ .color }} py-3">
-        <img class="mx-auto h-3" src="/images/arrow-bottom-{{ .color }}.svg" alt="arrow bottom">
+    <button class="w-full border-t bg-white border-{{ .color }} py-3">
+        <img class="mx-auto h-3" src="/images/public/arrow-bottom-{{ .color }}.svg" alt="arrow bottom">
     </button>
 </div>

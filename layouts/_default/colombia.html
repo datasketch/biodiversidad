@@ -184,26 +184,23 @@
             <h2 class="lg:text-2xl text-center font-bold font-open-sans">
                 Resumen de especies y observaciones por departamentos
             </h2>
-
         </div>
         <div class="flex items-center gap-x-2 md:gap-x-10">
-
             <div class="w-1/12 flex justify-center">
                 <img src="/images/colombia/arrow.svg" alt="">
             </div>
-
             <div class="mx-auto w-10/12">
                 <img src="/images/colombia/estadisticas.svg" alt="estadistica">
             </div>
-
             <div class="w-1/12 flex justify-center">
                 <img class="transform rotate-180" src="/images/colombia/arrow.svg" alt="">
             </div>
-
         </div>
     </div>
 </div>
 
-
+{{ partial "grupos-biologicos.html" . }}
+{{ partial "tematicas.html" . }}
+{{ partial "regiones.html" . }}
 {{ partial "app-map.html" (dict "titleMap" "Colombia" "imageMap" "/images/public/app-mapa.png" ) }}
 {{ end }}

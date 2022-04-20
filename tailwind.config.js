@@ -3,6 +3,12 @@ module.exports = {
     enabled: process.env.HUGO_ENVIRONMENT === 'production',
     content: [
       './layouts/**/*.html'
+    ],
+    safelist: [
+      'banner-home-desktop',
+      'banner-explorador-desktop',
+      'banner-colombia-desktop',
+      'banner-publicadores-desktop'
     ]
   },
   darkMode: false, // or 'media' or 'class'
@@ -61,13 +67,7 @@ module.exports = {
       inset: {
         '1/5': '20%',
         '1/10': '10%'
-      },
-      safelist: [
-        'banner-home-desktop',
-        'banner-explorador-desktop',
-        'banner-colombia-desktop',
-        'banner-publicadores-desktop'
-      ]
+      }
     }
   },
   variants: {

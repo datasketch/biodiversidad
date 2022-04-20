@@ -5,10 +5,10 @@ module.exports = {
       './layouts/**/*.html'
     ],
     safelist: [
-      'banner-home-desktop',
-      'banner-explorador-desktop',
-      'banner-colombia-desktop',
-      'banner-publicadores-desktop'
+      'bg-banner-home-desktop',
+      'bg-banner-explorador-desktop',
+      'bg-banner-colombia-desktop',
+      'bg-banner-publicadores-desktop'
     ]
   },
   darkMode: false, // or 'media' or 'class'

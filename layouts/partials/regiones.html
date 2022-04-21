@@ -3,7 +3,8 @@
         <h2 class="text-white font-bold text-xl lg:text-2xl">
             <span class="font-normal text-lg">Conoce las cifras por </span>Regiones
         </h2>
-        <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 mt-16">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-16">
+
             {{ partial "category-card.html" (dict "icon" "/images/regiones/departamentos.svg" "category"
             "Departamentos" "color" "blue-dark" "button" "/images/regiones/-tematicas.svg"
             ) }}
@@ -15,7 +16,7 @@
             }}
             {{ partial "category-card.html" (dict "icon" "/images/regiones/regiones-naturales.svg" "category"
             "Regiones naturales" "color" "blue-dark" "button" "/images/regiones/-tematicas.svg") }}
-
+            <div></div>
             {{ partial "category-card.html" (dict "icon" "/images/regiones/ecosistemas-estratetigicos.svg" "category"
             "Ecosistemas estratégicos" "color" "blue-dark" ) }}
 

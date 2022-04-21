@@ -1,5 +1,415 @@
 {{ define "main" }}
-    <div>
-        list
+{{ partial "banner.html" (dict "banner" "banner-publicadores-desktop" "titleBanner" "publicadores") }}
+<div class="py-12 lg:py-16 xl:py-20">
+    <div class="w-10/12 mx-auto space-y-16">
+        <div class="flex flex-col sm:flex-row space-y-4 md:space-y-0 sm:justify-between">
+            <div
+                class="w-full my-auto h-full py-3 md:w-4/12 flex border-2 border-blue-section px-2 space-x-1 sm:space-x-5">
+                <img class="" src="/images/public/icon-search.svg" alt="icon search" />
+                <input
+                    class="placeholder-italic appearance-none  sm:w-full text-blue-section text-sm lg:text-xl leading-tight focus:outline-none focus:shadow-outline"
+                    type="text" placeholder="Buscar departamento">
+            </div>
+
+            <div class="flex w-full md:w-6/12 gap-x-4 sm:gap-x-10 justify-end">
+                <div
+                    class="cursor-pointer text-blue-section flex space-x-2 border-2 border-blue-section px-3 py-1 items-center">
+                    <p class="font-s">País de publicación</p>
+                    <img class="h-1/2 my-auto" src="/images/public/arrow-dropdown.svg" alt="icon arrow down" />
+                </div>
+                <div
+                    class="cursor-pointer text-blue-section flex space-x-4 border-2 border-blue-section px-3 py-1 items-center">
+                    <p>Ordenar por</p>
+                    <img class="h-1/2 my-auto" src="/images/public/arrow-dropdown.svg" alt="icon arrow down" />
+                </div>
+            </div>
+        </div>
+
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="border h-60 hover:shadow-xl font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="border font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="border font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="border h-60 hover:shadow-xl font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="border font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="border font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="border h-60 hover:shadow-xl font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="border font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="border font-open-sans space-y-1">
+                <div class="pl-7 flex justify-between items-end">
+                    <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span></p>
+                    <div class="">
+                        <img src="/images/publicadores/apc.png" alt="apc">
+                    </div>
+                </div>
+                <div class="mx-auto w-10/12 space-y-2 pb-4">
+                    <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica Colombiana
+                    </p>
+                    <table class="mx-auto w-11/12">
+                        <tbody>
+                            <tr class="px-10">
+                                <th class="text-left bg-gray-light">Observaciones</th>
+                                <th class="border-l bg-gray-light border-blue-section">2139</th>
+                            </tr>
+                            <tr>
+                                <th class="text-left">Total Especies</th>
+                                <th class="border-l border-blue-section">2139</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+{{/* Segmento estaisticos */}}
+<div class="text-white bg-blue-dark py-12 lg:py-16 xl:py-20 space-y-10">
+    <div class="flex items-center gap-x-2 md:gap-x-10">
+        <div class="w-1/12 flex justify-center">
+            <img src="/images/colombia/arrow.svg" alt="">
+        </div>
+        <div class="mx-auto w-11/12 flex flex-col justify-between space-y-4 sm:flex-row sm:space-x-4">
+            <div class="space-y-3 sm:w-5/12">
+                <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales de Colombia
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper
+                    suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+                    hendrerit in vulputate velit
+                    esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit,
+                    sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                    veniam, quis nostrud
+                    exerci.
+                </p>
+            </div>
+            <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
+                <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs. reservas
+                    naturales de Colombia
+                </h3>
+                <div class="mx-auto w-11/12 h-full">
+                    <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg" alt="grafica circular">
+                </div>
+            </div>
+        </div>
+        <div class="w-1/12 flex justify-center">
+            <img class="transform rotate-180" src="/images/colombia/arrow.svg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="bg-blue-section py-12 lg:py-16 xl:py-20 space-y-10">
+    <div class="w-10/12 mx-auto space-y-10 font-bold">
+        <h2 class="text-white text-3xl">Publicadores</h2>
+        <div class="flex">
+            <div>luis</div>
+            <div class="flex w-4/5 sm:gap-x-6 mx-auto">
+                <div class="bg-white border h-60 hover:shadow-xl font-open-sans space-y-1">
+                    <div class="pl-7 flex justify-between items-end">
+                        <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span>
+                        </p>
+                        <div class="">
+                            <img src="/images/publicadores/apc.png" alt="apc">
+                        </div>
+                    </div>
+                    <div class="mx-auto w-10/12 space-y-2 pb-4">
+                        <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica
+                            Colombiana
+                        </p>
+                        <table class="mx-auto w-11/12">
+                            <tbody>
+                                <tr class="px-10">
+                                    <th class="text-left bg-gray-light">Observaciones</th>
+                                    <th class="border-l bg-gray-light border-blue-section">2139</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-left">Total Especies</th>
+                                    <th class="border-l border-blue-section">2139</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="hidden sm:block bg-white border font-open-sans space-y-1">
+                    <div class="pl-7 flex justify-between items-end">
+                        <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span>
+                        </p>
+                        <div class="">
+                            <img src="/images/publicadores/apc.png" alt="apc">
+                        </div>
+                    </div>
+                    <div class="mx-auto w-10/12 space-y-2 pb-4">
+                        <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica
+                            Colombiana
+                        </p>
+                        <table class="mx-auto w-11/12">
+                            <tbody>
+                                <tr class="px-10">
+                                    <th class="text-left bg-gray-light">Observaciones</th>
+                                    <th class="border-l bg-gray-light border-blue-section">2139</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-left">Total Especies</th>
+                                    <th class="border-l border-blue-section">2139</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="hidden md:blockbg-white border font-open-sans space-y-1">
+                    <div class="pl-7 flex justify-between items-end">
+                        <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span>
+                        </p>
+                        <div class="">
+                            <img src="/images/publicadores/apc.png" alt="apc">
+                        </div>
+                    </div>
+                    <div class="mx-auto w-10/12 space-y-2 pb-4">
+                        <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica
+                            Colombiana
+                        </p>
+                        <table class="mx-auto w-11/12">
+                            <tbody>
+                                <tr class="px-10">
+                                    <th class="text-left bg-gray-light">Observaciones</th>
+                                    <th class="border-l bg-gray-light border-blue-section">2139</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-left">Total Especies</th>
+                                    <th class="border-l border-blue-section">2139</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="hidden lg:block bg-white border font-open-sans space-y-1">
+                    <div class="pl-7 flex justify-between items-end">
+                        <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span>
+                        </p>
+                        <div class="">
+                            <img src="/images/publicadores/apc.png" alt="apc">
+                        </div>
+                    </div>
+                    <div class="mx-auto w-10/12 space-y-2 pb-4">
+                        <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica
+                            Colombiana
+                        </p>
+                        <table class="mx-auto w-11/12">
+                            <tbody>
+                                <tr class="px-10">
+                                    <th class="text-left bg-gray-light">Observaciones</th>
+                                    <th class="border-l bg-gray-light border-blue-section">2139</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-left">Total Especies</th>
+                                    <th class="border-l border-blue-section">2139</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col item-end opacity-50 absolute right-0 z-10 ">
+                <img class="h-full transform rotate-180" src="/images/colombia/arrow-swiper.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <details class="w-11/12 mx-auto">
+        <summary role="button" tabindex="0"
+            class="font-open-sans w-1/6 mx-auto py-2 text-xs lg:text-lg mt-4 border-2 border-white text-white text-center">
+            Conocer más
+        </summary>
+        <p class="pt-8 text-white">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+            international
+            pavilions,award-winning fireworks and seasonal special events.
+        </p>
+    </details>
+</div>
+
 {{ end }}

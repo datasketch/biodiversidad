@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ partial "banner.html" (dict "banner" "banner-publicadores-desktop" "titleBanner" "publicadores") }}
-<div class="py-12 lg:py-16 xl:py-20">
+{{/* <div class="py-12 lg:py-16 xl:py-20">
     <div class="w-10/12 mx-auto space-y-16">
         <div class="flex flex-col sm:flex-row space-y-4 md:space-y-0 sm:justify-between">
             <div
@@ -244,9 +244,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> */}}
 {{/* Segmento estaisticos */}}
-<div class="text-white bg-blue-dark py-12 lg:py-16 xl:py-20 space-y-10">
+{{/* <div class="text-white bg-blue-dark py-12 lg:py-16 xl:py-20 space-y-10">
     <div class="flex items-center gap-x-2 md:gap-x-10">
         <div class="w-1/12 flex justify-center">
             <img src="/images/colombia/arrow.svg" alt="">
@@ -281,113 +281,62 @@
             <img class="transform rotate-180" src="/images/colombia/arrow.svg" alt="">
         </div>
     </div>
-</div>
+</div> */}}
 
-<div class="bg-blue-section py-12 lg:py-16 xl:py-20 space-y-10">
+<div class="bg-blue-section py-12 space-y- lg:py-16 xl:py-20 space-y-10">
     <div class="mx-auto w-10/12 space-y-10 font-bold">
         <h2 class="text-white text-3xl">Publicadores</h2>
     </div>
-    <div class="mx-auto w-10/12 space-y-10 font-bold">
+    <div class="relative mx-auto pl-28 space-y-10 ">
         <div class="flex">
             {{/* <div class="w-1/12 mx-auto">Arrow left</div> */}}
-            <div class="flex mx-auto gap-x-8">
-                <div class="bg-white flex-shrink-0 h-60 w-80 border font-open-sans space-y-1">
-                    <div class="pl-7 flex justify-between items-end">
-                        <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span>
-                        </p>
-                        <div>
-                            <img src="/images/publicadores/apc.png" alt="apc">
-                        </div>
-                    </div>
-                    <div class="mx-auto w-10/12 space-y-2 pb-4">
-                        <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica
-                            Colombiana
-                        </p>
-                        <table class="mx-auto w-11/12">
-                            <tbody>
-                                <tr class="px-10">
-                                    <th class="text-left bg-gray-light">Observaciones</th>
-                                    <th class="border-l bg-gray-light border-blue-section">2139</th>
-                                </tr>
-                                <tr>
-                                    <th class="text-left">Total Especies</th>
-                                    <th class="border-l border-blue-section">2139</th>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="bg-white flex-shrink-0 h-60 w-80 border font-open-sans space-y-1">
-                    <div class="pl-7 flex justify-between items-end">
-                        <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span>
-                        </p>
-                        <div>
-                            <img src="/images/publicadores/apc.png" alt="apc">
-                        </div>
-                    </div>
-                    <div class="mx-auto w-10/12 space-y-2 pb-4">
-                        <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica
-                            Colombiana
-                        </p>
-                        <table class="mx-auto w-11/12">
-                            <tbody>
-                                <tr class="px-10">
-                                    <th class="text-left bg-gray-light">Observaciones</th>
-                                    <th class="border-l bg-gray-light border-blue-section">2139</th>
-                                </tr>
-                                <tr>
-                                    <th class="text-left">Total Especies</th>
-                                    <th class="border-l border-blue-section">2139</th>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="bg-white flex-shrink-0 h-60 w-80 border font-open-sans space-y-1">
-                    <div class="pl-7 flex justify-between items-end">
-                        <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span>
-                        </p>
-                        <div>
-                            <img src="/images/publicadores/apc.png" alt="apc">
-                        </div>
-                    </div>
-                    <div class="mx-auto w-10/12 space-y-2 pb-4">
-                        <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica
-                            Colombiana
-                        </p>
-                        <table class="mx-auto w-11/12">
-                            <tbody>
-                                <tr class="px-10">
-                                    <th class="text-left bg-gray-light">Observaciones</th>
-                                    <th class="border-l bg-gray-light border-blue-section">2139</th>
-                                </tr>
-                                <tr>
-                                    <th class="text-left">Total Especies</th>
-                                    <th class="border-l border-blue-section">2139</th>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
+            <div class="flex mx-auto gap-x-8 overflow-hidden">
+                {{ partial "card-publicadores.html" . }}
+                {{ partial "card-publicadores.html" . }}
+                {{ partial "card-publicadores.html" . }}
+                {{ partial "card-publicadores.html" . }}
             </div>
-            <div class="w-1/12 flex justify-center">
-                <img class="transform rotate-180 h-1/3 my-auto" src="/images/colombia/arrow.svg" alt="">
+            <div class="absolute right-0 h-full w-16 flex flex-col justify-center
+             bg-blue-section text-white opacity-40 ">
+                <img class="h-1/6" src="/images/public/arrow-right.svg" alt="">
+
             </div>
         </div>
     </div>
+    <details class="w-11/12 mx-auto">
+        <summary role="button" tabindex="0"
+            class="font-open-sans w-11/12 md:w-1/6 mx-auto py-3 text-base lg:text-lg mt-4 border-2 border-white text-white text-center">
+            Conocer más
+        </summary>
+        <p class="pt-8 text-white">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+            international
+            pavilions,award-winning fireworks and seasonal special events.
+        </p>
+    </details>
 </div>
 
-<details class="w-11/12 mx-auto">
-    <summary role="button" tabindex="0"
-        class="font-open-sans w-1/6 mx-auto py-2 text-xs lg:text-lg mt-4 border-2 border-white text-white text-center">
-        Conocer más
-    </summary>
-    <p class="pt-8 text-white">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
-        international
-        pavilions,award-winning fireworks and seasonal special events.
-    </p>
-</details>
-</div>
 
+
+{{/* partial conoces mas Regiones */}}
+{{/* <div class="pt-24 px-6 bg-blue-light">
+    <div class="mx-auto max-w-6xl w-10/12">
+        <h2 class="text-white font-bold text-xl lg:text-2xl">
+            <span class="font-normal text-lg">Conoce mas </span>Regiones
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16">
+            <div>
+                <img src="/images/public/rana.png" alt="rana">
+            </div>
+            <div>
+                <img src="/images/public/rana.png" alt="rana">
+            </div>
+            <div>
+                <img src="/images/public/rana.png" alt="rana">
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="bg-white h-32 -mt-20"></div> */}}
+{{/* end partial */}}
 {{ end }}

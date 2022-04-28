@@ -21,7 +21,7 @@
                                 <p class="cursor-pointer" href="{{ .URL }}">{{ .Name }}</p>
                             </li>
                             {{ if .HasChildren }}
-                            {{ if .IsMenuCurrent }}
+
                             <div class="child-sub-menu">
                                 <ul class="grid bg-white grid-flow-row">
                                     {{ range .Children }}
@@ -30,7 +30,6 @@
                                 </ul>
                             </div>
                             {{end}}
-                            {{ end }}
                             {{end}}
                         </ul>
                     </li>

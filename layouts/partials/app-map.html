@@ -1,0 +1,23 @@
+<div class="mx-auto space-y-8 md:space-y-16 py-12 lg:py-16 xl:py-20">
+    {{if .titleMap }}
+    <div class="mx-auto w-11/12 md:w-7/12 lg:w-1/3 text-center">
+        <h2 class="font-bold text-3xl text-center">Explora <span class="text-blue-dark">{{ .titleMap }} </span>
+        </h2>
+        <p class="text-lg my-4">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet.</p>
+    </div>
+    {{ end }}
+    <details class="mx-auto w-1/2 md:w-1/4 text-center md:text-lg lg:w-1/3">
+        <summary role="button" tabindex="0"
+            class="font-open-sans py-2 text-xs lg:text-lg mt-4 border-2 border-blue-section">
+            Como funciona esta herramienta
+        </summary>
+        <p class="pt-8 text-justify">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+            international
+            pavilions,award-winning fireworks and seasonal special events.</p>
+    </details>
+
+    <div class="mx-auto w-11/12">
+        <img src="{{ .imageMap }}" alt="app map">
+    </div>
+</div>

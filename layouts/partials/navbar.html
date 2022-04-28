@@ -1,45 +1,47 @@
 <header class="bg-white-3">
-    <div class="mx-auto w-11/12 max-w-screen-xl">
-        <div class="flex justify-between items-center">
-            <div class="flex-shrink-0">
-                <a href="/">
-                    <img src="/images/public/logo-header.svg" alt="logo header">
-                </a>
-            </div>
-            <nav class="lg:w-7/12 text-blue-picker">
-                <ul class="hidden lg:flex items-center justify-between">
-                    {{ $current_page := . }}
-                    {{ range .Site.Menus.main }}
-                    {{ if .HasChildren }}
-                    <li class="menu">
-                        <button class="menu__name">
-                            {{ .Name }}
-                        </button>
-                        <ul class="menu__panel py-6" style="max-width: 704px; width: 704px;">
-                            <div class="space-y-4" style="max-width: 224px;">
-                                {{ range .Children }}
-                                <li>
-                                    <a class="block w-full py-2 px-6 text-white hover:text-blue-title hover:bg-white-3 duration-300" href="{{ .URL }}">{{ .Title }}</a>
-                                </li>
-                                {{ if .HasChildren }}
-                                <p class="text-white">
-                                    {{ .Name }}
-                                </p>
-                                {{ end }}
-                                {{ end }}
-                            </div>
-                        </ul>
-                    </li>
-                    {{ else }}
-                    <li>
-                        <a href="{{ .URL }}" {{ if $current_page.IsMenuCurrent "main" . }}class="font-bold text-blue" {{ end }}>
-                            {{ .Name }}
-                        </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
+  <div class="mx-auto w-11/12 h-20">
+    <div class=" flex sm:justify-evenly lg:justify-between items-center h-full">
+      <div class="flex-shrink-0">
+        <a href="/">
+          <img src="/images/public/logo-header.svg" alt="logo header">
+        </a>
+      </div>
+      <nav class="flex justify-end lg:w-7/12 text-blue-picker">
+        <ul class="h-full z-10 hidden lg:flex items-end">
+          {{ $current_page := . }}
+          {{ range .Site.Menus.main }}
+          {{ if .HasChildren}}
+          <li class="relative py-7 px-4 menu hover:text-white hover:bg-blue-picker">
+            <p {{ if $current_page.IsMenuCurrent "main" . }} class="font-bold text-blue" {{ end }}>
+              {{ .Name }}
+            </p>
+            <ul class="sub-menu w-56">
+              {{ range .Children}}
+              <li class="py-6 pl-4 hover:font-bold hover:text-blue-picker hover:bg-white">
+                <p class="cursor-pointer" href="{{ .URL }}">{{ .Name }}</p>
+              </li>
+              {{ if .HasChildren }}
+              <div class="child-sub-menu">
+                <ul class="grid bg-white grid-flow-row">
+                  {{ range .Children }}
+                  <li class="p-1 text-lg text-blue-picker">{{ .Name }}</li>
+                  {{ end }}
                 </ul>
-            </nav>
-        </div>
+              </div>
+              {{ end }}
+              {{ end }}
+            </ul>
+          </li>
+          {{ else }}
+          <li class="inline-block py-7 px-4 hover:text-white hover:bg-blue-picker">
+            <a ref="{{ .URL }}" {{ if $current_page.IsMenuCurrent "main" . }} class="font-bold text-blue" {{ end }}>
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </nav>
     </div>
+  </div>
 </header>

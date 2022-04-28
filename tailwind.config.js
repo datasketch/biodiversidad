@@ -3,6 +3,12 @@ module.exports = {
     enabled: process.env.HUGO_ENVIRONMENT === 'production',
     content: [
       './layouts/**/*.html'
+    ],
+    safelist: [
+      'bg-banner-home-desktop',
+      'bg-banner-explorador-desktop',
+      'bg-banner-colombia-desktop',
+      'bg-banner-publicadores-desktop'
     ]
   },
   darkMode: false, // or 'media' or 'class'
@@ -25,6 +31,8 @@ module.exports = {
         'white-3': '#FBF9F8',
         'white-4': '#D1D1D1',
         'white-5': '#FCFCFC',
+        'gray-light': '#F4F4F4',
+        'gray-semilight': '#E1E1E1',
         red: '#E34065',
         orange: '#FFB341',
         yellow: '#FFEC41',
@@ -35,7 +43,9 @@ module.exports = {
       },
       backgroundImage: {
         'banner-home-desktop': 'url(/images/home/banner-home-desktop.png)',
-        'banner-explorador-desktop': 'url(/images/explorador/banner-explorador-desktop.png)'
+        'banner-explorador-desktop': 'url(/images/explorador/banner-explorador-desktop.png)',
+        'banner-colombia-desktop': 'url(/images/colombia/banner-colombia-desktop.png)',
+        'banner-publicadores-desktop': 'url(/images/publicadores/banner-publicadores-desktop.png)'
       },
       screens: {
         xs: '320px',
@@ -55,6 +65,12 @@ module.exports = {
 
         '2xl': '1536px'
         // => @media (min-width: 1536px) { ... }
+      },
+      inset: {
+        '1/5': '20%',
+        '1/10': '10%',
+        '19/20': '95%'
+
       }
     }
   },

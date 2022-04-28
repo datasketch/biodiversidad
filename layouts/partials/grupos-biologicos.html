@@ -1,0 +1,18 @@
+<section class="pt-24 px-6 bg-green">
+    <div class="mx-auto max-w-6xl w-10/12">
+        <h2 class="text-white font-bold text-xl lg:text-2xl">
+            <span class="font-normal text-lg">Conoce las cifras por </span>Grupos Biológicos
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 mt-16">
+            {{ partial "category-card.html" (dict "icon" "/images/grupos-biologicos/animales-bg.svg" "category"
+            "Animales" "color" "green") }}
+            {{ partial "category-card.html" (dict "icon" "/images/grupos-biologicos/plantas-bg.svg" "category"
+            "Plantas" "color" "green") }}
+            {{ partial "category-card.html" (dict "icon" "/images/grupos-biologicos/hongos-bg.svg" "category" "Hongos"
+            "color" "green") }}
+            {{ partial "category-card.html" (dict "icon" "/images/grupos-biologicos/bacterias-bg.svg" "category"
+            "Bacterias" "color" "green") }}
+        </div>
+    </div>
+</section>
+<div class="bg-white h-32 -mt-9"></div>

@@ -1,20 +1,24 @@
 <div class="relative bg-{{ .banner }} bg-cover bg-center" style="height: 433px;">
     {{ partial "breadcrumb.html" . }}
-    <div class="mx-auto max-w-screen-xl w-9/12 xl:w-10/12">
-        <div class="absolute top-1/2 transform -translate-y-1/2 text-white-3 space-y-4 md:space-y-8 w-1/2">
-            <h2 class="font-open-sans-condensed uppercase font-bold text-4xl md:text-5xl lg:text-7xl">
+    <div class="mx-auto max-w-screen-xl w-10/12 text-white h-full">
+        <div class="flex flex-col justify-center h-full 2 space-y-6 xl:space-y-8" style="max-width: 500px;">
+            <h2 class="font-open-sans-condensed uppercase font-extrabold text-6xl xl:text-7xl">
                 {{ .titleBanner }}
             </h2>
-            <div class="lg:w-9/2 space-y-6">
-                <span class="block bg-white" style="height: 1px;">
-                    &nbsp;
-                </span>
-                <p class="xl:text-lg">
-                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod
-                    tincidunt ut
-                    laoreet.
-                </p>
+            <div class="bg-white" style="height: 2px;">
+                &nbsp;
             </div>
+            <p class="xl:text-lg">
+                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod
+                tincidunt ut
+                laoreet.
+            </p>
+        </div>
+    </div>
+    <div class="absolute bottom-5 right-12">
+        <div class="flex space-x-3 text-white">
+            <img src="/images/public/icon-camera.svg" alt="icono camara" />
+            <span>Lorem ipsum dolor</span>
         </div>
     </div>
 </div>

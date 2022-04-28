@@ -3,5 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 {{ $css := resources.Get "css/tailwind.pcss" | toCSS | postCSS | minify }}
-
 <link rel="stylesheet" href="{{ $css.Permalink }}">
+
+{{ $menu := resources.Get "css/menu.css" | minify }}
+<link rel="stylesheet" href="{{ $menu.Permalink }}">

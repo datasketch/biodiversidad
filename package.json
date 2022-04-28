@@ -20,5 +20,7 @@
     "postcss-cli": "^9.1.0",
     "tailwindcss": "^2.2.19"
   },
-  "dependencies": {}
+  "dependencies": {
+    "swiper": "^8.1.4"
+  }
 }

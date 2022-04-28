@@ -3,6 +3,12 @@ module.exports = {
     enabled: process.env.HUGO_ENVIRONMENT === 'production',
     content: [
       './layouts/**/*.html'
+    ],
+    safelist: [
+      'bg-banner-home-desktop',
+      'bg-banner-explorador-desktop',
+      'bg-banner-colombia-desktop',
+      'bg-banner-publicadores-desktop'
     ]
   },
   darkMode: false, // or 'media' or 'class'
@@ -14,18 +20,57 @@ module.exports = {
         'open-sans-condensed': ['"open sans condensed"', 'sans-serif']
       },
       colors: {
-        'command-blue': '#1C75AD',
-        xiketic: '#0E1223',
-        'eerie-black': '#1A1A1A',
-        cultured: '#FBF9F8',
-        bittersweet: '#ED6B60',
-        forest: '#217866',
-        'blue-section': '#E6E7ED',
-        'patricks-blue': '#192D7B',
-        'command-blue-dark': '#192D7B',
-        'command-green': '#2B6055',
-        'alice-blue': '#BBE2F5',
-        'command-green-light': '#217866'
+        'blue-light': '#2B67C1',
+        blue: '#247CE1',
+        'blue-dark': '#054B85',
+        green: '#008B6F',
+        'green-dark': '#016E81',
+        'grey-dark': '#003045',
+        white: '#FFFFFF',
+        'white-2': '#F1F1F1',
+        'white-3': '#FBF9F8',
+        'white-4': '#D1D1D1',
+        'white-5': '#FCFCFC',
+        'gray-light': '#F4F4F4',
+        'gray-semilight': '#E1E1E1',
+        red: '#E34065',
+        orange: '#FFB341',
+        yellow: '#FFEC41',
+        black: '#0E1223',
+        'blue-picker': '#013246',
+        'blue-section': '#003045',
+        'blue-title': '#024863'
+      },
+      backgroundImage: {
+        'banner-home-desktop': 'url(/images/home/banner-home-desktop.png)',
+        'banner-explorador-desktop': 'url(/images/explorador/banner-explorador-desktop.png)',
+        'banner-colombia-desktop': 'url(/images/colombia/banner-colombia-desktop.png)',
+        'banner-publicadores-desktop': 'url(/images/publicadores/banner-publicadores-desktop.png)'
+      },
+      screens: {
+        xs: '320px',
+        // => @media (min-width: 320px) { ... }
+
+        sm: '640px',
+        // => @media (min-width: 640px) { ... }
+
+        md: '768px',
+        // => @media (min-width: 768px) { ... }
+
+        lg: '1024px',
+        // => @media (min-width: 1024px) { ... }
+
+        xl: '1366px',
+        // => @media (min-width: 1366px) { ... }
+
+        '2xl': '1536px'
+        // => @media (min-width: 1536px) { ... }
+      },
+      inset: {
+        '1/5': '20%',
+        '1/10': '10%',
+        '19/20': '95%'
+
       }
     }
   },

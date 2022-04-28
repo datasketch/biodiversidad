@@ -1,0 +1,5 @@
+baseURL = '/'
+languageCode = 'es-co'
+title = 'Biodiversidad en cifras'
+taxonomies = []
+defaultContentLanguage = "es"

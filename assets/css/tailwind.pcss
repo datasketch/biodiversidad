@@ -41,6 +41,21 @@
 }
 
 @layer components {
+    .menu {
+      @apply relative;
+    }
+    .menu__name {
+      @apply cursor-pointer py-8 px-6 duration-300;
+    }
+    .menu__name--active {
+      @apply bg-blue-picker text-white font-black;
+    }
+    .menu__panel {
+      @apply absolute bg-blue-picker text-white z-10 invisible opacity-0 flex duration-300;
+    }
+    .menu__panel--active {
+      @apply visible opacity-100;
+    }
     .swiper-button-next::after {
         display: none;
     }

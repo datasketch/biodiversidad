@@ -1,18 +1,12 @@
-// const menu = document.querySelector('.menu')
-// const menuName = document.querySelector('.menu__name')
-// const menuPanel = document.querySelector('.menu__panel')
-
-// menu.addEventListener('click', function (e) {
-//   menuName.classList.toggle('menu__name--active')
-//   menuPanel.classList.toggle('menu__panel--active')
-// })
-
 'use strict'
 
 // ELEMENTS
 const navMobile = document.querySelector('.nav')
 const buttonMenu = document.querySelector('.menu-button')
 const iconMenu = document.querySelector('.menu-icon')
+const menu = document.querySelector('.menu')
+const menuName = document.querySelector('.menu__name')
+const menuPanel = document.querySelector('.menu__panel')
 
 // FUNCTIONS
 const menuToggle = () => {
@@ -31,4 +25,9 @@ window.addEventListener('scroll', (e) => {
 
 window.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && navMobile.classList.contains('nav--active')) menuToggle()
+})
+
+menu.addEventListener('click', function (e) {
+  menuName.classList.toggle('menu__name--active')
+  menuPanel.classList.toggle('menu__panel--active')
 })

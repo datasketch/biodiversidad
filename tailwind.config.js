@@ -39,7 +39,8 @@ module.exports = {
         black: '#0E1223',
         'blue-picker': '#013246',
         'blue-section': '#003045',
-        'blue-title': '#024863'
+        'blue-title': '#024863',
+        'blue-ultra-light': '#B9DEF1'
       },
       backgroundImage: {
         'banner-home-desktop': 'url(/images/home/banner-home-desktop.png)',

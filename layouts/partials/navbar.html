@@ -1,4 +1,5 @@
 <header class="bg-white-3">
+<<<<<<< HEAD
     <div class="mx-auto w-11/12 h-20">
         <div class=" flex sm:justify-evenly lg:justify-between items-center h-full">
             <div class="flex-shrink-0">
@@ -45,5 +46,66 @@
                 </ul>
             </nav>
         </div>
+=======
+  <div class="mx-auto w-11/12 max-w-screen-xl">
+    <div class=" flex flex-row justify-between items-center">
+      <div class="lg:flex-shrink-0">
+        <a href="/">
+          <img src="/images/public/logo-header.svg" alt="logo header">
+        </a>
+      </div>
+      <nav class="lg:w-8/12 xl:w-7/12 text-blue-picker">
+        <ul class="hidden lg:flex lg:justify-between">
+          {{ $current_page := . }}
+          {{ range .Site.Menus.main }} {{/*  1 render menus  */}}
+          {{ if .HasChildren }} {{/*  2 if exist children example ... depar, areas pr, regiones  */}}
+          <li class="menu">
+            <button class="menu__name">
+              {{ .Name }}
+            </button>
+            <ul class="menu__panel bg-blue-picker pt-4 pr-4 pb-4" style="width: 704px; max-width: 704px;">
+              {{ range .Children }} {{/*  3  */}}
+              {{ if .HasChildren }} {{/*  4  if this children is parent */}}
+              <li class="w-full" style="max-width: 224px;">
+                <a class="block py-2 px-6 hover:bg-white hover:text-blue-picker duration-300" href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+              <ul class="grid grid-cols-3 gap-4 bg-white text-black w-full py-2 px-6">
+                {{ range .Children }} {{/*  5  */}}
+                <li>
+                  <a class="py-8 px-6" href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }} {{/*  5  */}}
+              </ul>
+              {{ end }} {{/*  4  */}}
+              {{ end }} {{/*  3  */}}
+            </ul>
+          </li>
+          {{ else }}
+          <li>
+            <a class="inline-block py-8 px-6 {{ if $current_page.IsMenuCurrent " main" . }} font-bold text-blue-light {{ end }}" href="{{ .URL }}">
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }} {{/*  2  */}}
+          {{ end }} {{/*  1  */}}
+        </ul>
+        <ul class="nav lg:hidden">
+          {{ $current_page := . }}
+          {{ range .Site.Menus.main }}
+          <li>
+            <a class="inline-block py-8 px-6 text-xl {{ if $current_page.IsMenuCurrent " main" . }} font-bold text-blue-light {{ end }}" href="{{ .URL }}">
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+      <!-- MENU BUTTON -->
+      <div class="menu-button py-4">
+        <span class="menu-icon" id="menu-icon"></span>
+      </div>
+      <!-- MENU BUTTON END -->
+>>>>>>> fd87f45d2b7e7b8ce640fae0736aa6545426cbb1
     </div>
+  </div>
 </header>

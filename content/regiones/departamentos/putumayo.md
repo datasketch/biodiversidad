@@ -1,6 +1,6 @@
 ---
-title: Amazonas
-weight: 1
+title: Putumayo
+weight: 6
 menu:
   main:
     parent: departamentos

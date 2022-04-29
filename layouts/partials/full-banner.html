@@ -1,34 +1,39 @@
-<div class="relative bg-{{ .banner }} bg-cover bg-center h-screen" style="height: 677px;">
-    <div class="flex flex-col h-full justify-end items-center text-white lg:space-x-12">
-        <div class="mx-auto max-w-screen-xl w-4/6 sm:w-4/5 text-white-3 sm:space-y-8">
-            <div class="flex flex-col w-2/5 md:w-full space-y-3 justify-center md:flex-row md:space-x-16 ">
-                <h2 class="font-open-sans-condensed uppercase font-bold text-2xl sm:text-5xl md:text-7xl">
-                    {{.titleBanner}}
-                </h2>
-                <span class="hidden md:block border-l-[1px] bg-white">
+<div class="relative bg-{{ .banner }} bg-cover bg-center" style="height: 677px;">
+    <div class="mx-auto w-10/12 max-w-screen-xl h-full text-white">
+        <div class="flex flex-col justify-end items-center h-full relative space-y-8  lg:space-y-12 xl:space-y-16 pb-20">
+            <div class="flex flex-col lg:flex-row justify-between items-center w-full space-y-2 lg:space-y-0" style="max-width: 605px;">
+                <div>
+                    <h1 class="font-open-sans-condensed uppercase font-bold text-6xl xl:text-7xl">
+                        {{.titleBanner}}
+                    </h1>
+                </div>
+                <div class="hidden lg:block h-full bg-white" style="width: 2px;">
                     &nbsp;
-                </span>
-                <span class="block md:hidden bg-white" style="height: 1px;">
-                    &nbsp;
-                </span>
-                <div class="">
-                    <p class="font-open-sans-condensed uppercase font-bold text-2xl sm:text-5xl md:text-7xl">
+                </div>
+                <div class="space-y-1 text-center lg:text-left">
+                    <p class="font-oswald uppercase font-bold text-5xl xl:text-6xl">
                         63.303</p>
-                    <span class="">Especies observadas</span>
+                    <p class="font-open-sans-condensed">
+                        Especies observadas
+                    </p>
                 </div>
             </div>
             <div class="space-y-2">
-                <img class="h-5" src="/images/colombia/colombia-barra.svg" alt="barra" />
-                <div class="flex justify-between text-white-3">
-                    <p class="text-xs w-1/4 md:text-sm">Cifra de riqueza actual</p>
-                    <p class="text-xs w-1/4 md:text-sm text-right">Cifra de riqueza estimada</p>
+                <img class="w-full" src="/images/colombia/colombia-barra.svg" alt="barra" />    
+                <div class="flex justify-between items-center text-white-3">
+                    <span>
+                        Cifra de riqueza actual
+                    </span>
+                    <span>
+                        Cifra de riqueza estimada
+                    </span>
                 </div>
             </div>
-        </div>
-        <div class="p-5 self-end">
-            <div class="flex space-x-3 text-white-3">
-                <img src="/images/public/icon-camera.svg" alt="icono camara" />
-                <span class="italic">Lorem ipsum dolor</span>
+            <div class="absolute bottom-8 right-0">
+                <div class="flex items-center space-x-3 text-white-3">
+                    <img src="/images/public/icon-camera.svg" alt="icono camara" />
+                    <span class="italic">Lorem ipsum dolor</span>
+                </div>
             </div>
         </div>
     </div>

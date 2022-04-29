@@ -1,6 +1,6 @@
 ---
-title: Amazonas
-weight: 1
+title: Antioquia
+weight: 2
 menu:
   main:
     parent: departamentos

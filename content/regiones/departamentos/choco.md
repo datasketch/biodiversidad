@@ -1,6 +1,6 @@
 ---
-title: cesar
-weight: 2
+title: Chocó
+weight: 5
 menu:
   main:
     parent: departamentos

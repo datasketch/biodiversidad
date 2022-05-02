@@ -1,0 +1,21 @@
+{{ $url := split .URL "/" }}
+
+<div class="bg-blue-section  h-9 text-white px-3 py-2 md:px-12 md:py-3">
+    {{ if ne .Parent nil }}
+    {{ if ne .Parent.Parent nil }}
+    {{ if ne .Parent.Parent.Parent nil }}
+    <a href="{{ .Parent.Parent.Permalink }}" class="hover:text-barbie-pink">
+        {{.Parent.Parent.Parent.Title}}
+    </a>
+    <span>&gt;</span>
+    {{ end }}
+    <a href="{{ .Parent.Parent.Permalink }}" class="hover:text-barbie-pink">
+        {{.Parent.Parent.Title}}
+    </a>
+    <span>&gt;</span>
+    {{ end }}
+    <a href="{{ .Parent.Permalink }}" class="hover:text-barbie-pink">{{.Parent.Title}}</a>
+    <span>&gt;</span>
+    {{ end }}
+    <span class="text-barbie-pink">{{.Title}}</span>
+</div>

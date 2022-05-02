@@ -1,7 +1,6 @@
 ---
-title: Antioquia
-Layout: Antioquia 
-weight: 2
+title: Nariño
+weight: 6
 menu:
   main:
     parent: departamentos

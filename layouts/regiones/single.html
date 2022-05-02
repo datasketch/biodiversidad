@@ -1,3 +1,248 @@
 {{ define "main" }}
-    {{ .Title }}
+{{ partial "breadcrumbs" . }}
+{{ partial "full-banner.html" (dict "titleBanner" "Nariño" "banner" "banner-colombia-desktop") }}
+<div class="text-white bg-blue-dark py-12 lg:py-16 xl:py-20 space-y-10">
+    <div class="mx-auto w-10/12 max-w-screen-xl text-white space-y-12 lg:space-y-16 xl:space-y-20">
+        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center">
+            <div class="lg:w-1/2" style="max-width: 364px;">
+                <div class="flex justify-between">
+                    <div class="space-y-4" style="max-width: 160px;">
+                        <p class="text-5xl xl:text-6xl font-semibold font-oswald">1234</p>
+                        <p class="text-base font-open-sans-condensed">Especies continentales</p>
+                        <img src="/images/colombia/trazado-262.svg" alt="picos">
+                        <p class="font-semibold text-lg xl:text-xl text-blue-ultra-light font-oswald">123.456.789
+                        </p>
+                        <span class="font-open-sans-condensed text-blue-ultra-light text-sm">Observaciones
+                            continentales</span>
+                    </div>
+                    <div class="space-y-4" style="max-width: 128px;">
+                        <p class="text-5xl xl:text-6xl font-semibold font-oswald">1234</p>
+                        <p class="text-base font-open-sans-condensed">Especies continentales</p>
+                        <img src="/images/colombia/trazado-262.svg" alt="picos">
+                        <p class="font-semibold text-lg xl:text-xl text-blue-ultra-light font-oswald">123.456.789
+                        </p>
+                        <span class="font-open-sans-condensed text-blue-ultra-light text-sm">Observaciones
+                            marinos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2" style="max-width: 456px;">
+                <p class="xl:text-lg">
+                    Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod
+                    tincidunt
+                    ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                    tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="text-white bg-blue-dark py-12 lg:py-16 xl:py-20 space-y-10">
+    <div class="mx-auto w-10/12 max-w-screen-xl relative">
+        <!-- Slider main container -->
+        <div class="swiper swiper-summary">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="flex justify-between">
+                        <div class="space-y-3 sm:w-5/12">
+                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales
+                                de Colombia
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                exerci tation
+                                ullamcorper
+                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                                dolor in
+                                hendrerit in vulputate velit
+                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer
+                                adipiscing elit,
+                                sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim
+                                veniam, quis nostrud
+                                exerci.
+                            </p>
+                        </div>
+                        <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
+                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs.
+                                reservas
+                                naturales de Colombia
+                            </h3>
+                            <div class="mx-auto w-11/12 h-full">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex justify-between">
+                        <div class="space-y-3 sm:w-5/12">
+                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales
+                                de Colombia
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                exerci tation
+                                ullamcorper
+                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                                dolor in
+                                hendrerit in vulputate velit
+                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer
+                                adipiscing elit,
+                                sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim
+                                veniam, quis nostrud
+                                exerci.
+                            </p>
+                        </div>
+                        <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
+                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs.
+                                reservas
+                                naturales de Colombia
+                            </h3>
+                            <div class="mx-auto w-11/12 h-full">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex justify-between">
+                        <div class="space-y-3 sm:w-5/12">
+                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales
+                                de Colombia
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                exerci tation
+                                ullamcorper
+                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                                dolor in
+                                hendrerit in vulputate velit
+                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer
+                                adipiscing elit,
+                                sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim
+                                veniam, quis nostrud
+                                exerci.
+                            </p>
+                        </div>
+                        <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
+                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs.
+                                reservas
+                                naturales de Colombia
+                            </h3>
+                            <div class="mx-auto w-11/12 h-full">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hidden lg:block">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev swiper-button-prev-summary" style="left: -80px;">
+                <img src="/images/public/left-arrow.svg" alt="left arrow">
+            </div>
+            <div class="swiper-button-next swiper-button-next-summary" style="right: -80px;">
+                <img src="/images/public/right-arrow.svg" alt="right arrow">
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "grupos-biologicos.html" . }}
+{{ partial "tematicas.html" . }}
+{{ partial "regiones.html" . }}
+<div class="bg-blue-section py-12 space-y-12 lg:py-16 xl:py-20 space-y-10">
+    <div class="mx-auto w-10/12 max-w-screen-xl space-y-12 lg:space-y-16 xl:space-y-20">
+        <h2 class="font-bold text-white text-3xl">Publicadores</h2>
+        <!-- Slider main container -->
+        <div class="swiper swiper-netflix">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+                <div class="swiper-slide" style="max-width: 340px;">
+                    {{ partial "card-publicadores.html" . }}
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-prev-netflix swiper-button-prev-netflix--blue"
+                    style="top: 22px; left: 0; height: 100%; width: 52px;">
+                    <img src="/images/home/arrow-left.svg" alt="arrow left">
+                </div>
+                <div class="swiper-button-next swiper-button-next-netflix swiper-button-next-netflix--blue"
+                    style="top: 22px; right: 0; height: 100%; width: 52px;">
+                    <img src="/images/home/arrow-right.svg" alt="arrow right">
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a class="font-open-sans py-3 px-6 text-base lg:text-lg border-2 border-white text-white text-center"
+                href="#">
+                Conocer más
+            </a>
+        </div>
+    </div>
+</div>
+{{ partial "app-map.html" (dict "titleMap" "Nariño" "imageMap" "/images/regiones/map-narino.png" ) }}
+<div class="mx-auto w-10/12 text-center py-12 space-y-12 lg:pb-16 xl:pb-20 ">
+    <span class="font-bold">Con el apoyo de</span>
+    <img class="mx-auto" src="/images/public/cinta-logos-proyecto.png" alt="logo colombia">
+</div>
+{{ end }}
+{{ define "head" }}
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+{{ end }}
+{{ define "js" }}
+{{ $publicadores := resources.Get "js/publicadores.js" | js.Build (dict "minify" false)}}
+<script src="{{ $publicadores.Permalink }}"></script>
 {{ end }}

@@ -10,12 +10,20 @@
 <body class="font-open-sans text-black">
     {{ partial "navbar" . }}
     <main>
+        {{/* {{ partial "breadcrumbs" . }} */}}
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer" . }}
     {{ $default := resources.Get "js/default.js" | js.Build (dict "minify" false)}}
     <script src="{{ $default.Permalink }}"></script>
     {{ block "js" . }}{{ end }}
+    {{ define "head" }}
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    {{ end }}
+    {{ define "js" }}
+    {{ $colombia := resources.Get "js/colombia.js" | js.Build (dict "minify" false)}}
+    <script src="{{ $colombia.Permalink }}"></script>
+    {{ end }}
 </body>
 
 </html>

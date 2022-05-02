@@ -1,6 +1,6 @@
 ---
 title: Putumayo
-weight: 6
+weight: 7
 menu:
   main:
     parent: departamentos

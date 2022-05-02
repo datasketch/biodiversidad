@@ -1,5 +1,5 @@
 ---
-title: Departamentos
+title: departamentos
 weight: 1
 menu: 
   main:

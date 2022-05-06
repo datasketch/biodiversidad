@@ -4,6 +4,11 @@
             <div class="flex flex-col lg:flex-row justify-between items-center w-full space-y-2 lg:space-y-0" style="max-width: 605px;">
                 <div>
                     <h1 class="font-open-sans-condensed uppercase font-bold text-6xl xl:text-7xl">
+                        {{ if .subtitleBanner }}
+                        <span class="block text-2xl xl:text-3xl">
+                            {{ .subtitleBanner }}
+                        </span>
+                        {{ end }}
                         {{.titleBanner}}
                     </h1>
                 </div>
@@ -18,8 +23,9 @@
                     </p>
                 </div>
             </div>
+            {{ if not (.subtitleBanner) }}
             <div class="space-y-2">
-                <img class="w-full" src="/images/colombia/colombia-barra.svg" alt="barra" />    
+                <img class="w-full" src="/images/colombia/colombia-barra.svg" alt="barra" />
                 <div class="flex justify-between items-center text-white-3">
                     <span>
                         Cifra de riqueza actual
@@ -29,6 +35,7 @@
                     </span>
                 </div>
             </div>
+            {{ end }}
             <div class="absolute bottom-8 right-0">
                 <div class="flex items-center space-x-3 text-white-3">
                     <img src="/images/public/icon-camera.svg" alt="icono camara" />

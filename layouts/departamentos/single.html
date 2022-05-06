@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ partial "breadcrumbs" . }}
-{{ partial "full-banner.html" (dict "titleBanner" .Title "banner" .Params.bgImage) }}
+{{ partial "full-banner.html" (dict "titleBanner" .Title "banner" .Params.bgImage "subtitleBanner" .Params.subtitle) }}
 <div class="text-white bg-blue-dark py-12 lg:py-16 xl:py-20 space-y-10">
     <div class="mx-auto w-10/12 max-w-screen-xl text-white space-y-12 lg:space-y-16 xl:space-y-20">
         <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center">

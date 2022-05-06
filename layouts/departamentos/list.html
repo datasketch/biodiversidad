@@ -1,0 +1,59 @@
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+{{ partial "banner.html" (dict "titleBanner" "Departamentos" "banner" "banner-explorador-desktop") }}
+<div class="py-12 lg:py-16 xl:py-20 space-y-12">
+    <div class="mx-auto w-10/12 max-w-screen-xl">
+        <div class="space-y-6">
+            <h2 class="text-blue-light font-bold xl:text-3xl">
+                Departamentos destacados
+            </h2>
+            <!-- Slider main container -->
+            <div class="swiper swiper-netflix">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    {{ range .Pages }}
+                    <a href="{{ .Permalink }}" class="swiper-slide" style="max-width: 340px;">
+                        <figure class="relative">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                            <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">{{ .Title }}
+                            </figcaption>
+                        </figure>
+                    </a>
+                    {{ end }}
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-prev-netflix" style="top: 22px; left: 0; height: 100%; width: 52px;">
+                    <img src="/images/home/arrow-left.svg" alt="arrow left">
+                </div>
+                <div class="swiper-button-next swiper-button-next-netflix" style="top: 22px; right: 0; height: 100%; width: 52px;">
+                    <img src="/images/home/arrow-right.svg" alt="arrow right">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mx-auto w-11/12 max-w-screen-xl space-y-12">
+        <div class="space-y-12">
+            <div class="mx-auto space-y-6 text-center">
+                <h2 class="font-bold text-2xl">Todos los Departamentos</h2>
+                <input class="border p-2 border-black w-1/2 md:w-1/4" type="text" placeholder="Buscar departamento" />
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 lg:gap-5 xl:gap-6">
+                {{ range .Pages }}
+                <a href="{{ .Permalink }}" class="text-blue-dark font-bold text-lg xl:text-xl">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+                    <p class="mt-2">{{ .Title }}</p>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ define "head" }}
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+{{ end }}
+{{ define "js" }}
+{{ $departamentos := resources.Get "js/departamentos.js" | js.Build (dict "minify" false)}}
+<script src="{{ $departamentos.Permalink }}"></script>
+{{ end }}

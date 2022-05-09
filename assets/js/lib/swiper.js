@@ -1,5 +1,5 @@
 // core version + navigation, pagination modules:
-import Swiper, { Navigation } from 'swiper'
+import Swiper, { Navigation, Autoplay, FreeMode } from 'swiper'
 
 export const defaultSwiper = (
   element = '.swiper',
@@ -33,12 +33,20 @@ export const netflixSwiper = (
   // init Swiper:
   return new Swiper(element, {
     // configure Swiper to use modules
-    modules: [Navigation],
+    modules: [Navigation, Autoplay, FreeMode],
+
+    autoplay: {
+      delay: 100
+    },
+
+    speed: 2000,
 
     // Optional parameters
     loop: false,
     spaceBetween: 25,
     slidesPerView: 'auto',
+    freeMode: true,
+    effect: 'coverflow',
 
     // Navigation arrows
     navigation: {

@@ -184,8 +184,23 @@
         </div>
     </div>
 </section>
-<div class="bg-white h-32 -mt-9"></div>
+{{ else }}
+<section class="pt-24 px-6 bg-blue-dark">
+    <div class="mx-auto max-w-6xl w-10/12">
+        <h2 class="text-white font-bold text-xl lg:text-2xl">
+            <span class="font-normal text-lg">Intereses de </span>{{ .Title }}
+        </h2>
+        <div class="mx-auto xl:w-11/12">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16">
+                {{ range .Pages }}
+                {{ partial "image-box-gradient" (dict "title" .Title "urlImage" .Params.bgImage "link" .Permalink "linearGradient" "rgba(5,75,133,1)") }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
 {{ end }}
+<div class="bg-white h-32 -mt-9"></div>
 <div class="bg-blue-section py-12 space-y-12 lg:py-16 xl:py-20 space-y-10">
     <div class="mx-auto w-10/12 max-w-screen-xl space-y-12 lg:space-y-16 xl:space-y-20">
         <h2 class="font-bold text-white text-3xl">Publicadores</h2>
@@ -195,37 +210,28 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad Nacional de Colombia" "logotipo" "/images/publicadores/universidad-nacional-colombia.jpg" "observaciones" "14020" "totalEspecies" "3434") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "US" "publicadores" "Missouri Botanical Garden" "logotipo" "/images/publicadores/missouri.jpg" "observaciones" "10845" "totalEspecies" "2905") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad de nariño" "logotipo" "/images/publicadores/universidad-narino.jpg" "observaciones" "17801" "totalEspecies" "2647") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt" "logotipo" "/images/publicadores/humbolt.jpg" "observaciones" "385640" "totalEspecies" "2193") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad Nacional de Colombia" "logotipo" "/images/publicadores/universidad-nacional-colombia.jpg" "observaciones" "14020" "totalEspecies" "3434") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "US" "publicadores" "Missouri Botanical Garden" "logotipo" "/images/publicadores/missouri.jpg" "observaciones" "10845" "totalEspecies" "2905") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad de nariño" "logotipo" "/images/publicadores/universidad-narino.jpg" "observaciones" "17801" "totalEspecies" "2647") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" . }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt" "logotipo" "/images/publicadores/humbolt.jpg" "observaciones" "385640" "totalEspecies" "2193") }}
                 </div>
             </div>
             <div class="hidden lg:block">

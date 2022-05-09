@@ -8,7 +8,9 @@ module.exports = {
       'bg-banner-home-desktop',
       'bg-banner-explorador-desktop',
       'bg-banner-colombia-desktop',
-      'bg-banner-publicadores-desktop'
+      'bg-banner-publicadores-desktop',
+      'menu__name--active',
+      'menu__panel--active'
     ]
   },
   darkMode: false, // or 'media' or 'class'

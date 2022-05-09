@@ -1,52 +1,4 @@
 <header class="bg-white-3">
-<<<<<<< HEAD
-    <div class="mx-auto w-11/12 h-20">
-        <div class=" flex sm:justify-evenly lg:justify-between items-center h-full">
-            <div class="flex-shrink-0">
-                <a href="/">
-                    <img src="/images/public/logo-header.svg" alt="logo header">
-                </a>
-            </div>
-            <nav class="flex justify-end lg:w-7/12 text-blue-picker">
-                <ul class="h-full z-10 hidden lg:flex items-end">
-                    {{ $current_page := . }}
-                    {{ range .Site.Menus.main }}
-                    {{ if .HasChildren}}
-                    <li class="relative py-7 px-4 menu hover:text-white hover:bg-blue-picker">
-                        <p {{ if $current_page.IsMenuCurrent "main" . }} class="font-bold text-blue" {{ end }}>
-                            {{ .Name }}
-                        </p>
-                        <ul class="sub-menu w-56">
-                            {{ range .Children}}
-                            <li class="py-6 pl-4 hover:font-bold hover:text-blue-picker hover:bg-white">
-                                <p class="cursor-pointer" href="{{ .URL }}">{{ .Name }}</p>
-                            </li>
-                            {{ if .HasChildren }}
-
-                            <div class="child-sub-menu">
-                                <ul class="grid bg-white grid-flow-row">
-                                    {{ range .Children }}
-                                    <li class="p-1 text-lg text-blue-picker">{{ .Name }}</li>
-                                    {{ end }}
-                                </ul>
-                            </div>
-                            {{end}}
-                            {{end}}
-                        </ul>
-                    </li>
-                    {{ else }}
-                    <li class="inline-block py-7 px-4 hover:text-white hover:bg-blue-picker">
-                        <a ref="{{ .URL }}" {{ if $current_page.IsMenuCurrent "main" . }} class="font-bold text-blue" {{
-                            end }}>
-                            {{ .Name }}
-                        </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                </ul>
-            </nav>
-        </div>
-=======
   <div class="mx-auto w-11/12 max-w-screen-xl">
     <div class=" flex flex-row justify-between items-center">
       <div class="lg:flex-shrink-0">
@@ -57,47 +9,111 @@
       <nav class="lg:w-8/12 xl:w-7/12 text-blue-picker">
         <ul class="hidden lg:flex lg:justify-between">
           {{ $current_page := . }}
-          {{ range .Site.Menus.main }} {{/*  1 render menus  */}}
-          {{ if .HasChildren }} {{/*  2 if exist children example ... depar, areas pr, regiones  */}}
+          {{ range .Site.Menus.main }} {{/* 1 render menus */}}
+          {{ if .HasChildren }} {{/* 2 if exist children example ... depar, areas pr, regiones */}}
           <li class="menu">
             <button class="menu__name">
               {{ .Name }}
             </button>
             <ul class="menu__panel bg-blue-picker pt-4 pr-4 pb-4" style="width: 704px; max-width: 704px;">
-              {{ range .Children }} {{/*  3  */}}
-              {{ if .HasChildren }} {{/*  4  if this children is parent */}}
+              {{ range .Children }} {{/* 3 */}}
+              {{ if .HasChildren }} {{/* 4 if this children is parent */}}
               <li class="w-full" style="max-width: 224px;">
-                <a class="block py-2 px-6 hover:bg-white hover:text-blue-picker duration-300" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="block py-2 px-6 hover:bg-white hover:text-blue-picker duration-300" href="{{ .URL }}">{{ .Name
+                  }}</a>
               </li>
-              <ul class="grid grid-cols-3 gap-4 bg-white text-black w-full py-2 px-6">
-                {{ range .Children }} {{/*  5  */}}
+              <ul class="grid grid-cols-2 gap-4 bg-white text-black w-full py-2 px-6">
+                {{ range .Children }} {{/* 5 */}}
                 <li>
                   <a class="py-8 px-6" href="{{ .URL }}">{{ .Name }}</a>
                 </li>
-                {{ end }} {{/*  5  */}}
+                {{ end }} {{/* 5 */}}
               </ul>
-              {{ end }} {{/*  4  */}}
-              {{ end }} {{/*  3  */}}
+              {{ end }} {{/* 4 */}}
+              {{ end }} {{/* 3 */}}
             </ul>
           </li>
           {{ else }}
           <li>
-            <a class="inline-block py-8 px-6 {{ if $current_page.IsMenuCurrent " main" . }} font-bold text-blue-light {{ end }}" href="{{ .URL }}">
+            <a class="inline-block py-8 px-6 {{ if $current_page.IsMenuCurrent " main" . }} font-bold text-blue-light {{
+              end }}" href="{{ .URL }}">
               {{ .Name }}
             </a>
           </li>
-          {{ end }} {{/*  2  */}}
-          {{ end }} {{/*  1  */}}
+          {{ end }} {{/* 2 */}}
+          {{ end }} {{/* 1 */}}
         </ul>
         <ul class="nav lg:hidden">
           {{ $current_page := . }}
           {{ range .Site.Menus.main }}
           <li>
-            <a class="inline-block py-8 px-6 text-xl {{ if $current_page.IsMenuCurrent " main" . }} font-bold text-blue-light {{ end }}" href="{{ .URL }}">
+            <a class="inline-block py-8 px-6 text-xl {{ if $current_page.IsMenuCurrent " main" . }} font-bold
+              text-blue-light {{ end }}" href="{{ .URL }}">
               {{ .Name }}
             </a>
           </li>
           {{ end }}
+          <div class="mx-auto w-11/12 max-w-screen-xl">
+            <div class=" flex flex-row justify-between items-center">
+              <div class="lg:flex-shrink-0">
+                <a href="/">
+                  <img src="/images/public/logo-header.svg" alt="logo header">
+                </a>
+              </div>
+              <nav class="lg:w-8/12 xl:w-7/12 text-blue-picker">
+                <ul class="hidden lg:flex lg:justify-between">
+                  {{ $current_page := . }}
+                  {{ range .Site.Menus.main }} {{/* 1 render menus */}}
+                  {{ if .HasChildren }} {{/* 2 if exist children example ... depar, areas pr, regiones */}}
+                  <li class="menu">
+                    <button class="menu__name">
+                      {{ .Name }}
+                    </button>
+                    <ul class="menu__panel bg-blue-picker pt-4 pr-4 pb-4" style="width: 704px; max-width: 704px;">
+                      {{ range .Children }} {{/* 3 */}}
+                      {{ if .HasChildren }} {{/* 4 if this children is parent */}}
+                      <li class="w-full" style="max-width: 224px;">
+                        <a class="block py-2 px-6 hover:bg-white hover:text-blue-picker duration-300"
+                          href="{{ .URL }}">{{ .Name }}</a>
+                      </li>
+                      <ul class="grid grid-cols-3 gap-4 bg-white text-black w-full py-2 px-6">
+                        {{ range .Children }} {{/* 5 */}}
+                        <li>
+                          <a class="py-8 px-6" href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }} {{/* 5 */}}
+                      </ul>
+                      {{ end }} {{/* 4 */}}
+                      {{ end }} {{/* 3 */}}
+                    </ul>
+                  </li>
+                  {{ else }}
+                  <li>
+                    <a class="inline-block py-8 px-6 {{ if $current_page.IsMenuCurrent " main" . }} font-bold
+                      text-blue-light {{ end }}" href="{{ .URL }}">
+                      {{ .Name }}
+                    </a>
+                  </li>
+                  {{ end }} {{/* 2 */}}
+                  {{ end }} {{/* 1 */}}
+                </ul>
+                <ul class="nav lg:hidden">
+                  {{ $current_page := . }}
+                  {{ range .Site.Menus.main }}
+                  <li>
+                    <a class="inline-block py-8 px-6 text-xl {{ if $current_page.IsMenuCurrent " main" . }} font-bold
+                      text-blue-light {{ end }}" href="{{ .URL }}">
+                      {{ .Name }}
+                    </a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </nav>
+              <!-- MENU BUTTON -->
+              <div class="menu-button py-4">
+                <span class="menu-icon" id="menu-icon"></span>
+              </div>
+              <!-- MENU BUTTON END -->
         </ul>
       </nav>
       <!-- MENU BUTTON -->
@@ -105,7 +121,7 @@
         <span class="menu-icon" id="menu-icon"></span>
       </div>
       <!-- MENU BUTTON END -->
->>>>>>> fd87f45d2b7e7b8ce640fae0736aa6545426cbb1
     </div>
+
   </div>
 </header>

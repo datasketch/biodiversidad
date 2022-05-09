@@ -1,0 +1,35 @@
+<div class="bg-blue-section text-white">
+    <div class="mx-auto w-11/12 max-w-screen-xl">
+        <div class="flex space-x-2 items-center">
+            {{ if ne .Parent nil }}
+            {{ if ne .Parent.Parent nil }}
+            {{ if ne .Parent.Parent.Parent nil }}
+            {{ if ne .Parent.Parent.Parent.Parent nil }}
+            {{ if ne .Parent.Parent.Parent.Parent.Parent nil }}
+            <a href="{{ .Parent.Parent.Parent.Parent.Parent.Permalink }}">
+                {{.Parent.Parent.Parent.Parent.Parent.Title}}
+            </a>
+            <img src="/images/public/breadcrumbs-arrow.svg" alt="breadcrumbs icon">
+            {{ end }}
+            <a href="{{ .Parent.Parent.Parent.Parent.Permalink }}">
+                {{.Parent.Parent.Parent.Parent.Title}}
+            </a>
+            <img src="/images/public/breadcrumbs-arrow.svg" alt="breadcrumbs icon">
+            {{ end }}
+            <a href="{{ .Parent.Parent.Parent.Permalink }}">
+                {{.Parent.Parent.Parent.Title}}
+            </a>
+            <img src="/images/public/breadcrumbs-arrow.svg" alt="breadcrumbs icon">
+            {{ end }}
+            <a href="{{ .Parent.Parent.Permalink }}">
+                {{.Parent.Parent.Title}}
+            </a>
+            <img src="/images/public/breadcrumbs-arrow.svg" alt="breadcrumbs icon">
+            {{ end }}
+            <a href="{{ .Parent.Permalink }}">{{.Parent.Title}}</a>
+            <img src="/images/public/breadcrumbs-arrow.svg" alt="breadcrumbs icon">
+            {{ end }}
+            <span class="text-barbie-pink px-3 py-2 {{ if .CurrentSection }}bg-blue text-white{{ end }}">{{.Title}}</span>
+        </div>
+    </div>
+</div>

@@ -5,4 +5,5 @@ menu:
   main:
     parent: regiones
     identifier: departamentos
+type: departamentos
 ---

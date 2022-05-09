@@ -57,6 +57,101 @@
     .swiper-button-next-netflix--blue {
         @apply bg-blue-picker bg-opacity-50;
     }
+    
+
+    ///////////////////////////////////////////////////////////////////
+
+    .nav-menu-item {
+      cursor: pointer;
+      flex-shrink: 0;
+      position: relative;
+    }
+
+    .nav-menu-item:not(.nav-menu-link):hover {
+      background-color: #013246;
+      color: #ffffff;
+    }
+
+    .nav-menu-item:not(.nav-menu-link):focus-within {
+      background-color: #013246;
+      color: #ffffff;
+    }
+
+    .nav-menu-link:hover {
+      color: #247ce1;
+    }
+
+    .nav-menu-item:hover .nav-menu-item-submenu,
+    .nav-menu-item:not(.nav-menu-link):focus-within .nav-menu-item-submenu {
+      display: block;
+    }
+
+    .nav-menu-item-trigger {
+      background-color: transparent;
+      border: none;
+      color:  #013246;
+      color: inherit;
+    }
+
+    .nav-menu-item-submenu {
+      display: none;
+      position: absolute;
+      background-color: #013246;
+      color: #ffffff;
+      padding: 12px 0;
+      top: 100%;
+      /* left: 0; */
+      min-width: 100%;
+      width: max-content;
+    }
+
+    .nav-menu-item-submenu-item {
+      padding: 12px 12px;
+    }
+
+    .nav-menu-item-submenu-item:hover,
+    .nav-menu-item-submenu-item:focus-within {
+      background-color: #ffffff;
+      color: #013246;
+    }
+
+    .nav-menu-item-submenu-submenu {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      color: #013246;
+      padding: 24px 12px 24px 0;
+      background-color: #013246;
+      height: 100%;
+      z-index: 1;
+      min-width: 50%;
+      width: max-content;
+    }
+
+    .nav-menu-item-submenu-item:hover > .nav-menu-item-submenu-submenu,
+    .nav-menu-item-submenu-item:focus-within > .nav-menu-item-submenu-submenu {
+      display: block;
+    }
+
+    .nav-menu-item-submenu-submenu:after {
+      content: "";
+      top: 12px;
+      left: 0;
+      right: 12px;
+      bottom: 12px;
+      position: absolute;
+      background-color: white;
+      z-index: -1;
+    }
+
+    .nav-menu-item-submenu-submenu li:hover {
+      color: #247ce1;
+    }
+
+    .nav-menu-item-submenu-submenu-item {
+      padding: 0 12px;
+    }
 }
 
 @layer utilities {

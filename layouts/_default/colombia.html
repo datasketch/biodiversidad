@@ -33,8 +33,7 @@
                 </p>
             </div>
         </div>
-        <div
-            class="flex flex-col lg:flex-row lg:justify-between lg:items-center space-y-8 lg:space-y-0 lg:space-x-8 xl:space-x-0">
+        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center space-y-8 lg:space-y-0 lg:space-x-8 xl:space-x-0">
             <div>
                 <div class="space-y-12">
                     <div class="flex items-start space-x-3">
@@ -182,12 +181,10 @@
                 </div>
             </div>
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev swiper-button-prev-netflix"
-                style="top: 22px; left: 0; height: 100%; width: 52px;">
+            <div class="swiper-button-prev swiper-button-prev-netflix" style="top: 22px; left: 0; height: 100%; width: 52px;">
                 <img src="/images/home/arrow-left.svg" alt="arrow left">
             </div>
-            <div class="swiper-button-next swiper-button-next-netflix"
-                style="top: 22px; right: 0; height: 100%; width: 52px;">
+            <div class="swiper-button-next swiper-button-next-netflix" style="top: 22px; right: 0; height: 100%; width: 52px;">
                 <img src="/images/home/arrow-right.svg" alt="arrow right">
             </div>
         </div>
@@ -205,8 +202,7 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <div class="text-center text-white space-y-12">
-                        <h2 class="text-xl lg:text-2xl text-center font-bold font-open-sans mx-auto"
-                            style="max-width: 490px;">
+                        <h2 class="text-xl lg:text-2xl text-center font-bold font-open-sans mx-auto" style="max-width: 490px;">
                             Resumen de especies y observaciones por departamentos
                         </h2>
                         <img class="mx-auto" src="/images/colombia/estadisticas.svg" alt="estadistica">
@@ -214,8 +210,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="text-center text-white space-y-12">
-                        <h2 class="text-xl lg:text-2xl text-center font-bold font-open-sans mx-auto"
-                            style="max-width: 490px;">
+                        <h2 class="text-xl lg:text-2xl text-center font-bold font-open-sans mx-auto" style="max-width: 490px;">
                             Resumen de especies y observaciones por departamentos
                         </h2>
                         <img class="mx-auto" src="/images/colombia/estadisticas.svg" alt="estadistica">
@@ -223,8 +218,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="text-center text-white space-y-12">
-                        <h2 class="text-xl lg:text-2xl text-center font-bold font-open-sans mx-auto"
-                            style="max-width: 490px;">
+                        <h2 class="text-xl lg:text-2xl text-center font-bold font-open-sans mx-auto" style="max-width: 490px;">
                             Resumen de especies y observaciones por departamentos
                         </h2>
                         <img class="mx-auto" src="/images/colombia/estadisticas.svg" alt="estadistica">
@@ -247,4 +241,11 @@
 {{ partial "tematicas.html" . }}
 {{ partial "regiones.html" . }}
 {{ partial "app-map.html" (dict "titleMap" "Colombia" "imageMap" "/images/public/app-mapa.png" ) }}
+{{ end }}
+{{ define "head" }}
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+{{ end }}
+{{ define "js" }}
+{{ $colombia := resources.Get "js/colombia.js" | js.Build (dict "minify" false)}}
+<script src="{{ $colombia.Permalink }}"></script>
 {{ end }}

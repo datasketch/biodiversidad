@@ -13,13 +13,9 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     {{ range .Pages }}
-                    <a href="{{ .Permalink }}" class="swiper-slide" style="max-width: 340px;">
-                        <figure class="relative">
-                            <img src="{{ .Params.image }}" alt="{{ .Title }}">
-                            <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">{{ .Title }}
-                            </figcaption>
-                        </figure>
-                    </a>
+                    <div class="swiper-slide" style="max-width: 340px;">
+                        {{ partial "image-box-gradient" (dict "title" .Title "urlImage" .Params.image "link" .Permalink "linearGradient" "rgba(5,75,133,1)") }}
+                    </div>
                     {{ end }}
                 </div>
                 <!-- If we need navigation buttons -->
@@ -40,10 +36,7 @@
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 lg:gap-5 xl:gap-6">
                 {{ range .Pages }}
-                <a href="{{ .Permalink }}" class="text-blue-dark font-bold text-lg xl:text-xl">
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}" />
-                    <p class="mt-2">{{ .Title }}</p>
-                </a>
+                {{ partial "image-box" (dict "title" .Title "image" .Params.image "link" .Permalink) }}
                 {{ end }}
             </div>
         </div>

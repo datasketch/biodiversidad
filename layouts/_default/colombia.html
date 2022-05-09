@@ -1,24 +1,24 @@
 {{ define "main" }}
 {{ partial "breadcrumbs" . }}
-{{ partial "full-banner.html" (dict "titleBanner" .Title "banner" .Params.bgImage) }}
+{{ partial "full-banner.html" (dict "titleBanner" .Title "banner" .Params.bgImage "especiesRegistradas" .Params.especies_registradas "linearGradient" "rgba(0,48,69,1)") }}
 <div class="bg-blue-section py-12 lg:py-16 xl:py-20">
     <div class="mx-auto w-10/12 max-w-screen-xl text-white space-y-12 lg:space-y-16 xl:space-y-20">
         <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center">
             <div class="lg:w-1/2" style="max-width: 364px;">
                 <div class="flex justify-between">
                     <div class="space-y-4" style="max-width: 160px;">
-                        <p class="text-5xl xl:text-6xl font-semibold font-oswald">1234</p>
+                        <p class="text-5xl xl:text-6xl font-semibold font-oswald">{{ .Params.especies_continentales }}</p>
                         <p class="text-base font-open-sans-condensed">Especies continentales</p>
                         <img src="/images/colombia/trazado-262.svg" alt="picos">
-                        <p class="font-semibold text-lg xl:text-xl text-blue-ultra-light font-oswald">123.456.789</p>
+                        <p class="font-semibold text-lg xl:text-xl text-blue-ultra-light font-oswald">{{ .Params.observaciones_continentales }}</p>
                         <span class="font-open-sans-condensed text-blue-ultra-light text-sm">Observaciones
                             continentales</span>
                     </div>
                     <div class="space-y-4" style="max-width: 128px;">
-                        <p class="text-5xl xl:text-6xl font-semibold font-oswald">1234</p>
-                        <p class="text-base font-open-sans-condensed">Especies continentales</p>
+                        <p class="text-5xl xl:text-6xl font-semibold font-oswald">{{ .Params.especies_marinas }}</p>
+                        <p class="text-base font-open-sans-condensed">Especies marinas</p>
                         <img src="/images/colombia/trazado-262.svg" alt="picos">
-                        <p class="font-semibold text-lg xl:text-xl text-blue-ultra-light font-oswald">123.456.789</p>
+                        <p class="font-semibold text-lg xl:text-xl text-blue-ultra-light font-oswald">{{ .Params.observaciones_marinos }}</p>
                         <span class="font-open-sans-condensed text-blue-ultra-light text-sm">Observaciones
                             marinos</span>
                     </div>
@@ -151,74 +151,34 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/narino.jpg" alt="nariño">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Nariño
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Caquetá" "urlImage" "/images/colombia/caqueta.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/casanare.jpg" alt="casanare">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Casanare
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Casanare" "urlImage" "/images/colombia/casanare.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/cauca.jpg" alt="cauca">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Cauca
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Cauca" "urlImage" "/images/colombia/cauca.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/cesar.jpg" alt="cesar">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Cesar
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Cesar" "urlImage" "/images/colombia/cesar.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/choco.jpg" alt="choco">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Chocó
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Chocó" "urlImage" "/images/colombia/choco.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/narino.jpg" alt="nariño">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Nariño
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Caquetá" "urlImage" "/images/colombia/caqueta.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/casanare.jpg" alt="casanare">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Casanare
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Casanare" "urlImage" "/images/colombia/casanare.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/cauca.jpg" alt="cauca">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Cauca
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Cauca" "urlImage" "/images/colombia/cauca.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/cesar.jpg" alt="cesar">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Cesar
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Cesar" "urlImage" "/images/colombia/cesar.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    <figure class="relative">
-                        <img src="/images/colombia/choco.jpg" alt="choco">
-                        <figcaption class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">Chocó
-                        </figcaption>
-                    </figure>
+                    {{ partial "image-box-gradient" (dict "title" "Chocó" "urlImage" "/images/colombia/choco.jpg" "linearGradient" "rgba(5,75,133,1)") }}
                 </div>
             </div>
             <!-- If we need navigation buttons -->

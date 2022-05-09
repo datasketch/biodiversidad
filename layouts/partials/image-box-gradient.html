@@ -1,0 +1,8 @@
+<a href="{{ .link }}" class="block relative bg-cover bg-center" style="height: 190px; background-image: linear-gradient(to bottom, transparent 10%, {{ .linearGradient | safeCSS }}), url({{ .urlImage }});">
+    <p class="absolute left-0 bottom-0 text-white font-bold xl:text-xl p-4">
+        <span class="block text-sm">
+            {{ .subtitle }}
+        </span>
+        {{ .title }}
+    </p>
+</a>

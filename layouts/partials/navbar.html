@@ -22,7 +22,7 @@
                                 <a class="block py-2 px-6 hover:bg-white hover:text-blue-picker duration-300"
                                     href="{{ .URL }}">{{ .Name }}</a>
                             </li>
-                            <ul class="grid grid-cols-2 gap-4 bg-white text-black w-full py-2 px-6">
+                            <ul class="grid grid-cols-2 gap-4 bg-white text-black w-full py-2 px-6 text-sm">
                                 {{ range .Children }} {{/* 5 */}}
                                 <li>
                                     <a class="py-8 px-6" href="{{ .URL }}">{{ .Name }}</a>

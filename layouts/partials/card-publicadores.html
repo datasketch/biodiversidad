@@ -1,26 +1,34 @@
-<div class="bg-white flex-shrink-0 h-60 border font-open-sans space-y-1 hover:shadow-lg duration-300">
-    <div class="pl-7 flex justify-between items-end">
-        <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">CO</span>
-        </p>
-        <div>
-            <img src="/images/publicadores/apc.png" alt="apc">
+<div class="relative pt-14 pb-7 bg-white-3" style="height: 252px;">
+    <div class="mx-auto w-10/12 h-full">
+        <div class="flex flex-col justify-between h-full">
+            <div>
+                <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">{{ .paisPublicacion }}</span>
+                </p>
+                <div class="absolute top-0 right-0"> 
+                    <img class="w-20 h-20" src="{{ .logotipo }}" alt="{{ .publicadores }}">
+                </div>
+                <p class="font-open-sans text-lg font-bold text-blue-section">
+                    {{ .publicadores }}
+                </p>
+            </div>
+            <div>
+                <table class="xl:mx-auto xl:w-11/12">
+                    <tbody>
+                        <tr class="px-10 text-sm">
+                            <th class="text-left bg-gray-light">Observaciones</th>
+                            <th class="text-blue-section border-l bg-gray-light border-blue-section">
+                                {{ .observaciones }}
+                            </th>
+                        </tr>
+                        <tr class="text-sm">
+                            <th class="text-left">Total Especies</th>
+                            <th class="border-l border-blue-section">
+                                {{ .totalEspecies }}
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </div>
-    <div class="mx-auto w-10/12 space-y-2 pb-4">
-        <p class="font-open-sans text-lg font-bold text-blue-section">Asociación Primatológica
-            Colombiana
-        </p>
-        <table class="mx-auto w-11/12">
-            <tbody>
-                <tr class="px-10">
-                    <th class="text-left bg-gray-light">Observaciones</th>
-                    <th class="border-l bg-gray-light border-blue-section">2139</th>
-                </tr>
-                <tr>
-                    <th class="text-left">Total Especies</th>
-                    <th class="border-l border-blue-section">2139</th>
-                </tr>
-            </tbody>
-        </table>
     </div>
 </div>

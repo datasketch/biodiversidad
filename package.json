@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
     "autoprefixer": "^10.4.0",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
@@ -21,6 +24,8 @@
     "tailwindcss": "^2.2.19"
   },
   "dependencies": {
-    "swiper": "^8.1.4"
+    "swiper": "^8.1.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

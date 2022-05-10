@@ -162,7 +162,7 @@
     </div>
 </div>
 {{ end }}
-
+<div id="app"></div>
 {{ partial "grupos-biologicos.html" . }}
 {{ partial "tematicas.html" . }}
 {{ partial "regiones.html" . }}
@@ -261,6 +261,8 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 {{ end }}
 {{ define "js" }}
-{{ $publicadores := resources.Get "js/publicadores.js" | js.Build (dict "minify" false)}}
+{{ $publicadores := resources.Get "js/publicadores.js" | js.Build (dict "minify" hugo.IsProduction)}}
+{{ $js := resources.Get "js/ventana.js" | babel | js.Build (dict "minify" hugo.IsProduction) }}
 <script src="{{ $publicadores.Permalink }}"></script>
+<script src="{{ $js.Permalink }}"></script>
 {{ end }}

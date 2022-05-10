@@ -8,81 +8,47 @@
       </div>
       <nav class="text-blue-picker">
         <ul class="nav-menu hidden lg:flex">
-          <li class="nav-menu-item nav-menu-link p-8">
-            <a href="/colombia">Colombia</a>
-          </li>
+          {{ $current_page := . }}
+          {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
           <li class="nav-menu-item z-10">
-            <button class="nav-menu-item-trigger p-8">Regiones</button>
+            <button class="nav-menu-item-trigger p-8">{{.Name}}</button>
             <ul class="nav-menu-item-submenu">
+              {{ range .Children }}
               <li class="nav-menu-item-submenu-item">
-                <a href="/regiones/departamentos">Departamentos</a>
+                <a href="{{ .URL }}">{{ .Name }}</a>
+                {{ if .HasChildren}}
                 <ul class="nav-menu-item-submenu-submenu">
+                  {{ range .Children }}
                   <li class="nav-menu-item-submenu-submenu-item">
-                    <a href="/regiones/departamentos/narino">Nariño</a>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
                   </li>
+                  {{ end }}
                 </ul>
+                {{ end }}
               </li>
-              <li class="nav-menu-item-submenu-item">
-                <a href="">Áreas protegidas</a>
-                <ul class="nav-menu-item-submenu-submenu">
-                  <li class="nav-menu-item-submenu-submenu-item">
-                    <a href="">Área 1</a>
-                  </li>
-                  <li class="nav-menu-item-submenu-submenu-item">
-                    <a href="">Área 2</a>
-                  </li>
-                  <li class="nav-menu-item-submenu-submenu-item">
-                    <a href="">Área 3</a>
-                  </li>
-                  <li class="nav-menu-item-submenu-submenu-item">
-                    <a href="">Área 4</a>
-                  </li>
-                  <li class="nav-menu-item-submenu-submenu-item">
-                    <a href="">Área 5</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-menu-item-submenu-item">
-                <span>Áreas marinas</span>
-              </li>
-              <li class="nav-menu-item-submenu-item">
-                <span>Regiones naturales</span>
-              </li>
-              <li class="nav-menu-item-submenu-item">
-                <span>Ecosistemas estratégicos</span>
-              </li>
+              {{ end}}
             </ul>
           </li>
-          <li class="nav-menu-item p-8">Grupos biológicos</li>
-          <li class="nav-menu-item p-8">
-            Temáticas
-          </li>
+          {{else}}
           <li class="nav-menu-item nav-menu-link p-8">
-            <a href="/explorador">Explorador</a>
+            <a href="{{ .URL }}">{{ .Name }}</a>
           </li>
-          <li class="nav-menu-item p-8">
-            <button class="nav-menu-item-trigger">Más</button>
-            <ul class="nav-menu-item-submenu z-10" tabindex="0">
-              <li class="nav-menu-item-submenu-item">
-                <a href="/mas/publicadores">Publicadores</a>
-              </li>
-              <li class="nav-menu-item-submenu-item">
-                <a href="/mas/quienes-contribuyeron">Quienes contribuyeron</a>
-              </li>
-            </ul>
-          </li>
+          {{ end }}
+          {{ end }}
         </ul>
+
         <ul class="nav lg:hidden">
           {{ $current_page := . }}
           {{ range .Site.Menus.main }}
           <li>
-              <a class="inline-block text-xl {{ if $current_page.IsMenuCurrent " main" . }}
-                  font-bold text-blue-light {{ end }}" href="{{ .URL }}">
-                  {{ .Name }}
-              </a>
+            <a class="inline-block text-xl {{ if $current_page.IsMenuCurrent " main" . }} font-bold text-blue-light {{
+              end }}" href="{{ .URL }}">
+              {{ .Name }}
+            </a>
           </li>
           {{ end }}
-      </ul>
+        </ul>
       </nav>
       <!-- MENU BUTTON -->
       <div class="menu-button py-4">

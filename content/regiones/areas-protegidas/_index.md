@@ -1,5 +1,5 @@
 ---
-title: Areas Protegidas
+title: Áreas Protegidas
 weight: 2
 menu: 
   main:

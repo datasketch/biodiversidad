@@ -6,7 +6,7 @@ menu:
 type: departamentos
 layout: single
 image: /images/regiones/departamentos/huila.jpg
-bgImage: /images/regiones/departamentos/banner-narino.png
+bgImage: /images/regiones/departamentos/huila-banner.jpg
 especies_registradas: 10317
 especies_continentales: 9990
 especies_marinas: 284

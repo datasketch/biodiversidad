@@ -7,7 +7,7 @@ type: departamentos
 featured: true
 layout: single
 image: /images/regiones/departamentos/choco.jpg
-bgImage: /images/regiones/departamentos/banner-narino.png
+bgImage: /images/regiones/departamentos/choco-banner.jpg
 especies_registradas: 10317
 especies_continentales: 9990
 especies_marinas: 284

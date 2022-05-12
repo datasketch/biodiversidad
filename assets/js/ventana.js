@@ -11,36 +11,127 @@ const groups = [
     items: [
       {
         name: 'Animales',
-        image: '/images/grupos-biologicos/animales-bg.svg'
-      },
-      {
-        name: 'Plantas',
-        image: '/images/grupos-biologicos/plantas-bg.svg',
+        image: '/images/grupos-biologicos/animales-bg.svg',
+        statistics: [
+          {
+            label: 'Especies amenazadas',
+            value: '86',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies CITES',
+            value: '216',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies endémicas',
+            value: '41',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          }
+        ],
         children: [
           {
-            name: 'Mamíferos'
+            name: 'Destacados'
           },
           {
-            name: 'Aves'
+            name: 'Vertebrados',
+            children: [
+              {
+                name: 'Mamíferos'
+              },
+              {
+                name: 'Aves'
+              },
+              {
+                name: 'Anfibios'
+              },
+              {
+                name: 'Reptiles'
+              },
+              {
+                name: 'Peces'
+              }
+            ]
           },
           {
-            name: 'Anfibios'
-          },
-          {
-            name: 'Reptiles'
-          },
-          {
-            name: 'Peces'
+            name: 'Invertebrados'
           }
         ]
       },
       {
+        name: 'Plantas',
+        image: '/images/grupos-biologicos/plantas-bg.svg',
+        statistics: [
+          {
+            label: 'Plantas',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies CITES',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies endémicas',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          }
+        ],
+      },
+      {
         name: 'Hongos',
-        image: '/images/grupos-biologicos/hongos-bg.svg'
+        image: '/images/grupos-biologicos/hongos-bg.svg',
+        statistics: [
+          {
+            label: 'Hongos',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies CITES',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies endémicas',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          }
+        ],
       },
       {
         name: 'Bacterias',
-        image: '/images/grupos-biologicos/bacterias-bg.svg'
+        image: '/images/grupos-biologicos/bacterias-bg.svg',
+        statistics: [
+          {
+            label: 'Bacterias',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies CITES',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies endémicas',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          }
+        ],
       }
     ]
   },
@@ -106,83 +197,57 @@ const groups = [
   }
 ]
 
-const BiologicGroups = (props) => {
+const BiologicGroups = ({ data, name, isActive }) => {
+  const { items } = data
+  const result = items.filter(i => i.name === name)
+  console.log(result[0])
   return (
     <>
       <div>
         <h2 className="text-center font-bold text-xl xl:text-2xl">
-          Animales
+          {isActive && result[0].name}
         </h2>
       </div>
       <div className="mx-auto lg:w-11/12 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-          <div className="space-y-6 md:col-start-1 md:col-end-4 lg:col-end-2">
-            <h3 className="font-open-sans-condensed text-base text-center">
-              <span className="block font-oswald text-5xl xl:text-6xl font-bold mb-2">
-                86
-              </span>
-              Especies amenazadas
-            </h3>
-            <img className="mx-auto" src="/images/public/chart.svg" alt="chart" />
-            <div className="space-y-4 text-center">
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-            </div>
-          </div>
-          <div className="space-y-6">
-            <h3 className="font-open-sans-condensed text-base text-center">
-              <span className="block font-oswald text-5xl xl:text-6xl font-bold mb-2">
-                216
-              </span>
-              Especies CITES
-            </h3>
-            <img className="mx-auto" src="/images/public/chart.svg" alt="chart" />
-            <div className="space-y-4 text-center">
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-            </div>
-          </div>
-          <div className="space-y-6">
-            <h3 className="font-open-sans-condensed text-base text-center">
-              <span className="block font-oswald text-5xl xl:text-6xl font-bold mb-2">
-                41
-              </span>
-              Especies endémicas
-            </h3>
-            <img className="mx-auto" src="/images/public/chart.svg" alt="chart" />
-            <div className="space-y-4 text-center">
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-            </div>
-          </div>
+        <div className="flex flex-col lg:flex-row space-y-12  lg:space-y-0 justify-evenly">
+          {isActive && result[0].statistics?.map(s => {
+            return (
+              <div key={s.label} className="space-y-6 md:col-start-1 md:col-end-4 lg:col-end-2">
+                <h3 className="font-open-sans-condensed text-base text-center">
+                  <span className="block font-oswald text-5xl xl:text-6xl font-bold mb-2">
+                    {s.value}
+                  </span>
+                  {s.label}
+                </h3>
+                <img className="mx-auto" src={s.image} alt="chart" />
+                <div className="space-y-4 text-center">
+                  {
+                    s.details.map((d, i) => {
+                      return (
+                        <p key={`details-${i}`}>
+                          { d }
+                        </p>
+                      )
+                    })
+                  }
+                </div>
+              </div>
+            )
+          })}
         </div>
       </div>
     </>
   )
 }
 
-const Thematics = (props) => {
+const Thematics = ({ data, name, isActive }) => {
+  console.log(data, name, isActive);
+  const { items } = data;
+  console.log(items);
+  console.log(items[0].name === name);
+  items.forEach(i => {
+    return console.log(i.name === name);
+  });
   return (
     <div className="mx-auto lg:w-11/12">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12">
@@ -321,7 +386,7 @@ const Thematics = (props) => {
   )
 }
 
-const Regiones = (props) => {
+const Regiones = ({ data, name, isActive }) => {
   return (
     <>
       <div className="space-y-8 text-center font-bold">
@@ -340,13 +405,13 @@ const Regiones = (props) => {
         <p className="text-lg">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
         </p>
-        {/* <select className="border border-blue-dark py-2 px-8" name="municipios" id="municipios">
-            <option value="default" selected disabled>Selecciona un municipio</option>
-            <option value="Puerres">Puerres</option>
-            <option value="Pupiales">Pupiales</option>
-            <option value="Ricaurte">Ricaurte</option>
-            <option value="Roberto Payán">Roberto Payán</option>
-          </select> */}
+        <select defaultValue='default' className="border border-blue-dark py-2 px-8" name="municipios" id="municipios">
+          <option value="default" disabled>Selecciona un municipio</option>
+          <option value="Puerres">Puerres</option>
+          <option value="Pupiales">Pupiales</option>
+          <option value="Ricaurte">Ricaurte</option>
+          <option value="Roberto Payán">Roberto Payán</option>
+        </select>
       </div>
     </>
   )
@@ -422,13 +487,13 @@ const Group = ({ group }) => {
       </div>
       <LayoutGroup isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb}>
         {
-          group.id === 'grupos-biologicos' && <BiologicGroups />
+          group.id === 'grupos-biologicos' && <BiologicGroups data={group} name={valueBreadCrumb} isActive={isActive} />
         }
         {
-          group.id === 'tematicas' && <Thematics />
+          group.id === 'tematicas' && <Thematics data={group} name={valueBreadCrumb} isActive={isActive} />
         }
         {
-          group.id === 'regiones' && <Regiones />
+          group.id === 'regiones' && <Regiones data={group} name={valueBreadCrumb} isActive={isActive} />
         }
       </LayoutGroup>
     </div>

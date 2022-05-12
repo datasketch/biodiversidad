@@ -10,7 +10,8 @@ module.exports = {
       'bg-banner-colombia-desktop',
       'bg-banner-publicadores-desktop',
       'menu__name--active',
-      'menu__panel--active'
+      'menu__panel--active',
+      'justify-evenly'
     ]
   },
   darkMode: false, // or 'media' or 'class'

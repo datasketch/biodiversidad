@@ -143,23 +143,208 @@ const groups = [
     items: [
       {
         name: 'Especies amenazadas',
-        image: '/images/tematicas/especies-amenazadas.svg'
+        image: '/images/tematicas/especies-amenazadas.svg',
+        statistics: [
+          {
+            label: 'Especies registradas',
+            value: '15',
+            image: '/images/public/chart-blue.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit'],
+          }
+        ],
+        featured: [
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'Mikania micrantha',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: '13'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'Columba livia',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: '8'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'Syngonium podophyllum',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: '3'
+          }
+        ]
       },
       {
         name: 'Especies endémicas',
-        image: '/images/tematicas/especies-endemicas.svg'
+        image: '/images/tematicas/especies-endemicas.svg',
+        statistics: [
+          {
+            label: 'Especies registradas',
+            value: 'x',
+            image: '/images/public/chart-blue.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit'],
+          }
+        ],
+        featured: [
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          }
+        ]
       },
       {
         name: 'Especies exóticas',
-        image: '/images/tematicas/especies-exoticas.svg'
+        image: '/images/tematicas/especies-exoticas.svg',
+        statistics: [
+          {
+            label: 'Especies registradas',
+            value: 'x',
+            image: '/images/public/chart-blue.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit'],
+          }
+        ],
+        featured: [
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          }
+        ]
       },
       {
         name: 'Especies CITES',
-        image: '/images/tematicas/especies-CITES.svg'
+        image: '/images/tematicas/especies-CITES.svg',
+        statistics: [
+          {
+            label: 'Especies registradas',
+            value: 'x',
+            image: '/images/public/chart-blue.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit'],
+          }
+        ],
+        featured: [
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          }
+        ]
       },
       {
         name: 'Especies migratorias',
-        image: '/images/tematicas/especies-migratorias.svg'
+        image: '/images/tematicas/especies-migratorias.svg',
+        statistics: [
+          {
+            label: 'Especies registradas',
+            value: 'x',
+            image: '/images/public/chart-blue.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit'],
+          }
+        ],
+        featured: [
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          },
+          {
+            image: '/images/regiones/departamentos/feature-1.jpg',
+            label: 'x',
+            details: [
+              'Lorem ipsum dolor sit dolor',
+              'Lorem ipsum dolor sit dolor'
+            ],
+            value: 'x'
+          }
+        ]
       }
     ]
   },
@@ -230,7 +415,7 @@ const BiologicGroups = ({ data, name, isActive }) => {
                     s.details.map((d, i) => {
                       return (
                         <p key={`details-${i}`}>
-                          { d }
+                          {d}
                         </p>
                       )
                     })
@@ -247,30 +432,37 @@ const BiologicGroups = ({ data, name, isActive }) => {
 
 const Thematics = ({ data, name, isActive }) => {
   const { items } = data;
-   items.forEach(i => {
-    return console.log(i.name === name);
-  });
+  const result = items.filter(i => i.name === name)
   return (
     <div className="mx-auto lg:w-11/12">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12">
         <div className="flex flex-col justify-between pb-8 space-y-12">
-          <div className="space-y-6">
-            <h3 className="font-open-sans-condensed text-base text-center">
-              <span className="block font-oswald text-5xl xl:text-6xl font-bold mb-2">
-                15
-              </span>
-              Especies registradas
-            </h3>
-            <img className="mx-auto" src="/images/public/chart-blue.svg" alt="chart" />
-            <div className="space-y-1 text-center">
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-              <p>
-                Lorem ipsum dolor sit
-              </p>
-            </div>
-          </div>
+          {
+            isActive && result[0].statistics?.map(s => {
+              return (
+                <div className="space-y-6">
+                  <h3 className="font-open-sans-condensed text-base text-center">
+                    <span className="block font-oswald text-5xl xl:text-6xl font-bold mb-2">
+                      {s.value}
+                    </span>
+                    {s.label}
+                  </h3>
+                  <img className="mx-auto" src="/images/public/chart-blue.svg" alt="chart" />
+                  <div className="space-y-1 text-center">
+                    {
+                      s.details.map((d, i) => {
+                        return (
+                          <p key={`details-${i}`}>
+                            {d}
+                          </p>
+                        )
+                      })
+                    }
+                  </div>
+                </div>
+              )
+            })
+          }
           <div className="text-center">
             <span className="inline-block py-2 px-10 border-blue-section border-2 text-blue-section">
               Listado de especies
@@ -279,108 +471,51 @@ const Thematics = ({ data, name, isActive }) => {
         </div>
         <div>
           <h2 className="text-blue-2 font-bold text-xl xl:text-2xl">
-            Especies exóticas destacadas
+            {isActive && result[0].name} destacadas
           </h2>
           <div>
-            <div className="flex justify-between space-x-6 xl:space-x-10 py-8 border-b-2 border-green-2">
-              <div className="w-2/6">
-                <img src="/images/regiones/departamentos/feature-1.jpg" alt="feature" />
-              </div>
-              <div className="w-4/6 flex flex-col justify-between">
-                <div>
-                  <h3 className="xl:text-lg font-bold">
-                    Mikania micrantha
-                  </h3>
-                </div>
-                <div>
-                  <p>
-                    Lorem ipsum dolor sit dolor
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit dolor
-                  </p>
-                </div>
-                <div>
-                  <p className="font-open-sans-condensed">
-                    <span className="font-oswald font-bold text-xl xl:text-2xl">
-                      13
-                    </span>
-                    Registros
-                  </p>
-                </div>
-                <div className="flex">
-                  <div className="w-12 h-1" style={{ backgroundColor: '#93FF41' }}>&nbsp;</div>
-                  <div className="w-12 h-1" style={{ backgroundColor: '#FF4141' }}>&nbsp;</div>
-                  <div className="w-12 h-1" style={{ backgroundColor: '#FFB341' }}>&nbsp;</div>
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-between space-x-6 xl:space-x-10 py-8 border-b-2 border-green-2">
-              <div className="w-2/6">
-                <img src="/images/regiones/departamentos/feature-1.jpg" alt="feature" />
-              </div>
-              <div className="w-4/6 flex flex-col justify-between">
-                <div>
-                  <h3 className="xl:text-lg font-bold">
-                    Columba livia
-                  </h3>
-                </div>
-                <div>
-                  <p>
-                    Lorem ipsum dolor sit dolor
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit dolor
-                  </p>
-                </div>
-                <div>
-                  <p className="font-open-sans-condensed">
-                    <span className="font-oswald font-bold text-xl xl:text-2xl">
-                      8
-                    </span>
-                    Registros
-                  </p>
-                </div>
-                <div className="flex">
-                  <div className="w-12 h-1" style={{ backgroundColor: '#93FF41' }}>&nbsp;</div>
-                  <div className="w-12 h-1" style={{ backgroundColor: '#FF4141' }}>&nbsp;</div>
-                  <div className="w-12 h-1" style={{ backgroundColor: '#FFB341' }}>&nbsp;</div>
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-between space-x-6 xl:space-x-10 py-8">
-              <div className="w-2/6">
-                <img src="/images/regiones/departamentos/feature-1.jpg" alt="feature" />
-              </div>
-              <div className="w-4/6 flex flex-col justify-between">
-                <div>
-                  <h3 className="xl:text-lg font-bold">
-                    Syngonium podophyllum
-                  </h3>
-                </div>
-                <div>
-                  <p>
-                    Lorem ipsum dolor sit dolor
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit dolor
-                  </p>
-                </div>
-                <div>
-                  <p className="font-open-sans-condensed">
-                    <span className="font-oswald font-bold text-xl xl:text-2xl">
-                      3
-                    </span>
-                    Registros
-                  </p>
-                </div>
-                <div className="flex">
-                  <div className="w-12 h-1" style={{ backgroundColor: '#93FF41' }}>&nbsp;</div>
-                  <div className="w-12 h-1" style={{ backgroundColor: '#FF4141' }}>&nbsp;</div>
-                  <div className="w-12 h-1" style={{ backgroundColor: '#FFB341' }}>&nbsp;</div>
-                </div>
-              </div>
-            </div>
+            {
+              isActive && result[0].featured?.map(f => {
+                return (
+                  <div className="flex justify-between space-x-6 xl:space-x-10 py-8 border-b-2 border-green-2">
+                    <div className="w-2/6">
+                      <img src={f.image} />
+                    </div>
+                    <div className="w-4/6 flex flex-col justify-between">
+                      <div>
+                        <h3 className="xl:text-lg font-bold">
+                          {f.label}
+                        </h3>
+                      </div>
+                      <div>
+                        {
+                          f.details.map((d, i) => {
+                            return (
+                              <p key={`details-${i}`}>
+                                {d}
+                              </p>
+                            )
+                          })
+                        }
+                      </div>
+                      <div>
+                        <p className="font-open-sans-condensed">
+                          <span className="font-oswald font-bold text-xl xl:text-2xl">
+                            { f.value }
+                          </span>
+                          Registros
+                        </p>
+                      </div>
+                      <div className="flex">
+                        <div className="w-12 h-1" style={{ backgroundColor: '#93FF41' }}>&nbsp;</div>
+                        <div className="w-12 h-1" style={{ backgroundColor: '#FF4141' }}>&nbsp;</div>
+                        <div className="w-12 h-1" style={{ backgroundColor: '#FFB341' }}>&nbsp;</div>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })
+            }
           </div>
         </div>
       </div>

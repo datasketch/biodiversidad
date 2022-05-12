@@ -183,7 +183,13 @@ const groups = [
       },
       {
         name: 'Municipios',
-        image: '/images/regiones/departamentos.svg'
+        image: '/images/regiones/departamentos.svg',
+        statistics: "/images/public/graphic.svg",
+        municipalities: [
+        "Puerres",
+        "Pupiales",
+        "Ricaurte",
+        "Roberto Payán",]
       },
       {
         name: 'Ecosistemas estratégicos',
@@ -200,7 +206,6 @@ const groups = [
 const BiologicGroups = ({ data, name, isActive }) => {
   const { items } = data
   const result = items.filter(i => i.name === name)
-  console.log(result[0])
   return (
     <>
       <div>
@@ -241,11 +246,8 @@ const BiologicGroups = ({ data, name, isActive }) => {
 }
 
 const Thematics = ({ data, name, isActive }) => {
-  console.log(data, name, isActive);
   const { items } = data;
-  console.log(items);
-  console.log(items[0].name === name);
-  items.forEach(i => {
+   items.forEach(i => {
     return console.log(i.name === name);
   });
   return (
@@ -386,14 +388,16 @@ const Thematics = ({ data, name, isActive }) => {
   )
 }
 
-const Regiones = ({ data, name, isActive }) => {
+const Regiones = ({data}) => {
+  const renderRegiones = data.items.filter(item => item.name === 'Municipios')[0];
+  console.log(renderRegiones)
   return (
     <>
       <div className="space-y-8 text-center font-bold">
         <h2 className="text-xl xl:text-2xl mx-auto text-blue-dark" style={{ maxWidth: '442px' }}>
           Número de especies registradas por municipios de Nariño
         </h2>
-        <img className="mx-auto" src="/images/public/graphic.svg" alt="grapich" />
+        <img className="mx-auto" src={renderRegiones.statistics} alt="grapich" />
         <h3>
           Municipios de Nariño
         </h3>
@@ -405,17 +409,17 @@ const Regiones = ({ data, name, isActive }) => {
         <p className="text-lg">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
         </p>
-        <select defaultValue='default' className="border border-blue-dark py-2 px-8" name="municipios" id="municipios">
+        <select defaultValue='default' className="border border-blue-dark py-2 px-8" name="municipios" id="municipios" onChange={handleChangeMunicipality}>
           <option value="default" disabled>Selecciona un municipio</option>
-          <option value="Puerres">Puerres</option>
-          <option value="Pupiales">Pupiales</option>
-          <option value="Ricaurte">Ricaurte</option>
-          <option value="Roberto Payán">Roberto Payán</option>
+          {renderRegiones.municipalities.map((mun,i )=> <option key={i} value={mun}>{mun}</option>)}
         </select>
       </div>
     </>
   )
 }
+const handleChangeMunicipality = (e) => {
+  window.location.href=`${location.href+e.target.value.toLowerCase()}`
+  }
 
 const TreeItem = ({ item, color, isActive, setIsActive, setValueBreadCrumb }) => {
   const handleClick = (e) => {

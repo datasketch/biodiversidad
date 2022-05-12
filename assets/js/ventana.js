@@ -171,10 +171,14 @@ const handleChangeMunicipality = (e) => {
   window.location.href = `${location.href + e.target.value.toLowerCase()}`
 }
 
-const TreeItem = ({ item, color, isActive, setIsActive, setValueBreadCrumb }) => {
+const TreeItem = ({ item, color, isActive, setIsActive, valueBreadCrumb, setValueBreadCrumb }) => {
   const handleClick = (e) => {
-    setIsActive(!isActive)
     setValueBreadCrumb(e.target.closest('button').dataset.name)
+    if(valueBreadCrumb === item.name) {
+      setIsActive(!isActive)
+    } else {
+      setIsActive(true)
+    }
   }
 
   // const hasChildren = item.children && item.children.length
@@ -233,7 +237,7 @@ const Group = ({ group }) => {
           <ul className={`grid grid-cols-1 lg:grid-cols-${group.cols} gap-8 mt-16`}>
             {group.items.map((item, index) => {
               return (
-                <TreeItem item={item} color={group.color} isActive={isActive} setIsActive={setIsActive} setValueBreadCrumb={setValueBreadCrumb} key={index} />
+                <TreeItem item={item} color={group.color} isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb} setValueBreadCrumb={setValueBreadCrumb} key={index} />
               )
             })}
           </ul>

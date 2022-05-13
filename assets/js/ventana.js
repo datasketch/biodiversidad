@@ -5,17 +5,17 @@ import { groups } from './data/cifras'
 
 const BiologicGroups = ({ data, name, isActive }) => {
   const { items } = data
-  const result = items.filter(i => i.name === name)
+  const result = items.filter(i => i.name === name)[0]
   return (
     <>
       <div>
         <h2 className="text-center font-bold text-xl xl:text-2xl">
-          {isActive && result[0].name}
+          {isActive && result.name}
         </h2>
       </div>
       <div className="mx-auto lg:w-11/12 pb-8">
         <div className="flex flex-col lg:flex-row space-y-12  lg:space-y-0 justify-evenly">
-          {isActive && result[0].statistics?.map(s => {
+          {isActive && result.statistics?.map(s => {
             return (
               <div key={s.label} className="space-y-6 md:col-start-1 md:col-end-4 lg:col-end-2">
                 <h3 className="font-open-sans-condensed text-base text-center">
@@ -47,15 +47,15 @@ const BiologicGroups = ({ data, name, isActive }) => {
 
 const Thematics = ({ data, name, isActive }) => {
   const { items } = data;
-  const result = items.filter(i => i.name === name)
+  const result = items.filter(i => i.name === name)[0]
   return (
     <div className="mx-auto lg:w-11/12">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12">
         <div className="flex flex-col justify-between pb-8 space-y-12">
           {
-            isActive && result[0].statistics?.map(s => {
+            isActive && result.statistics?.map((s, idx) => {
               return (
-                <div className="space-y-6">
+                <div key={`s-${idx}`} className="space-y-6">
                   <h3 className="font-open-sans-condensed text-base text-center">
                     <span className="block font-oswald text-5xl xl:text-6xl font-bold mb-2">
                       {s.value}
@@ -86,13 +86,13 @@ const Thematics = ({ data, name, isActive }) => {
         </div>
         <div>
           <h2 className="text-blue-2 font-bold text-xl xl:text-2xl">
-            {isActive && result[0].name} destacadas
+            {isActive && result.name} destacadas
           </h2>
           <div>
             {
-              isActive && result[0].featured?.map(f => {
+              isActive && result.featured?.map((f, idx) => {
                 return (
-                  <div className="flex justify-between space-x-6 xl:space-x-10 py-8 border-b-2 border-green-2">
+                  <div key={`f-${idx}`} className="flex justify-between space-x-6 xl:space-x-10 py-8 border-b-2 border-green-2">
                     <div className="w-2/6">
                       <img src={f.image} />
                     </div>
@@ -140,7 +140,6 @@ const Thematics = ({ data, name, isActive }) => {
 
 const Regiones = ({ data }) => {
   const renderRegiones = data.items.filter(item => item.name === 'Municipios')[0];
-  console.log(renderRegiones)
   return (
     <>
       <div className="space-y-8 text-center font-bold">
@@ -182,7 +181,6 @@ const TreeItem = ({ item, color, isActive, setIsActive, valueBreadCrumb, setValu
       setIsActive(true)
     }
   }
-  
   // const hasChildren = item.children && item.children.length
   return (
     <div className={`${isActiveItem ? `bg-${color}` : 'bg-white-3 '}`}>

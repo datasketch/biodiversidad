@@ -172,41 +172,45 @@ const handleChangeMunicipality = (e) => {
 }
 
 const TreeItem = ({ item, color, isActive, setIsActive, valueBreadCrumb, setValueBreadCrumb }) => {
+  const isActiveItem = isActive && item.name === valueBreadCrumb;
+
   const handleClick = (e) => {
     setValueBreadCrumb(e.target.closest('button').dataset.name)
-    if(valueBreadCrumb === item.name) {
+    if (valueBreadCrumb === item.name) {
       setIsActive(!isActive)
     } else {
       setIsActive(true)
     }
   }
-
+  
   // const hasChildren = item.children && item.children.length
   return (
-    <div className={`bg-white-3 border border-${color}`}>
-      <div className="py-8 px-2 text-center h-36">
-        {
-          item.image
-            ? <img className="mx-auto h-7" src={item.image} alt={item.name} />
-            : <div className={`mx-auto bg-${color} bg-opacity-20 w-24 h-7`}></div>
-        }
-        <p className="mt-4 font-bold text-lg">{item.name}</p>
-      </div>
-      <button data-name={item.name} className={`w-full border-t py-3 border-${color}`} onClick={handleClick}>
-        <img className="mx-auto h-3" src={`/images/public/arrow-bottom-${color}.svg`} alt="arrow bottom" />
+    <div className={`${isActiveItem ? `bg-${color}` : 'bg-white-3 '}`}>
+      <button data-name={item.name} className={`w-full border ${isActiveItem ? 'border-white-3' : `border-t-${color} border-l-${color} border-r-${color}`}`} onClick={handleClick}>
+        <div className="py-8 px-2 text-center h-36">
+          {
+            item.image
+              ? <img className="mx-auto h-7" src={isActiveItem ? item.image_active : item.image} alt={item.name} />
+              : <div className={`mx-auto bg-${color} bg-opacity-20 w-24 h-7`}></div>
+          }
+          <p className={`mt-4 font-bold text-lg ${isActiveItem ? 'text-white-3' : 'text-black'}`}>{item.name}</p>
+        </div>
+      </button>
+      <button className={`block w-full border py-3 border-${color} ${isActiveItem ? 'cursor-pointer border-opacity-100': 'cursor-not-allowed border-opacity-50'}`} disabled={isActive && item.name == valueBreadCrumb ? false : true } onClick={(e) => console.log(e)}>
+        <img className={`mx-auto h-3 ${isActiveItem ? 'opacity-100' : 'opacity-50'}`} src={isActiveItem ? '/images/public/arrow-bottom-white.svg' : `/images/public/arrow-bottom-${color}.svg`} alt="arrow" />
       </button>
     </div>
   )
 }
 
-const LayoutGroup = ({ children, setIsActive, isActive, valueBreadCrumb }) => {
+const LayoutGroup = ({ children, setIsActive, isActive, valueBreadCrumb, color }) => {
   return (
-    <div className={`bg-white py-12 lg:py-16 xl:py-20 -mt-9 ${!isActive && 'hidden'}`}>
-      <div className="mx-auto w-10/12 max-w-screen-xl bg-white-3">
+    <div className={'bg-white py-12 lg:py-16 xl:py-20 -mt-9'}>
+      <div className={`mx-auto w-10/12 max-w-screen-xl bg-white-3 ${!isActive && 'hidden'}`}>
         <div className="space-y-8">
           <div className="flex justify-between items-center">
             <div>
-              <p className="inline-flex items-center space-x-2 font-open-sans-condensed text-white bg-blue-light py-2 px-6">
+              <p className={`inline-flex items-center space-x-2 font-open-sans-condensed text-white bg-${color} py-2 px-6`}>
                 <span>
                   {valueBreadCrumb}
                 </span>
@@ -243,7 +247,7 @@ const Group = ({ group }) => {
           </ul>
         </div>
       </div>
-      <LayoutGroup isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb}>
+      <LayoutGroup isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb} color={group.color}>
         {
           group.id === 'grupos-biologicos' && <BiologicGroups data={group} name={valueBreadCrumb} isActive={isActive} />
         }

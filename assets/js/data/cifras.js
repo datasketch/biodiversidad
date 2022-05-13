@@ -8,6 +8,7 @@ export const groups = [
       {
         name: 'Animales',
         image: '/images/grupos-biologicos/animales-bg.svg',
+        image_active: '/images/grupos-biologicos/animales-white-bg.svg',
         statistics: [
           {
             label: 'Especies amenazadas',
@@ -60,6 +61,7 @@ export const groups = [
       {
         name: 'Plantas',
         image: '/images/grupos-biologicos/plantas-bg.svg',
+        image_active: '/images/grupos-biologicos/plantas-white-bg.svg',
         statistics: [
           {
             label: 'Plantas',
@@ -84,6 +86,7 @@ export const groups = [
       {
         name: 'Hongos',
         image: '/images/grupos-biologicos/hongos-bg.svg',
+        image_active: '/images/grupos-biologicos/hongos-white-bg.svg',
         statistics: [
           {
             label: 'Hongos',
@@ -108,6 +111,7 @@ export const groups = [
       {
         name: 'Bacterias',
         image: '/images/grupos-biologicos/bacterias-bg.svg',
+        image_active: '/images/grupos-biologicos/bacterias-white-bg.svg',
         statistics: [
           {
             label: 'Bacterias',
@@ -140,6 +144,7 @@ export const groups = [
       {
         name: 'Especies amenazadas',
         image: '/images/tematicas/especies-amenazadas.svg',
+        image_active: '/images/tematicas/especies-white-amenazadas.svg',
         statistics: [
           {
             label: 'Especies registradas',
@@ -181,6 +186,7 @@ export const groups = [
       {
         name: 'Especies endémicas',
         image: '/images/tematicas/especies-endemicas.svg',
+        image_active: '/images/tematicas/especies-white-endemicas.svg',
         statistics: [
           {
             label: 'Especies registradas',
@@ -222,6 +228,7 @@ export const groups = [
       {
         name: 'Especies exóticas',
         image: '/images/tematicas/especies-exoticas.svg',
+        image_active: '/images/tematicas/especies-white-exoticas.svg',
         statistics: [
           {
             label: 'Especies registradas',
@@ -263,6 +270,7 @@ export const groups = [
       {
         name: 'Especies CITES',
         image: '/images/tematicas/especies-CITES.svg',
+        image_active: '/images/tematicas/especies-white-CITES.svg',
         statistics: [
           {
             label: 'Especies registradas',
@@ -304,6 +312,7 @@ export const groups = [
       {
         name: 'Especies migratorias',
         image: '/images/tematicas/especies-migratorias.svg',
+        image_active: '/images/tematicas/especies-white-migratorias.svg',
         statistics: [
           {
             label: 'Especies registradas',
@@ -348,23 +357,27 @@ export const groups = [
     id: 'regiones',
     name: 'Regiones',
     color: 'blue-dark',
-    cols: 3,
+    cols: 6,
     items: [
       {
         name: 'Áreas protegidas',
-        image: '/images/regiones/areas-protegidas.svg'
+        image: '/images/regiones/areas-protegidas.svg',
+        image_active: '/images/regiones/areas-protegidas-white.svg'
       },
       {
         name: 'Áreas marinas',
-        image: '/images/regiones/areas-marinas.svg'
+        image: '/images/regiones/areas-marinas.svg',
+        image_active: '/images/regiones/areas-marinas-white.svg'
       },
       {
         name: 'Regiones naturales',
-        image: '/images/regiones/regiones-naturales.svg'
+        image: '/images/regiones/regiones-naturales.svg',
+        image_active: '/images/regiones/regiones-naturales-white.svg'
       },
       {
         name: 'Municipios',
         image: '/images/regiones/departamentos.svg',
+        image_active: '/images/regiones/departamentos-white.svg',
         statistics: '/images/public/graphic.svg',
         municipalities: [
           'Puerres',
@@ -374,11 +387,13 @@ export const groups = [
       },
       {
         name: 'Ecosistemas estratégicos',
-        image: '/images/regiones/ecosistemas-estratetigicos.svg'
+        image: '/images/regiones/ecosistemas-estratetigicos.svg',
+        image_active: '/images/regiones/ecosistemas-estratetigicos-white.svg'
       },
       {
         name: 'Territorios indígenas',
-        image: '/images/regiones/territorios-indigenas.svg'
+        image: '/images/regiones/territorios-indigenas.svg',
+        image_active: '/images/regiones/territorios-indigenas-white.svg'
       }
     ]
   }

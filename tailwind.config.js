@@ -12,7 +12,7 @@ module.exports = {
       'menu__name--active',
       'menu__panel--active',
       'justify-evenly',
-      'grid-cols-6'
+      'lg:grid-cols-6'
     ]
   },
   darkMode: false, // or 'media' or 'class'

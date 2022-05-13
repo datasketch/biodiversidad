@@ -11,7 +11,8 @@ module.exports = {
       'bg-banner-publicadores-desktop',
       'menu__name--active',
       'menu__panel--active',
-      'justify-evenly'
+      'justify-evenly',
+      'grid-cols-6'
     ]
   },
   darkMode: false, // or 'media' or 'class'

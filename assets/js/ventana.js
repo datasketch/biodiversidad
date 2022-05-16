@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
+import { ButtonToolbar, Dropdown } from 'rsuite'
 import { groups } from './data/cifras'
+
 
 const BiologicGroups = ({ data, name, isActive }) => {
   const { items } = data
@@ -173,6 +175,12 @@ const handleChangeMunicipality = (e) => {
 const TreeItem = ({ item, color, isActive, setIsActive, valueBreadCrumb, setValueBreadCrumb }) => {
   const isActiveItem = isActive && item.name === valueBreadCrumb;
 
+
+const handleShowDropdown = (e) => {
+  console.log(e)
+  }
+  
+
   const handleClick = (e) => {
     setValueBreadCrumb(e.target.closest('button').dataset.name)
     if (valueBreadCrumb === item.name) {
@@ -181,7 +189,6 @@ const TreeItem = ({ item, color, isActive, setIsActive, valueBreadCrumb, setValu
       setIsActive(true)
     }
   }
-  // const hasChildren = item.children && item.children.length
   return (
     <div className={`${isActiveItem ? `bg-${color}` : 'bg-white-3 '}`}>
       <button data-name={item.name} className={`w-full border ${isActiveItem ? 'border-white-3' : `border-t-${color} border-l-${color} border-r-${color}`}`} onClick={handleClick}>
@@ -194,12 +201,13 @@ const TreeItem = ({ item, color, isActive, setIsActive, valueBreadCrumb, setValu
           <p className={`mt-4 font-bold text-lg ${isActiveItem ? 'text-white-3' : 'text-black'}`}>{item.name}</p>
         </div>
       </button>
-      <button className={`block w-full border py-3 border-${color} ${isActiveItem ? 'cursor-pointer border-opacity-100': 'cursor-not-allowed border-opacity-50'}`} disabled={isActive && item.name == valueBreadCrumb ? false : true } onClick={(e) => console.log(e)}>
-        <img className={`mx-auto h-3 ${isActiveItem ? 'opacity-100' : 'opacity-50'}`} src={isActiveItem ? '/images/public/arrow-bottom-white.svg' : `/images/public/arrow-bottom-${color}.svg`} alt="arrow" />
+     <button className={`block w-full border py-3 border-${color} ${isActiveItem ? 'cursor-pointer border-opacity-100': 'cursor-not-allowed border-opacity-50'}`} disabled={isActive && item.name == valueBreadCrumb ? false : true } onClick={handleShowDropdown}>
+      <img className={`mx-auto h-3 ${isActiveItem ? 'opacity-100' : 'opacity-50'}`} src={isActiveItem ? '/images/public/arrow-bottom-white.svg' : `/images/public/arrow-bottom-${color}.svg`} alt="arrow" /> 
       </button>
     </div>
   )
 }
+
 
 const LayoutGroup = ({ children, setIsActive, isActive, valueBreadCrumb, color }) => {
   return (

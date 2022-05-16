@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ partial "breadcrumbs" . }}
-{{ partial "full-banner.html" (dict "titleBanner" .Title "banner" .Params.bgImage "subtitleBanner" .Params.subtitle "especiesRegistradas" .Params.especies_registradas "linearGradient" "rgba(5,75,133,1)") }}
+{{ partial "full-banner.html" (dict "titleBanner" .Title "banner" .Params.bgImage "subtitleBanner" .Params.subtitle
+"especiesRegistradas" .Params.especies_registradas "linearGradient" "rgba(5,75,133,1)") }}
 {{ if not (or (.Params.isDepartment) (.Params.isNaturalReserve) (.Params.isIndigenousReservation)) }}
 <div class="text-white bg-blue-dark py-12 lg:py-16 xl:py-20 space-y-10">
     <div class="mx-auto w-10/12 max-w-screen-xl text-white space-y-12 lg:space-y-16 xl:space-y-20">
@@ -8,7 +9,8 @@
             <div class="lg:w-1/2" style="max-width: 364px;">
                 <div class="flex justify-between">
                     <div class="space-y-4" style="max-width: 160px;">
-                        <p class="text-5xl xl:text-6xl font-semibold font-oswald">{{ .Params.especies_continentales }}</p>
+                        <p class="text-5xl xl:text-6xl font-semibold font-oswald">{{ .Params.especies_continentales }}
+                        </p>
                         <p class="text-base font-open-sans-condensed">Especies continentales</p>
                         <img src="/images/colombia/trazado-262.svg" alt="picos">
                         <p class="font-semibold text-lg xl:text-xl text-blue-ultra-light font-oswald">
@@ -74,22 +76,31 @@
                                 {{ .Title }} vs. Colombia
                             </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolor.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                consequat, vel illum dolor.
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                consequat.
                             </p>
                         </div>
                         <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
                             <h3 class="text-center mx-auto font-open-sans-condensed" style="max-width: 238px;">
-                                Especies registradas en {{ .Title }} vs. especies registradas en {{ if .Params.isDepartment }}
+                                Especies registradas en {{ .Title }} vs. especies registradas en {{ if
+                                .Params.isDepartment }}
                                 {{ .Parent.Title }}
                                 {{ else }}
                                 Colombia
                                 {{ end }}
                             </h3>
                             <div class="mx-auto w-11/12 h-full">
-                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg" alt="grafica circular">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
                             </div>
                         </div>
                     </div>
@@ -101,22 +112,31 @@
                                 {{ .Title }} vs. Colombia
                             </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolor.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                consequat, vel illum dolor.
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                consequat.
                             </p>
                         </div>
                         <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
                             <h3 class="text-center mx-auto font-open-sans-condensed" style="max-width: 238px;">
-                                Especies registradas en {{ .Title }} vs. especies registradas en {{ if .Params.isDepartment }}
+                                Especies registradas en {{ .Title }} vs. especies registradas en {{ if
+                                .Params.isDepartment }}
                                 {{ .Parent.Title }}
                                 {{ else }}
                                 Colombia
                                 {{ end }}
                             </h3>
                             <div class="mx-auto w-11/12 h-full">
-                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg" alt="grafica circular">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
                             </div>
                         </div>
                     </div>
@@ -128,22 +148,31 @@
                                 {{ .Title }} vs. Colombia
                             </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolor.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                consequat, vel illum dolor.
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                consequat.
                             </p>
                         </div>
                         <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
                             <h3 class="text-center mx-auto font-open-sans-condensed" style="max-width: 238px;">
-                                Especies registradas en {{ .Title }} vs. especies registradas en {{ if .Params.isDepartment }}
+                                Especies registradas en {{ .Title }} vs. especies registradas en {{ if
+                                .Params.isDepartment }}
                                 {{ .Parent.Title }}
                                 {{ else }}
                                 Colombia
                                 {{ end }}
                             </h3>
                             <div class="mx-auto w-11/12 h-full">
-                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg" alt="grafica circular">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
                             </div>
                         </div>
                     </div>
@@ -173,9 +202,10 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16">
                 {{ $currentTitle := .Title }}
                 {{ range .Parent.Pages }}
-                    {{ if not (eq $currentTitle .Title) }}
-                    {{ partial "image-box-gradient" (dict "title" .Title "subtitle" .Params.subtitle "urlImage" .Params.image "link" .Permalink "linearGradient" "rgba(5,75,133,1)") }}
-                    {{ end }}
+                {{ if not (eq $currentTitle .Title) }}
+                {{ partial "image-box-gradient" (dict "title" .Title "subtitle" .Params.subtitle "urlImage"
+                .Params.image "link" .Permalink "linearGradient" "rgba(5,75,133,1)") }}
+                {{ end }}
                 {{ end }}
             </div>
         </div>
@@ -190,7 +220,8 @@
         <div class="mx-auto xl:w-11/12">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16">
                 {{ range .Pages }}
-                {{ partial "image-box-gradient" (dict "title" .Title "urlImage" .Params.bgImage "link" .Permalink "linearGradient" "rgba(5,75,133,1)") }}
+                {{ partial "image-box-gradient" (dict "title" .Title "urlImage" .Params.bgImage "link" .Permalink
+                "linearGradient" "rgba(5,75,133,1)") }}
                 {{ end }}
             </div>
         </div>
@@ -207,48 +238,73 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad Nacional de Colombia" "logotipo" "/images/publicadores/universidad-nacional-colombia.jpg" "observaciones" "14020" "totalEspecies" "3434") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO"
+                    "publicadores" "Universidad Nacional de Colombia" "logotipo"
+                    "/images/publicadores/universidad-nacional-colombia.jpg"
+                    "observaciones" "14020" "totalEspecies" "3434") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "US" "publicadores" "Missouri Botanical Garden" "logotipo" "/images/publicadores/missouri.jpg" "observaciones" "10845" "totalEspecies" "2905") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "US"
+                    "publicadores" "Missouri Botanical Garden"
+                    "logotipo" "/images/publicadores/missouri.jpg" "observaciones" "10845" "totalEspecies"
+                    "2905") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad de nariño" "logotipo" "/images/publicadores/universidad-narino.jpg" "observaciones" "17801" "totalEspecies" "2647") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO"
+                    "publicadores" "Universidad de nariño"
+                    "logotipo" "/images/publicadores/universidad-narino.jpg" "observaciones" "17801"
+                    "totalEspecies" "2647") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt" "logotipo" "/images/publicadores/humbolt.jpg" "observaciones" "385640" "totalEspecies" "2193") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores"
+                    "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt" "logotipo"
+                    "/images/publicadores/humbolt.jpg" "observaciones" "385640" "totalEspecies" "2193") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad Nacional de Colombia" "logotipo" "/images/publicadores/universidad-nacional-colombia.jpg" "observaciones" "14020" "totalEspecies" "3434") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores"
+                    "Universidad Nacional de Colombia" "logotipo"
+                    "/images/publicadores/universidad-nacional-colombia.jpg"
+                    "observaciones" "14020" "totalEspecies" "3434") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "US" "publicadores" "Missouri Botanical Garden" "logotipo" "/images/publicadores/missouri.jpg" "observaciones" "10845" "totalEspecies" "2905") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "US" "publicadores"
+                    "Missouri Botanical Garden" "logotipo" "/images/publicadores/missouri.jpg" "observaciones" "10845"
+                    "totalEspecies"
+                    "2905") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad de nariño" "logotipo" "/images/publicadores/universidad-narino.jpg" "observaciones" "17801" "totalEspecies" "2647") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores"
+                    "Universidad de nariño" "logotipo" "/images/publicadores/universidad-narino.jpg" "observaciones"
+                    "17801" "totalEspecies" "2647") }}
                 </div>
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt" "logotipo" "/images/publicadores/humbolt.jpg" "observaciones" "385640" "totalEspecies" "2193") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores"
+                    "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt" "logotipo"
+                    "/images/publicadores/humbolt.jpg" "observaciones" "385640" "totalEspecies" "2193") }}
                 </div>
             </div>
             <div class="hidden lg:block">
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev swiper-button-prev-netflix swiper-button-prev-netflix--blue" style="top: 22px; left: 0; height: 100%; width: 52px;">
+                <div class="swiper-button-prev swiper-button-prev-netflix swiper-button-prev-netflix--blue"
+                    style="top: 22px; left: 0; height: 100%; width: 52px;">
                     <img src="/images/home/arrow-left.svg" alt="arrow left">
                 </div>
-                <div class="swiper-button-next swiper-button-next-netflix swiper-button-next-netflix--blue" style="top: 22px; right: 0; height: 100%; width: 52px;">
+                <div class="swiper-button-next swiper-button-next-netflix swiper-button-next-netflix--blue"
+                    style="top: 22px; right: 0; height: 100%; width: 52px;">
                     <img src="/images/home/arrow-right.svg" alt="arrow right">
                 </div>
             </div>
         </div>
         <div class="text-center">
-            <a class="font-open-sans py-3 px-6 text-base lg:text-lg border-2 border-white text-white text-center" href="#">
+            <a class="font-open-sans py-3 px-6 text-base lg:text-lg border-2 border-white text-white text-center"
+                href="#">
                 Conocer más
             </a>
         </div>
     </div>
 </div>
-{{ partial "app-map.html" (dict "titleMap" .Title "subtitle" .Params.subtitle "imageMap" "/images/regiones/map-narino.png" ) }}
+{{ partial "app-map.html" (dict "titleMap" .Title "subtitle" .Params.subtitle "imageMap"
+"/images/regiones/map-narino.png" ) }}
 <div class="mx-auto w-10/12 text-center py-12 space-y-12 lg:pb-16 xl:pb-20 ">
     <span class="font-bold">Con el apoyo de</span>
     <img class="mx-auto" src="/images/public/cinta-logos-proyecto.png" alt="logo colombia">

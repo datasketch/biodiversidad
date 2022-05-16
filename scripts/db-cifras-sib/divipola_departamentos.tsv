@@ -1,0 +1,34 @@
+slug	label	marino	fecha_corte
+antioquia	Antioquia	TRUE	2021-12-31
+atlantico	Atlántico	TRUE	2021-12-31
+bogota	Bogotá, D.C.	FALSE	2021-12-31
+bolivar	Bolívar	TRUE	2021-12-31
+boyaca	Boyacá	FALSE	2021-12-31
+caldas	Caldas	FALSE	2021-12-31
+caqueta	Caquetá	FALSE	2021-12-31
+cauca	Cauca	TRUE	2021-12-31
+cesar	Cesar	FALSE	2021-12-31
+cordoba	Córdoba	TRUE	2021-12-31
+cundinamarca	Cundinamarca	FALSE	2021-12-31
+choco	Chocó	TRUE	2021-12-31
+huila	Huila	FALSE	2021-12-31
+la-guajira	La Guajira	TRUE	2021-12-31
+magdalena	Magdalena	TRUE	2021-12-31
+meta	Meta	FALSE	2021-12-31
+narino	Nariño	TRUE	2021-12-31
+norte-santander	Norte de Santander	FALSE	2021-12-31
+quindio	Quindío	FALSE	2021-12-31
+risaralda	Risaralda	FALSE	2021-12-31
+santander	Santander	FALSE	2021-12-31
+sucre	Sucre	TRUE	2021-12-31
+tolima	Tolima	FALSE	2021-12-31
+valle-del-cauca	Valle del Cauca	TRUE	2021-12-31
+arauca	Arauca	FALSE	2021-12-31
+casanare	Casanare	FALSE	2021-12-31
+putumayo	Putumayo	FALSE	2021-12-31
+san-andres-providencia	Archipiélago de San Andrés, Providencia y Santa Catalina	TRUE	2021-12-31
+amazonas	Amazonas	FALSE	2021-12-31
+guainia	Guainía	FALSE	2021-12-31
+guaviare	Guaviare	FALSE	2021-12-31
+vaupes	Vaupés	FALSE	2021-12-31
+vichada	Vichada	FALSE	2021-12-31

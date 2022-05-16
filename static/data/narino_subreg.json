@@ -1,0 +1,261 @@
+{
+  "slug": "narino",
+  "children": [
+    {
+      "slug": "pasto",
+      "label": "Pasto"
+    },
+    {
+      "slug": "alban-nar",
+      "label": "Albán"
+    },
+    {
+      "slug": "aldana",
+      "label": "Aldana"
+    },
+    {
+      "slug": "ancuya",
+      "label": "Ancuya"
+    },
+    {
+      "slug": "arboleda",
+      "label": "Arboleda"
+    },
+    {
+      "slug": "barbacoas",
+      "label": "Barbacoas"
+    },
+    {
+      "slug": "belen-nar",
+      "label": "Belén"
+    },
+    {
+      "slug": "buesaco",
+      "label": "Buesaco"
+    },
+    {
+      "slug": "colon-nar",
+      "label": "Colón"
+    },
+    {
+      "slug": "consaca",
+      "label": "Consacá"
+    },
+    {
+      "slug": "contadero",
+      "label": "Contadero"
+    },
+    {
+      "slug": "cordoba-nar",
+      "label": "Córdoba"
+    },
+    {
+      "slug": "cuaspud",
+      "label": "Cuaspud"
+    },
+    {
+      "slug": "cumbal",
+      "label": "Cumbal"
+    },
+    {
+      "slug": "cumbitara",
+      "label": "Cumbitara"
+    },
+    {
+      "slug": "chachagui",
+      "label": "Chachagüí"
+    },
+    {
+      "slug": "el-charco",
+      "label": "El Charco"
+    },
+    {
+      "slug": "el-penol",
+      "label": "El Peñol"
+    },
+    {
+      "slug": "el-rosario",
+      "label": "El Rosario"
+    },
+    {
+      "slug": "el-tablon-de-gomez",
+      "label": "El Tablón de Gómez"
+    },
+    {
+      "slug": "el-tambo-nar",
+      "label": "El Tambo"
+    },
+    {
+      "slug": "funes",
+      "label": "Funes"
+    },
+    {
+      "slug": "guachucal",
+      "label": "Guachucal"
+    },
+    {
+      "slug": "guaitarilla",
+      "label": "Guaitarilla"
+    },
+    {
+      "slug": "gualmatan",
+      "label": "Gualmatán"
+    },
+    {
+      "slug": "iles",
+      "label": "Iles"
+    },
+    {
+      "slug": "imues",
+      "label": "Imués"
+    },
+    {
+      "slug": "ipiales",
+      "label": "Ipiales"
+    },
+    {
+      "slug": "la-cruz",
+      "label": "La Cruz"
+    },
+    {
+      "slug": "la-florida",
+      "label": "La Florida"
+    },
+    {
+      "slug": "la-llanada",
+      "label": "La Llanada"
+    },
+    {
+      "slug": "la-tola",
+      "label": "La Tola"
+    },
+    {
+      "slug": "la-union-nar",
+      "label": "La Unión"
+    },
+    {
+      "slug": "leiva",
+      "label": "Leiva"
+    },
+    {
+      "slug": "linares",
+      "label": "Linares"
+    },
+    {
+      "slug": "los-andes",
+      "label": "Los Andes"
+    },
+    {
+      "slug": "magui",
+      "label": "Magüí"
+    },
+    {
+      "slug": "mallama",
+      "label": "Mallama"
+    },
+    {
+      "slug": "mosquera-nar",
+      "label": "Mosquera"
+    },
+    {
+      "slug": "narino-nar",
+      "label": "Nariño"
+    },
+    {
+      "slug": "olaya-herrera",
+      "label": "Olaya Herrera"
+    },
+    {
+      "slug": "ospina",
+      "label": "Ospina"
+    },
+    {
+      "slug": "francisco-pizarro",
+      "label": "Francisco Pizarro"
+    },
+    {
+      "slug": "policarpa",
+      "label": "Policarpa"
+    },
+    {
+      "slug": "potosi",
+      "label": "Potosí"
+    },
+    {
+      "slug": "providencia-nar",
+      "label": "Providencia"
+    },
+    {
+      "slug": "puerres",
+      "label": "Puerres"
+    },
+    {
+      "slug": "pupiales",
+      "label": "Pupiales"
+    },
+    {
+      "slug": "ricaurte-nar",
+      "label": "Ricaurte"
+    },
+    {
+      "slug": "roberto-payan",
+      "label": "Roberto Payán"
+    },
+    {
+      "slug": "samaniego",
+      "label": "Samaniego"
+    },
+    {
+      "slug": "sandona",
+      "label": "Sandoná"
+    },
+    {
+      "slug": "san-bernardo-nar",
+      "label": "San Bernardo"
+    },
+    {
+      "slug": "san-lorenzo",
+      "label": "San Lorenzo"
+    },
+    {
+      "slug": "san-pablo-nar",
+      "label": "San Pablo"
+    },
+    {
+      "slug": "san-pedro-de-cartago",
+      "label": "San Pedro de Cartago"
+    },
+    {
+      "slug": "santa-barbara-nar",
+      "label": "Santa Bárbara"
+    },
+    {
+      "slug": "santacruz",
+      "label": "Santacruz"
+    },
+    {
+      "slug": "sapuyes",
+      "label": "Sapuyes"
+    },
+    {
+      "slug": "taminango",
+      "label": "Taminango"
+    },
+    {
+      "slug": "tangua",
+      "label": "Tangua"
+    },
+    {
+      "slug": "san-andres-de-tumaco",
+      "label": "San Andrés de Tumaco"
+    },
+    {
+      "slug": "tuquerres",
+      "label": "Túquerres"
+    },
+    {
+      "slug": "yacuanquer",
+      "label": "Yacuanquer"
+    }
+  ]
+}

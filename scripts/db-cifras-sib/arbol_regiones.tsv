@@ -1,0 +1,1150 @@
+parent	slug	label	description
+0	colombia	Colombia	
+0	territorios-indigenas	Territorios indígenas	Los resguardos indígenas son propiedad colectiva de las comunidades indígenas con un carácter legal y sociopolítico de carácter especial, conformada por una o más comunidades indígenas, que con un título de propiedad colectiva goza de las garantías de la propiedad privada. Poseen su territorio y se rigen para el manejo de éste y su vida interna por una organización autónoma amparada por el fuero indígena y su sistema normativo propio.
+0	reservas-naturales	Reservas naturales	Áreas dentro de un territorio determinado que se encuentran protegidas por su importancia para la vida silvestre.
+reservas-naturales	reserva-natural-la-planada	Reserva natural La Planada	
+territorios-indigenas	resguardo-indigena-de-pialapi-pueblo-viejo	Resguardo Indigena De Pialapi Pueblo Viejo	
+colombia	antioquia	Antioquia	
+colombia	atlantico	Atlántico	
+colombia	bogota	Bogotá, D.C.	
+colombia	bolivar	Bolívar	
+colombia	boyaca	Boyacá	
+colombia	caldas	Caldas	
+colombia	caqueta	Caquetá	
+colombia	cauca	Cauca	
+colombia	cesar	Cesar	
+colombia	cordoba	Córdoba	
+colombia	cundinamarca	Cundinamarca	
+colombia	choco	Chocó	
+colombia	huila	Huila	
+colombia	la-guajira	La Guajira	
+colombia	magdalena	Magdalena	
+colombia	meta	Meta	
+colombia	narino	Nariño	
+colombia	norte-santander	Norte de Santander	
+colombia	quindio	Quindío	
+colombia	risaralda	Risaralda	
+colombia	santander	Santander	
+colombia	sucre	Sucre	
+colombia	tolima	Tolima	
+colombia	valle-del-cauca	Valle del Cauca	
+colombia	arauca	Arauca	
+colombia	casanare	Casanare	
+colombia	putumayo	Putumayo	
+colombia	san-andres-providencia	Archipiélago de San Andrés, Providencia y Santa Catalina	
+colombia	amazonas	Amazonas	
+colombia	guainia	Guainía	
+colombia	guaviare	Guaviare	
+colombia	vaupes	Vaupés	
+colombia	vichada	Vichada	
+amazonas	leticia	Leticia	
+amazonas	el-encanto	El Encanto	
+amazonas	la-chorrera	La Chorrera	
+amazonas	la-pedrera	La Pedrera	
+amazonas	la-victoria-ama	La Victoria	
+amazonas	miriti-parana	Mirití - Paraná	
+amazonas	puerto-alegria	Puerto Alegría	
+amazonas	puerto-arica	Puerto Arica	
+amazonas	puerto-narino	Puerto Nariño	
+amazonas	puerto-santander-ama	Puerto Santander	
+amazonas	tarapaca	Tarapacá	
+antioquia	medellin	Medellín	
+antioquia	abejorral	Abejorral	
+antioquia	abriaqui	Abriaquí	
+antioquia	alejandria	Alejandría	
+antioquia	amaga	Amagá	
+antioquia	amalfi	Amalfi	
+antioquia	andes	Andes	
+antioquia	angelopolis	Angelópolis	
+antioquia	angostura	Angostura	
+antioquia	anori	Anorí	
+antioquia	santa-fe-de-antioquia	Santa Fé de Antioquia	
+antioquia	anza	Anzá	
+antioquia	apartado	Apartadó	
+antioquia	arboletes	Arboletes	
+antioquia	argelia-ant	Argelia	
+antioquia	armenia-ant	Armenia	
+antioquia	barbosa-ant	Barbosa	
+antioquia	belmira	Belmira	
+antioquia	bello	Bello	
+antioquia	betania	Betania	
+antioquia	betulia-ant	Betulia	
+antioquia	ciudad-bolivar	Ciudad Bolívar	
+antioquia	briceno-ant	Briceño	
+antioquia	buritica	Buriticá	
+antioquia	caceres	Cáceres	
+antioquia	caicedo	Caicedo	
+antioquia	caldas-ant	Caldas	
+antioquia	campamento	Campamento	
+antioquia	canasgordas	Cañasgordas	
+antioquia	caracoli	Caracolí	
+antioquia	caramanta	Caramanta	
+antioquia	carepa	Carepa	
+antioquia	el-carmen-de-viboral	El Carmen de Viboral	
+antioquia	carolina	Carolina	
+antioquia	caucasia	Caucasia	
+antioquia	chigorodo	Chigorodó	
+antioquia	cisneros	Cisneros	
+antioquia	cocorna	Cocorná	
+antioquia	concepcion-ant	Concepción	
+antioquia	concordia-ant	Concordia	
+antioquia	copacabana	Copacabana	
+antioquia	dabeiba	Dabeiba	
+antioquia	donmatias	Donmatías	
+antioquia	ebejico	Ebéjico	
+antioquia	el-bagre	El Bagre	
+antioquia	entrerrios	Entrerríos	
+antioquia	envigado	Envigado	
+antioquia	fredonia	Fredonia	
+antioquia	frontino	Frontino	
+antioquia	giraldo	Giraldo	
+antioquia	girardota	Girardota	
+antioquia	gomez-plata	Gómez Plata	
+antioquia	granada-ant	Granada	
+antioquia	guadalupe-ant	Guadalupe	
+antioquia	guarne	Guarne	
+antioquia	guatape	Guatapé	
+antioquia	heliconia	Heliconia	
+antioquia	hispania	Hispania	
+antioquia	itagui	Itaguí	
+antioquia	ituango	Ituango	
+antioquia	jardin	Jardín	
+antioquia	jerico-ant	Jericó	
+antioquia	la-ceja	La Ceja	
+antioquia	la-estrella	La Estrella	
+antioquia	la-pintada	La Pintada	
+antioquia	la-union-ant	La Unión	
+antioquia	liborina	Liborina	
+antioquia	maceo	Maceo	
+antioquia	marinilla	Marinilla	
+antioquia	montebello	Montebello	
+antioquia	murindo	Murindó	
+antioquia	mutata	Mutatá	
+antioquia	narino-ant	Nariño	
+antioquia	necocli	Necoclí	
+antioquia	nechi	Nechí	
+antioquia	olaya	Olaya	
+antioquia	penol	Peñol	
+antioquia	peque	Peque	
+antioquia	pueblorrico	Pueblorrico	
+antioquia	puerto-berrio	Puerto Berrío	
+antioquia	puerto-nare	Puerto Nare	
+antioquia	puerto-triunfo	Puerto Triunfo	
+antioquia	remedios	Remedios	
+antioquia	retiro	Retiro	
+antioquia	rionegro-ant	Rionegro	
+antioquia	sabanalarga-ant	Sabanalarga	
+antioquia	sabaneta	Sabaneta	
+antioquia	salgar	Salgar	
+antioquia	san-andres-de-cuerquia	San Andrés de Cuerquía	
+antioquia	san-carlos-ant	San Carlos	
+antioquia	san-francisco-ant	San Francisco	
+antioquia	san-jeronimo	San Jerónimo	
+antioquia	san-jose-de-la-montana	San José de la Montaña	
+antioquia	san-juan-de-uraba	San Juan de Urabá	
+antioquia	san-luis-ant	San Luis	
+antioquia	san-pedro-de-los-milagros	San Pedro de los Milagros	
+antioquia	san-pedro-de-uraba	San Pedro de Urabá	
+antioquia	san-rafael	San Rafael	
+antioquia	san-roque	San Roque	
+antioquia	san-vicente-ferrer	San Vicente Ferrer	
+antioquia	santa-barbara-ant	Santa Bárbara	
+antioquia	santa-rosa-de-osos	Santa Rosa de Osos	
+antioquia	santo-domingo	Santo Domingo	
+antioquia	el-santuario	El Santuario	
+antioquia	segovia	Segovia	
+antioquia	sonson	Sonsón	
+antioquia	sopetran	Sopetrán	
+antioquia	tamesis	Támesis	
+antioquia	taraza	Tarazá	
+antioquia	tarso	Tarso	
+antioquia	titiribi	Titiribí	
+antioquia	toledo-ant	Toledo	
+antioquia	turbo	Turbo	
+antioquia	uramita	Uramita	
+antioquia	urrao	Urrao	
+antioquia	valdivia	Valdivia	
+antioquia	valparaiso-ant	Valparaíso	
+antioquia	vegachi	Vegachí	
+antioquia	venecia-ant	Venecia	
+antioquia	vigia-del-fuerte	Vigía del Fuerte	
+antioquia	yali	Yalí	
+antioquia	yarumal	Yarumal	
+antioquia	yolombo	Yolombó	
+antioquia	yondo	Yondó	
+antioquia	zaragoza	Zaragoza	
+arauca	arauca-ara	Arauca	
+arauca	arauquita	Arauquita	
+arauca	cravo-norte	Cravo Norte	
+arauca	fortul	Fortul	
+arauca	puerto-rondon	Puerto Rondón	
+arauca	saravena	Saravena	
+arauca	tame	Tame	
+san-andres-providencia	san-andres-sap	San Andrés	
+san-andres-providencia	providencia-sap	Providencia	
+atlantico	barranquilla	Barranquilla	
+atlantico	baranoa	Baranoa	
+atlantico	campo-de-la-cruz	Campo de la Cruz	
+atlantico	candelaria-atl	Candelaria	
+atlantico	galapa	Galapa	
+atlantico	juan-de-acosta	Juan de Acosta	
+atlantico	luruaco	Luruaco	
+atlantico	malambo	Malambo	
+atlantico	manati	Manatí	
+atlantico	palmar-de-varela	Palmar de Varela	
+atlantico	piojo	Piojó	
+atlantico	polonuevo	Polonuevo	
+atlantico	ponedera	Ponedera	
+atlantico	puerto-colombia	Puerto Colombia	
+atlantico	repelon	Repelón	
+atlantico	sabanagrande	Sabanagrande	
+atlantico	santa-lucia	Santa Lucía	
+atlantico	santo-tomas	Santo Tomás	
+atlantico	soledad	Soledad	
+atlantico	suan	Suan	
+atlantico	tubara	Tubará	
+atlantico	usiacuri	Usiacurí	
+bogota	bogota-dc	Bogotá, D.C.	
+bolivar	achi	Achí	
+bolivar	altos-del-rosario	Altos del Rosario	
+bolivar	arenal	Arenal	
+bolivar	arjona	Arjona	
+bolivar	arroyohondo	Arroyohondo	
+bolivar	barranco-de-loba	Barranco de Loba	
+bolivar	calamar-bol	Calamar	
+bolivar	cantagallo	Cantagallo	
+bolivar	cartagena	Cartagena de Indias	
+bolivar	cicuco	Cicuco	
+bolivar	clemencia	Clemencia	
+bolivar	cordoba-bol	Córdoba	
+bolivar	el-carmen-de-bolivar	El Carmen de Bolívar	
+bolivar	el-guamo	El Guamo	
+bolivar	el-penon-bol	El Peñón	
+bolivar	hatillo-de-loba	Hatillo de Loba	
+bolivar	magangue	Magangué	
+bolivar	mahates	Mahates	
+bolivar	margarita	Margarita	
+bolivar	maria-la-baja	María la Baja	
+bolivar	montecristo	Montecristo	
+bolivar	morales-bol	Morales	
+bolivar	norosi	Norosí	
+bolivar	pinillos	Pinillos	
+bolivar	regidor	Regidor	
+bolivar	rio-viejo	Río Viejo	
+bolivar	san-cristobal	San Cristóbal	
+bolivar	san-estanislao	San Estanislao	
+bolivar	san-fernando	San Fernando	
+bolivar	san-jacinto	San Jacinto	
+bolivar	san-jacinto-del-cauca	San Jacinto del Cauca	
+bolivar	san-juan-nepomuceno	San Juan Nepomuceno	
+bolivar	san-martin-de-loba	San Martín de Loba	
+bolivar	san-pablo-bol	San Pablo	
+bolivar	santa-catalina	Santa Catalina	
+bolivar	santa-cruz-de-mompox	Santa Cruz de Mompox	
+bolivar	santa-rosa-bol	Santa Rosa	
+bolivar	santa-rosa-del-sur	Santa Rosa del Sur	
+bolivar	simiti	Simití	
+bolivar	soplaviento	Soplaviento	
+bolivar	talaigua-nuevo	Talaigua Nuevo	
+bolivar	tiquisio	Tiquisio	
+bolivar	turbaco	Turbaco	
+bolivar	turbana	Turbaná	
+bolivar	villanueva-bol	Villanueva	
+bolivar	zambrano	Zambrano	
+boyaca	tunja	Tunja	
+boyaca	almeida	Almeida	
+boyaca	aquitania	Aquitania	
+boyaca	arcabuco	Arcabuco	
+boyaca	belen-boy	Belén	
+boyaca	berbeo	Berbeo	
+boyaca	beteitiva	Betéitiva	
+boyaca	boavita	Boavita	
+boyaca	boyaca-boy	Boyacá	
+boyaca	briceno-boy	Briceño	
+boyaca	buenavista-boy	Buenavista	
+boyaca	busbanza	Busbanzá	
+boyaca	caldas-boy	Caldas	
+boyaca	campohermoso	Campohermoso	
+boyaca	cerinza	Cerinza	
+boyaca	chinavita	Chinavita	
+boyaca	chiquinquira	Chiquinquirá	
+boyaca	chiscas	Chiscas	
+boyaca	chita	Chita	
+boyaca	chitaraque	Chitaraque	
+boyaca	chivata	Chivatá	
+boyaca	cienega	Ciénega	
+boyaca	combita	Cómbita	
+boyaca	coper	Coper	
+boyaca	corrales	Corrales	
+boyaca	covarachia	Covarachía	
+boyaca	cubara	Cubará	
+boyaca	cucaita	Cucaita	
+boyaca	cuitiva	Cuítiva	
+boyaca	chiquiza	Chíquiza	
+boyaca	chivor	Chivor	
+boyaca	duitama	Duitama	
+boyaca	el-cocuy	El Cocuy	
+boyaca	el-espino	El Espino	
+boyaca	firavitoba	Firavitoba	
+boyaca	floresta	Floresta	
+boyaca	gachantiva	Gachantivá	
+boyaca	gameza	Gámeza	
+boyaca	garagoa	Garagoa	
+boyaca	guacamayas	Guacamayas	
+boyaca	guateque	Guateque	
+boyaca	guayata	Guayatá	
+boyaca	guican-de-la-sierra	Güicán de la Sierra	
+boyaca	iza	Iza	
+boyaca	jenesano	Jenesano	
+boyaca	jerico-boy	Jericó	
+boyaca	labranzagrande	Labranzagrande	
+boyaca	la-capilla	La Capilla	
+boyaca	la-victoria-boy	La Victoria	
+boyaca	la-uvita	La Uvita	
+boyaca	villa-de-leyva	Villa de Leyva	
+boyaca	macanal	Macanal	
+boyaca	maripi	Maripí	
+boyaca	miraflores-boy	Miraflores	
+boyaca	mongua	Mongua	
+boyaca	mongui	Monguí	
+boyaca	moniquira	Moniquirá	
+boyaca	motavita	Motavita	
+boyaca	muzo	Muzo	
+boyaca	nobsa	Nobsa	
+boyaca	nuevo-colon	Nuevo Colón	
+boyaca	oicata	Oicatá	
+boyaca	otanche	Otanche	
+boyaca	pachavita	Pachavita	
+boyaca	paez-boy	Páez	
+boyaca	paipa	Paipa	
+boyaca	pajarito	Pajarito	
+boyaca	panqueba	Panqueba	
+boyaca	pauna	Pauna	
+boyaca	paya	Paya	
+boyaca	paz-de-rio	Paz de Río	
+boyaca	pesca	Pesca	
+boyaca	pisba	Pisba	
+boyaca	puerto-boyaca	Puerto Boyacá	
+boyaca	quipama	Quípama	
+boyaca	ramiriqui	Ramiriquí	
+boyaca	raquira	Ráquira	
+boyaca	rondon	Rondón	
+boyaca	saboya	Saboyá	
+boyaca	sachica	Sáchica	
+boyaca	samaca	Samacá	
+boyaca	san-eduardo	San Eduardo	
+boyaca	san-jose-de-pare	San José de Pare	
+boyaca	san-luis-de-gaceno	San Luis de Gaceno	
+boyaca	san-mateo	San Mateo	
+boyaca	san-miguel-de-sema	San Miguel de Sema	
+boyaca	san-pablo-de-borbur	San Pablo de Borbur	
+boyaca	santana	Santana	
+boyaca	santa-maria-boy	Santa María	
+boyaca	santa-rosa-de-viterbo	Santa Rosa de Viterbo	
+boyaca	santa-sofia	Santa Sofía	
+boyaca	sativanorte	Sativanorte	
+boyaca	sativasur	Sativasur	
+boyaca	siachoque	Siachoque	
+boyaca	soata	Soatá	
+boyaca	socota	Socotá	
+boyaca	socha	Socha	
+boyaca	sogamoso	Sogamoso	
+boyaca	somondoco	Somondoco	
+boyaca	sora	Sora	
+boyaca	sotaquira	Sotaquirá	
+boyaca	soraca	Soracá	
+boyaca	susacon	Susacón	
+boyaca	sutamarchan	Sutamarchán	
+boyaca	sutatenza	Sutatenza	
+boyaca	tasco	Tasco	
+boyaca	tenza	Tenza	
+boyaca	tibana	Tibaná	
+boyaca	tibasosa	Tibasosa	
+boyaca	tinjaca	Tinjacá	
+boyaca	tipacoque	Tipacoque	
+boyaca	toca	Toca	
+boyaca	togui	Togüí	
+boyaca	topaga	Tópaga	
+boyaca	tota	Tota	
+boyaca	tunungua	Tununguá	
+boyaca	turmeque	Turmequé	
+boyaca	tuta	Tuta	
+boyaca	tutaza	Tutazá	
+boyaca	umbita	Úmbita	
+boyaca	ventaquemada	Ventaquemada	
+boyaca	viracacha	Viracachá	
+boyaca	zetaquira	Zetaquira	
+caldas	manizales	Manizales	
+caldas	aguadas	Aguadas	
+caldas	anserma	Anserma	
+caldas	aranzazu	Aranzazu	
+caldas	belalcazar	Belalcázar	
+caldas	chinchina	Chinchiná	
+caldas	filadelfia	Filadelfia	
+caldas	la-dorada	La Dorada	
+caldas	la-merced	La Merced	
+caldas	manzanares	Manzanares	
+caldas	marmato	Marmato	
+caldas	marquetalia	Marquetalia	
+caldas	marulanda	Marulanda	
+caldas	neira	Neira	
+caldas	norcasia	Norcasia	
+caldas	pacora	Pácora	
+caldas	palestina-cal	Palestina	
+caldas	pensilvania	Pensilvania	
+caldas	riosucio-cal	Riosucio	
+caldas	risaralda-cal	Risaralda	
+caldas	salamina-cal	Salamina	
+caldas	samana	Samaná	
+caldas	san-jose	San José	
+caldas	supia	Supía	
+caldas	victoria	Victoria	
+caldas	villamaria	Villamaría	
+caldas	viterbo	Viterbo	
+caqueta	florencia-caq	Florencia	
+caqueta	albania-caq	Albania	
+caqueta	belen-de-los-andaquies	Belén de los Andaquíes	
+caqueta	cartagena-del-chaira	Cartagena del Chairá	
+caqueta	curillo	Curillo	
+caqueta	el-doncello	El Doncello	
+caqueta	el-paujil	El Paujíl	
+caqueta	la-montanita	La Montañita	
+caqueta	milan	Milán	
+caqueta	morelia	Morelia	
+caqueta	puerto-rico-caq	Puerto Rico	
+caqueta	san-jose-del-fragua	San José del Fragua	
+caqueta	san-vicente-del-caguan	San Vicente del Caguán	
+caqueta	solano	Solano	
+caqueta	solita	Solita	
+caqueta	valparaiso-caq	Valparaíso	
+casanare	yopal	Yopal	
+casanare	aguazul	Aguazul	
+casanare	chameza	Chámeza	
+casanare	hato-corozal	Hato Corozal	
+casanare	la-salina	La Salina	
+casanare	mani	Maní	
+casanare	monterrey	Monterrey	
+casanare	nunchia	Nunchía	
+casanare	orocue	Orocué	
+casanare	paz-de-ariporo	Paz de Ariporo	
+casanare	pore	Pore	
+casanare	recetor	Recetor	
+casanare	sabanalarga-cas	Sabanalarga	
+casanare	sacama	Sácama	
+casanare	san-luis-de-palenque	San Luis de Palenque	
+casanare	tamara	Támara	
+casanare	tauramena	Tauramena	
+casanare	trinidad	Trinidad	
+casanare	villanueva-cas	Villanueva	
+cauca	popayan	Popayán	
+cauca	almaguer	Almaguer	
+cauca	argelia-cau	Argelia	
+cauca	balboa-cau	Balboa	
+cauca	bolivar-cau	Bolívar	
+cauca	buenos-aires	Buenos Aires	
+cauca	cajibio	Cajibío	
+cauca	caldono	Caldono	
+cauca	caloto	Caloto	
+cauca	corinto	Corinto	
+cauca	el-tambo-cau	El Tambo	
+cauca	florencia-cau	Florencia	
+cauca	guachene	Guachené	
+cauca	guapi	Guapi	
+cauca	inza	Inzá	
+cauca	jambalo	Jambaló	
+cauca	la-sierra	La Sierra	
+cauca	la-vega-cau	La Vega	
+cauca	lopez-de-micay	López de Micay	
+cauca	mercaderes	Mercaderes	
+cauca	miranda	Miranda	
+cauca	morales-cau	Morales	
+cauca	padilla	Padilla	
+cauca	paez-cau	Páez	
+cauca	patia	Patía	
+cauca	piamonte	Piamonte	
+cauca	piendamo-tunia	Piendamó - Tunía	
+cauca	puerto-tejada	Puerto Tejada	
+cauca	purace	Puracé	
+cauca	rosas	Rosas	
+cauca	san-sebastian	San Sebastián	
+cauca	santander-de-quilichao	Santander de Quilichao	
+cauca	santa-rosa-cau	Santa Rosa	
+cauca	silvia	Silvia	
+cauca	sotara-paispamba	Sotará - Paispamba	
+cauca	suarez-cau	Suárez	
+cauca	sucre-cau	Sucre	
+cauca	timbio	Timbío	
+cauca	timbiqui	Timbiquí	
+cauca	toribio	Toribío	
+cauca	totoro	Totoró	
+cauca	villa-rica	Villa Rica	
+cesar	valledupar	Valledupar	
+cesar	aguachica	Aguachica	
+cesar	agustin-codazzi	Agustín Codazzi	
+cesar	astrea	Astrea	
+cesar	becerril	Becerril	
+cesar	bosconia	Bosconia	
+cesar	chimichagua	Chimichagua	
+cesar	chiriguana	Chiriguaná	
+cesar	curumani	Curumaní	
+cesar	el-copey	El Copey	
+cesar	el-paso	El Paso	
+cesar	gamarra	Gamarra	
+cesar	gonzalez	González	
+cesar	la-gloria	La Gloria	
+cesar	la-jagua-de-ibirico	La Jagua de Ibirico	
+cesar	manaure-balcon-del-cesar	Manaure Balcón del Cesar	
+cesar	pailitas	Pailitas	
+cesar	pelaya	Pelaya	
+cesar	pueblo-bello	Pueblo Bello	
+cesar	rio-de-oro	Río de Oro	
+cesar	la-paz-ces	La Paz	
+cesar	san-alberto	San Alberto	
+cesar	san-diego	San Diego	
+cesar	san-martin-ces	San Martín	
+cesar	tamalameque	Tamalameque	
+choco	quibdo	Quibdó	
+choco	acandi	Acandí	
+choco	alto-baudo	Alto Baudó	
+choco	atrato	Atrato	
+choco	bagado	Bagadó	
+choco	bahia-solano	Bahía Solano	
+choco	bajo-baudo	Bajo Baudó	
+choco	bojaya	Bojayá	
+choco	el-canton-del-san-pablo	El Cantón del San Pablo	
+choco	carmen-del-darien	Carmen del Darién	
+choco	certegui	Cértegui	
+choco	condoto	Condoto	
+choco	el-carmen-de-atrato	El Carmen de Atrato	
+choco	el-litoral-del-san-juan	El Litoral del San Juan	
+choco	istmina	Istmina	
+choco	jurado	Juradó	
+choco	lloro	Lloró	
+choco	medio-atrato	Medio Atrato	
+choco	medio-baudo	Medio Baudó	
+choco	medio-san-juan	Medio San Juan	
+choco	novita	Nóvita	
+choco	nuqui	Nuquí	
+choco	rio-iro	Río Iró	
+choco	rio-quito	Río Quito	
+choco	riosucio-cho	Riosucio	
+choco	san-jose-del-palmar	San José del Palmar	
+choco	sipi	Sipí	
+choco	tado	Tadó	
+choco	unguia	Unguía	
+choco	union-panamericana	Unión Panamericana	
+choco	monteria	Montería	
+choco	ayapel	Ayapel	
+choco	buenavista-cho	Buenavista	
+choco	canalete	Canalete	
+choco	cerete	Cereté	
+choco	chima-cho	Chimá	
+choco	chinu	Chinú	
+choco	cienaga-de-oro	Ciénaga de Oro	
+choco	cotorra	Cotorra	
+choco	la-apartada	La Apartada	
+choco	lorica	Lorica	
+choco	los-cordobas	Los Córdobas	
+choco	momil	Momil	
+choco	montelibano	Montelíbano	
+choco	monitos	Moñitos	
+choco	planeta-rica	Planeta Rica	
+choco	pueblo-nuevo	Pueblo Nuevo	
+choco	puerto-escondido	Puerto Escondido	
+choco	puerto-libertador	Puerto Libertador	
+choco	purisima-de-la-concepcion	Purísima de la Concepción	
+choco	sahagun	Sahagún	
+choco	san-andres-de-sotavento	San Andrés de Sotavento	
+choco	san-antero	San Antero	
+choco	san-bernardo-del-viento	San Bernardo del Viento	
+choco	san-carlos-cho	San Carlos	
+choco	san-jose-de-ure	San José de Uré	
+choco	san-pelayo	San Pelayo	
+choco	tierralta	Tierralta	
+choco	tuchin	Tuchín	
+choco	valencia	Valencia	
+cundinamarca	agua-de-dios	Agua de Dios	
+cundinamarca	alban-cun	Albán	
+cundinamarca	anapoima	Anapoima	
+cundinamarca	anolaima	Anolaima	
+cundinamarca	arbelaez	Arbeláez	
+cundinamarca	beltran	Beltrán	
+cundinamarca	bituima	Bituima	
+cundinamarca	bojaca	Bojacá	
+cundinamarca	cabrera-cun	Cabrera	
+cundinamarca	cachipay	Cachipay	
+cundinamarca	cajica	Cajicá	
+cundinamarca	caparrapi	Caparrapí	
+cundinamarca	caqueza	Cáqueza	
+cundinamarca	carmen-de-carupa	Carmen de Carupa	
+cundinamarca	chaguani	Chaguaní	
+cundinamarca	chia	Chía	
+cundinamarca	chipaque	Chipaque	
+cundinamarca	choachi	Choachí	
+cundinamarca	choconta	Chocontá	
+cundinamarca	cogua	Cogua	
+cundinamarca	cota	Cota	
+cundinamarca	cucunuba	Cucunubá	
+cundinamarca	el-colegio	El Colegio	
+cundinamarca	el-penon-cun	El Peñón	
+cundinamarca	el-rosal	El Rosal	
+cundinamarca	facatativa	Facatativá	
+cundinamarca	fomeque	Fómeque	
+cundinamarca	fosca	Fosca	
+cundinamarca	funza	Funza	
+cundinamarca	fuquene	Fúquene	
+cundinamarca	fusagasuga	Fusagasugá	
+cundinamarca	gachala	Gachalá	
+cundinamarca	gachancipa	Gachancipá	
+cundinamarca	gacheta	Gachetá	
+cundinamarca	gama	Gama	
+cundinamarca	girardot	Girardot	
+cundinamarca	granada-cun	Granada	
+cundinamarca	guacheta	Guachetá	
+cundinamarca	guaduas	Guaduas	
+cundinamarca	guasca	Guasca	
+cundinamarca	guataqui	Guataquí	
+cundinamarca	guatavita	Guatavita	
+cundinamarca	guayabal-de-siquima	Guayabal de Síquima	
+cundinamarca	guayabetal	Guayabetal	
+cundinamarca	gutierrez	Gutiérrez	
+cundinamarca	jerusalen	Jerusalén	
+cundinamarca	junin	Junín	
+cundinamarca	la-calera	La Calera	
+cundinamarca	la-mesa	La Mesa	
+cundinamarca	la-palma	La Palma	
+cundinamarca	la-pena	La Peña	
+cundinamarca	la-vega-cun	La Vega	
+cundinamarca	lenguazaque	Lenguazaque	
+cundinamarca	macheta	Machetá	
+cundinamarca	madrid	Madrid	
+cundinamarca	manta	Manta	
+cundinamarca	medina	Medina	
+cundinamarca	mosquera-cun	Mosquera	
+cundinamarca	narino-cun	Nariño	
+cundinamarca	nemocon	Nemocón	
+cundinamarca	nilo	Nilo	
+cundinamarca	nimaima	Nimaima	
+cundinamarca	nocaima	Nocaima	
+cundinamarca	venecia-cun	Venecia	
+cundinamarca	pacho	Pacho	
+cundinamarca	paime	Paime	
+cundinamarca	pandi	Pandi	
+cundinamarca	paratebueno	Paratebueno	
+cundinamarca	pasca	Pasca	
+cundinamarca	puerto-salgar	Puerto Salgar	
+cundinamarca	puli	Pulí	
+cundinamarca	quebradanegra	Quebradanegra	
+cundinamarca	quetame	Quetame	
+cundinamarca	quipile	Quipile	
+cundinamarca	apulo	Apulo	
+cundinamarca	ricaurte-cun	Ricaurte	
+cundinamarca	san-antonio-del-tequendama	San Antonio del Tequendama	
+cundinamarca	san-bernardo-cun	San Bernardo	
+cundinamarca	san-cayetano-cun	San Cayetano	
+cundinamarca	san-francisco-cun	San Francisco	
+cundinamarca	san-juan-de-rioseco	San Juan de Rioseco	
+cundinamarca	sasaima	Sasaima	
+cundinamarca	sesquile	Sesquilé	
+cundinamarca	sibate	Sibaté	
+cundinamarca	silvania	Silvania	
+cundinamarca	simijaca	Simijaca	
+cundinamarca	soacha	Soacha	
+cundinamarca	sopo	Sopó	
+cundinamarca	subachoque	Subachoque	
+cundinamarca	suesca	Suesca	
+cundinamarca	supata	Supatá	
+cundinamarca	susa	Susa	
+cundinamarca	sutatausa	Sutatausa	
+cundinamarca	tabio	Tabio	
+cundinamarca	tausa	Tausa	
+cundinamarca	tena	Tena	
+cundinamarca	tenjo	Tenjo	
+cundinamarca	tibacuy	Tibacuy	
+cundinamarca	tibirita	Tibirita	
+cundinamarca	tocaima	Tocaima	
+cundinamarca	tocancipa	Tocancipá	
+cundinamarca	topaipi	Topaipí	
+cundinamarca	ubala	Ubalá	
+cundinamarca	ubaque	Ubaque	
+cundinamarca	villa-de-san-diego-de-ubate	Villa de San Diego de Ubaté	
+cundinamarca	une	Une	
+cundinamarca	utica	Útica	
+cundinamarca	vergara	Vergara	
+cundinamarca	viani	Vianí	
+cundinamarca	villagomez	Villagómez	
+cundinamarca	villapinzon	Villapinzón	
+cundinamarca	villeta	Villeta	
+cundinamarca	viota	Viotá	
+cundinamarca	yacopi	Yacopí	
+cundinamarca	zipacon	Zipacón	
+cundinamarca	zipaquira	Zipaquirá	
+guainia	inirida	Inírida	
+guainia	barrancominas	Barrancominas	
+guaviare	san-jose-del-guaviare	San José del Guaviare	
+guaviare	calamar-guv	Calamar	
+guaviare	el-retorno	El Retorno	
+guaviare	miraflores-guv	Miraflores	
+huila	neiva	Neiva	
+huila	acevedo	Acevedo	
+huila	agrado	Agrado	
+huila	aipe	Aipe	
+huila	algeciras	Algeciras	
+huila	altamira	Altamira	
+huila	baraya	Baraya	
+huila	campoalegre	Campoalegre	
+huila	colombia-hui	Colombia	
+huila	elias	Elías	
+huila	garzon	Garzón	
+huila	gigante	Gigante	
+huila	guadalupe-hui	Guadalupe	
+huila	hobo	Hobo	
+huila	iquira	Íquira	
+huila	isnos	Isnos	
+huila	la-argentina	La Argentina	
+huila	la-plata	La Plata	
+huila	nataga	Nátaga	
+huila	oporapa	Oporapa	
+huila	paicol	Paicol	
+huila	palermo	Palermo	
+huila	palestina-hui	Palestina	
+huila	pital	Pital	
+huila	pitalito	Pitalito	
+huila	rivera	Rivera	
+huila	saladoblanco	Saladoblanco	
+huila	san-agustin	San Agustín	
+huila	santa-maria-hui	Santa María	
+huila	suaza	Suaza	
+huila	tarqui	Tarqui	
+huila	tesalia	Tesalia	
+huila	tello	Tello	
+huila	teruel	Teruel	
+huila	timana	Timaná	
+huila	villavieja	Villavieja	
+huila	yaguara	Yaguará	
+la-guajira	riohacha	Riohacha	
+la-guajira	albania-lag	Albania	
+la-guajira	barrancas	Barrancas	
+la-guajira	dibulla	Dibulla	
+la-guajira	distraccion	Distracción	
+la-guajira	el-molino	El Molino	
+la-guajira	fonseca	Fonseca	
+la-guajira	hatonuevo	Hatonuevo	
+la-guajira	la-jagua-del-pilar	La Jagua del Pilar	
+la-guajira	maicao	Maicao	
+la-guajira	manaure	Manaure	
+la-guajira	san-juan-del-cesar	San Juan del Cesar	
+la-guajira	uribia	Uribia	
+la-guajira	urumita	Urumita	
+la-guajira	villanueva-lag	Villanueva	
+magdalena	santa-marta	Santa Marta	
+magdalena	algarrobo	Algarrobo	
+magdalena	aracataca	Aracataca	
+magdalena	ariguani	Ariguaní	
+magdalena	cerro-de-san-antonio	Cerro de San Antonio	
+magdalena	chivolo	Chivolo	
+magdalena	cienaga	Ciénaga	
+magdalena	concordia-mag	Concordia	
+magdalena	el-banco	El Banco	
+magdalena	el-pinon	El Piñón	
+magdalena	el-reten	El Retén	
+magdalena	fundacion	Fundación	
+magdalena	guamal-mag	Guamal	
+magdalena	nueva-granada	Nueva Granada	
+magdalena	pedraza	Pedraza	
+magdalena	pijino-del-carmen	Pijiño del Carmen	
+magdalena	pivijay	Pivijay	
+magdalena	plato	Plato	
+magdalena	puebloviejo	Puebloviejo	
+magdalena	remolino	Remolino	
+magdalena	sabanas-de-san-angel	Sabanas de San Ángel	
+magdalena	salamina-mag	Salamina	
+magdalena	san-sebastian-de-buenavista	San Sebastián de Buenavista	
+magdalena	san-zenon	San Zenón	
+magdalena	santa-ana	Santa Ana	
+magdalena	santa-barbara-de-pinto	Santa Bárbara de Pinto	
+magdalena	sitionuevo	Sitionuevo	
+magdalena	tenerife	Tenerife	
+magdalena	zapayan	Zapayán	
+magdalena	zona-bananera	Zona Bananera	
+meta	villavicencio	Villavicencio	
+meta	acacias	Acacías	
+meta	barranca-de-upia	Barranca de Upía	
+meta	cabuyaro	Cabuyaro	
+meta	castilla-la-nueva	Castilla la Nueva	
+meta	cubarral	Cubarral	
+meta	cumaral	Cumaral	
+meta	el-calvario	El Calvario	
+meta	el-castillo	El Castillo	
+meta	el-dorado	El Dorado	
+meta	fuente-de-oro	Fuente de Oro	
+meta	granada-met	Granada	
+meta	guamal-met	Guamal	
+meta	mapiripan	Mapiripán	
+meta	mesetas	Mesetas	
+meta	la-macarena	La Macarena	
+meta	uribe	Uribe	
+meta	lejanias	Lejanías	
+meta	puerto-concordia	Puerto Concordia	
+meta	puerto-gaitan	Puerto Gaitán	
+meta	puerto-lopez	Puerto López	
+meta	puerto-lleras	Puerto Lleras	
+meta	puerto-rico-met	Puerto Rico	
+meta	restrepo-met	Restrepo	
+meta	san-carlos-de-guaroa	San Carlos de Guaroa	
+meta	san-juan-de-arama	San Juan de Arama	
+meta	san-juanito	San Juanito	
+meta	san-martin-met	San Martín	
+meta	vistahermosa	Vistahermosa	
+narino	pasto	Pasto	
+narino	alban-nar	Albán	
+narino	aldana	Aldana	
+narino	ancuya	Ancuya	
+narino	arboleda	Arboleda	
+narino	barbacoas	Barbacoas	
+narino	belen-nar	Belén	
+narino	buesaco	Buesaco	
+narino	colon-nar	Colón	
+narino	consaca	Consacá	
+narino	contadero	Contadero	
+narino	cordoba-nar	Córdoba	
+narino	cuaspud	Cuaspud	
+narino	cumbal	Cumbal	
+narino	cumbitara	Cumbitara	
+narino	chachagui	Chachagüí	
+narino	el-charco	El Charco	
+narino	el-penol	El Peñol	
+narino	el-rosario	El Rosario	
+narino	el-tablon-de-gomez	El Tablón de Gómez	
+narino	el-tambo-nar	El Tambo	
+narino	funes	Funes	
+narino	guachucal	Guachucal	
+narino	guaitarilla	Guaitarilla	
+narino	gualmatan	Gualmatán	
+narino	iles	Iles	
+narino	imues	Imués	
+narino	ipiales	Ipiales	
+narino	la-cruz	La Cruz	
+narino	la-florida	La Florida	
+narino	la-llanada	La Llanada	
+narino	la-tola	La Tola	
+narino	la-union-nar	La Unión	
+narino	leiva	Leiva	
+narino	linares	Linares	
+narino	los-andes	Los Andes	
+narino	magui	Magüí	
+narino	mallama	Mallama	
+narino	mosquera-nar	Mosquera	
+narino	narino-nar	Nariño	
+narino	olaya-herrera	Olaya Herrera	
+narino	ospina	Ospina	
+narino	francisco-pizarro	Francisco Pizarro	
+narino	policarpa	Policarpa	
+narino	potosi	Potosí	
+narino	providencia-nar	Providencia	
+narino	puerres	Puerres	
+narino	pupiales	Pupiales	
+narino	ricaurte-nar	Ricaurte	
+narino	roberto-payan	Roberto Payán	
+narino	samaniego	Samaniego	
+narino	sandona	Sandoná	
+narino	san-bernardo-nar	San Bernardo	
+narino	san-lorenzo	San Lorenzo	
+narino	san-pablo-nar	San Pablo	
+narino	san-pedro-de-cartago	San Pedro de Cartago	
+narino	santa-barbara-nar	Santa Bárbara	
+narino	santacruz	Santacruz	
+narino	sapuyes	Sapuyes	
+narino	taminango	Taminango	
+narino	tangua	Tangua	
+narino	san-andres-de-tumaco	San Andrés de Tumaco	
+narino	tuquerres	Túquerres	
+narino	yacuanquer	Yacuanquer	
+norte-santander	san-jose-de-cucuta	San José de Cúcuta	
+norte-santander	abrego	Ábrego	
+norte-santander	arboledas	Arboledas	
+norte-santander	bochalema	Bochalema	
+norte-santander	bucarasica	Bucarasica	
+norte-santander	cacota	Cácota	
+norte-santander	cachira	Cáchira	
+norte-santander	chinacota	Chinácota	
+norte-santander	chitaga	Chitagá	
+norte-santander	convencion	Convención	
+norte-santander	cucutilla	Cucutilla	
+norte-santander	durania	Durania	
+norte-santander	el-carmen	El Carmen	
+norte-santander	el-tarra	El Tarra	
+norte-santander	el-zulia	El Zulia	
+norte-santander	gramalote	Gramalote	
+norte-santander	hacari	Hacarí	
+norte-santander	herran	Herrán	
+norte-santander	labateca	Labateca	
+norte-santander	la-esperanza	La Esperanza	
+norte-santander	la-playa	La Playa	
+norte-santander	los-patios	Los Patios	
+norte-santander	lourdes	Lourdes	
+norte-santander	mutiscua	Mutiscua	
+norte-santander	ocana	Ocaña	
+norte-santander	pamplona	Pamplona	
+norte-santander	pamplonita	Pamplonita	
+norte-santander	puerto-santander-nsa	Puerto Santander	
+norte-santander	ragonvalia	Ragonvalia	
+norte-santander	salazar	Salazar	
+norte-santander	san-calixto	San Calixto	
+norte-santander	san-cayetano-nsa	San Cayetano	
+norte-santander	santiago-nsa	Santiago	
+norte-santander	sardinata	Sardinata	
+norte-santander	silos	Silos	
+norte-santander	teorama	Teorama	
+norte-santander	tibu	Tibú	
+norte-santander	toledo-nsa	Toledo	
+norte-santander	villa-caro	Villa Caro	
+norte-santander	villa-del-rosario	Villa del Rosario	
+putumayo	mocoa	Mocoa	
+putumayo	colon-put	Colón	
+putumayo	orito	Orito	
+putumayo	puerto-asis	Puerto Asís	
+putumayo	puerto-caicedo	Puerto Caicedo	
+putumayo	puerto-guzman	Puerto Guzmán	
+putumayo	puerto-leguizamo	Puerto Leguízamo	
+putumayo	sibundoy	Sibundoy	
+putumayo	san-francisco-put	San Francisco	
+putumayo	san-miguel-put	San Miguel	
+putumayo	santiago-put	Santiago	
+putumayo	valle-del-guamuez	Valle del Guamuez	
+putumayo	villagarzon	Villagarzón	
+quindio	armenia-qui	Armenia	
+quindio	buenavista-qui	Buenavista	
+quindio	calarca	Calarcá	
+quindio	circasia	Circasia	
+quindio	cordoba-qui	Córdoba	
+quindio	filandia	Filandia	
+quindio	genova	Génova	
+quindio	la-tebaida	La Tebaida	
+quindio	montenegro	Montenegro	
+quindio	pijao	Pijao	
+quindio	quimbaya	Quimbaya	
+quindio	salento	Salento	
+risaralda	pereira	Pereira	
+risaralda	apia	Apía	
+risaralda	balboa-ris	Balboa	
+risaralda	belen-de-umbria	Belén de Umbría	
+risaralda	dosquebradas	Dosquebradas	
+risaralda	guatica	Guática	
+risaralda	la-celia	La Celia	
+risaralda	la-virginia	La Virginia	
+risaralda	marsella	Marsella	
+risaralda	mistrato	Mistrató	
+risaralda	pueblo-rico	Pueblo Rico	
+risaralda	quinchia	Quinchía	
+risaralda	santa-rosa-de-cabal	Santa Rosa de Cabal	
+risaralda	santuario	Santuario	
+santander	bucaramanga	Bucaramanga	
+santander	aguada	Aguada	
+santander	albania-san	Albania	
+santander	aratoca	Aratoca	
+santander	barbosa-san	Barbosa	
+santander	barichara	Barichara	
+santander	barrancabermeja	Barrancabermeja	
+santander	betulia-san	Betulia	
+santander	bolivar-san	Bolívar	
+santander	cabrera-san	Cabrera	
+santander	california	California	
+santander	capitanejo	Capitanejo	
+santander	carcasi	Carcasí	
+santander	cepita	Cepitá	
+santander	cerrito	Cerrito	
+santander	charala	Charalá	
+santander	charta	Charta	
+santander	chima-san	Chima	
+santander	chipata	Chipatá	
+santander	cimitarra	Cimitarra	
+santander	concepcion-san	Concepción	
+santander	confines	Confines	
+santander	contratacion	Contratación	
+santander	coromoro	Coromoro	
+santander	curiti	Curití	
+santander	el-carmen-de-chucuri	El Carmen de Chucurí	
+santander	el-guacamayo	El Guacamayo	
+santander	el-penon-san	El Peñón	
+santander	el-playon	El Playón	
+santander	encino	Encino	
+santander	enciso	Enciso	
+santander	florian	Florián	
+santander	floridablanca	Floridablanca	
+santander	galan	Galán	
+santander	gambita	Gámbita	
+santander	giron	Girón	
+santander	guaca	Guaca	
+santander	guadalupe-san	Guadalupe	
+santander	guapota	Guapotá	
+santander	guavata	Guavatá	
+santander	guepsa	Güepsa	
+santander	hato	Hato	
+santander	jesus-maria	Jesús María	
+santander	jordan	Jordán	
+santander	la-belleza	La Belleza	
+santander	landazuri	Landázuri	
+santander	la-paz-san	La Paz	
+santander	lebrija	Lebrija	
+santander	los-santos	Los Santos	
+santander	macaravita	Macaravita	
+santander	malaga	Málaga	
+santander	matanza	Matanza	
+santander	mogotes	Mogotes	
+santander	molagavita	Molagavita	
+santander	ocamonte	Ocamonte	
+santander	oiba	Oiba	
+santander	onzaga	Onzaga	
+santander	palmar	Palmar	
+santander	palmas-del-socorro	Palmas del Socorro	
+santander	paramo	Páramo	
+santander	piedecuesta	Piedecuesta	
+santander	pinchote	Pinchote	
+santander	puente-nacional	Puente Nacional	
+santander	puerto-parra	Puerto Parra	
+santander	puerto-wilches	Puerto Wilches	
+santander	rionegro-san	Rionegro	
+santander	sabana-de-torres	Sabana de Torres	
+santander	san-andres-san	San Andrés	
+santander	san-benito	San Benito	
+santander	san-gil	San Gil	
+santander	san-joaquin	San Joaquín	
+santander	san-jose-de-miranda	San José de Miranda	
+santander	san-miguel-san	San Miguel	
+santander	san-vicente-de-chucuri	San Vicente de Chucurí	
+santander	santa-barbara-san	Santa Bárbara	
+santander	santa-helena-del-opon	Santa Helena del Opón	
+santander	simacota	Simacota	
+santander	socorro	Socorro	
+santander	suaita	Suaita	
+santander	sucre-san	Sucre	
+santander	surata	Suratá	
+santander	tona	Tona	
+santander	valle-de-san-jose	Valle de San José	
+santander	velez	Vélez	
+santander	vetas	Vetas	
+santander	villanueva-san	Villanueva	
+santander	zapatoca	Zapatoca	
+sucre	sincelejo	Sincelejo	
+sucre	buenavista-suc	Buenavista	
+sucre	caimito	Caimito	
+sucre	coloso	Colosó	
+sucre	corozal	Corozal	
+sucre	covenas	Coveñas	
+sucre	chalan	Chalán	
+sucre	el-roble	El Roble	
+sucre	galeras	Galeras	
+sucre	guaranda	Guaranda	
+sucre	la-union-suc	La Unión	
+sucre	los-palmitos	Los Palmitos	
+sucre	majagual	Majagual	
+sucre	morroa	Morroa	
+sucre	ovejas	Ovejas	
+sucre	palmito	Palmito	
+sucre	sampues	Sampués	
+sucre	san-benito-abad	San Benito Abad	
+sucre	san-juan-de-betulia	San Juan de Betulia	
+sucre	san-marcos	San Marcos	
+sucre	san-onofre	San Onofre	
+sucre	san-pedro-suc	San Pedro	
+sucre	san-luis-de-since	San Luis de Sincé	
+sucre	sucre-suc	Sucre	
+sucre	santiago-de-tolu	Santiago de Tolú	
+sucre	san-jose-de-toluviejo	San José de Toluviejo	
+tolima	ibague	Ibagué	
+tolima	alpujarra	Alpujarra	
+tolima	alvarado	Alvarado	
+tolima	ambalema	Ambalema	
+tolima	anzoategui	Anzoátegui	
+tolima	armero	Armero	
+tolima	ataco	Ataco	
+tolima	cajamarca	Cajamarca	
+tolima	carmen-de-apicala	Carmen de Apicalá	
+tolima	casabianca	Casabianca	
+tolima	chaparral	Chaparral	
+tolima	coello	Coello	
+tolima	coyaima	Coyaima	
+tolima	cunday	Cunday	
+tolima	dolores	Dolores	
+tolima	espinal	Espinal	
+tolima	falan	Falan	
+tolima	flandes	Flandes	
+tolima	fresno	Fresno	
+tolima	guamo	Guamo	
+tolima	herveo	Herveo	
+tolima	honda	Honda	
+tolima	icononzo	Icononzo	
+tolima	lerida	Lérida	
+tolima	libano	Líbano	
+tolima	san-sebastian-de-mariquita	San Sebastián de Mariquita	
+tolima	melgar	Melgar	
+tolima	murillo	Murillo	
+tolima	natagaima	Natagaima	
+tolima	ortega	Ortega	
+tolima	palocabildo	Palocabildo	
+tolima	piedras	Piedras	
+tolima	planadas	Planadas	
+tolima	prado	Prado	
+tolima	purificacion	Purificación	
+tolima	rioblanco	Rioblanco	
+tolima	roncesvalles	Roncesvalles	
+tolima	rovira	Rovira	
+tolima	saldana	Saldaña	
+tolima	san-antonio	San Antonio	
+tolima	san-luis-tol	San Luis	
+tolima	santa-isabel	Santa Isabel	
+tolima	suarez-tol	Suárez	
+tolima	valle-de-san-juan	Valle de San Juan	
+tolima	venadillo	Venadillo	
+tolima	villahermosa	Villahermosa	
+tolima	villarrica	Villarrica	
+valle-del-cauca	cali	Cali	
+valle-del-cauca	alcala	Alcalá	
+valle-del-cauca	andalucia	Andalucía	
+valle-del-cauca	ansermanuevo	Ansermanuevo	
+valle-del-cauca	argelia-vac	Argelia	
+valle-del-cauca	bolivar-vac	Bolívar	
+valle-del-cauca	buenaventura	Buenaventura	
+valle-del-cauca	guadalajara-de-buga	Guadalajara de Buga	
+valle-del-cauca	bugalagrande	Bugalagrande	
+valle-del-cauca	caicedonia	Caicedonia	
+valle-del-cauca	calima	Calima	
+valle-del-cauca	candelaria-vac	Candelaria	
+valle-del-cauca	cartago	Cartago	
+valle-del-cauca	dagua	Dagua	
+valle-del-cauca	el-aguila	El Águila	
+valle-del-cauca	el-cairo	El Cairo	
+valle-del-cauca	el-cerrito	El Cerrito	
+valle-del-cauca	el-dovio	El Dovio	
+valle-del-cauca	florida	Florida	
+valle-del-cauca	ginebra	Ginebra	
+valle-del-cauca	guacari	Guacarí	
+valle-del-cauca	jamundi	Jamundí	
+valle-del-cauca	la-cumbre	La Cumbre	
+valle-del-cauca	la-union-vac	La Unión	
+valle-del-cauca	la-victoria-vac	La Victoria	
+valle-del-cauca	obando	Obando	
+valle-del-cauca	palmira	Palmira	
+valle-del-cauca	pradera	Pradera	
+valle-del-cauca	restrepo-vac	Restrepo	
+valle-del-cauca	riofrio	Riofrío	
+valle-del-cauca	roldanillo	Roldanillo	
+valle-del-cauca	san-pedro-vac	San Pedro	
+valle-del-cauca	sevilla	Sevilla	
+valle-del-cauca	toro	Toro	
+valle-del-cauca	trujillo	Trujillo	
+valle-del-cauca	tulua	Tuluá	
+valle-del-cauca	ulloa	Ulloa	
+valle-del-cauca	versalles	Versalles	
+valle-del-cauca	vijes	Vijes	
+valle-del-cauca	yotoco	Yotoco	
+valle-del-cauca	yumbo	Yumbo	
+valle-del-cauca	zarzal	Zarzal	
+vaupes	mitu	Mitú	
+vaupes	caruru	Carurú	
+vaupes	taraira	Taraira	
+vichada	puerto-carreno	Puerto Carreño	
+vichada	la-primavera	La Primavera	
+vichada	santa-rosalia	Santa Rosalía	
+vichada	cumaribo	Cumaribo	

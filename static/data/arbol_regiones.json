@@ -1,0 +1,4673 @@
+{
+  "slug": "0",
+  "children": [
+    {
+      "slug": "colombia",
+      "label": "Colombia",
+      "children": [
+        {
+          "slug": "antioquia",
+          "label": "Antioquia",
+          "children": [
+            {
+              "slug": "medellin",
+              "label": "Medellín"
+            },
+            {
+              "slug": "abejorral",
+              "label": "Abejorral"
+            },
+            {
+              "slug": "abriaqui",
+              "label": "Abriaquí"
+            },
+            {
+              "slug": "alejandria",
+              "label": "Alejandría"
+            },
+            {
+              "slug": "amaga",
+              "label": "Amagá"
+            },
+            {
+              "slug": "amalfi",
+              "label": "Amalfi"
+            },
+            {
+              "slug": "andes",
+              "label": "Andes"
+            },
+            {
+              "slug": "angelopolis",
+              "label": "Angelópolis"
+            },
+            {
+              "slug": "angostura",
+              "label": "Angostura"
+            },
+            {
+              "slug": "anori",
+              "label": "Anorí"
+            },
+            {
+              "slug": "santa-fe-de-antioquia",
+              "label": "Santa Fé de Antioquia"
+            },
+            {
+              "slug": "anza",
+              "label": "Anzá"
+            },
+            {
+              "slug": "apartado",
+              "label": "Apartadó"
+            },
+            {
+              "slug": "arboletes",
+              "label": "Arboletes"
+            },
+            {
+              "slug": "argelia-ant",
+              "label": "Argelia"
+            },
+            {
+              "slug": "armenia-ant",
+              "label": "Armenia"
+            },
+            {
+              "slug": "barbosa-ant",
+              "label": "Barbosa"
+            },
+            {
+              "slug": "belmira",
+              "label": "Belmira"
+            },
+            {
+              "slug": "bello",
+              "label": "Bello"
+            },
+            {
+              "slug": "betania",
+              "label": "Betania"
+            },
+            {
+              "slug": "betulia-ant",
+              "label": "Betulia"
+            },
+            {
+              "slug": "ciudad-bolivar",
+              "label": "Ciudad Bolívar"
+            },
+            {
+              "slug": "briceno-ant",
+              "label": "Briceño"
+            },
+            {
+              "slug": "buritica",
+              "label": "Buriticá"
+            },
+            {
+              "slug": "caceres",
+              "label": "Cáceres"
+            },
+            {
+              "slug": "caicedo",
+              "label": "Caicedo"
+            },
+            {
+              "slug": "caldas-ant",
+              "label": "Caldas"
+            },
+            {
+              "slug": "campamento",
+              "label": "Campamento"
+            },
+            {
+              "slug": "canasgordas",
+              "label": "Cañasgordas"
+            },
+            {
+              "slug": "caracoli",
+              "label": "Caracolí"
+            },
+            {
+              "slug": "caramanta",
+              "label": "Caramanta"
+            },
+            {
+              "slug": "carepa",
+              "label": "Carepa"
+            },
+            {
+              "slug": "el-carmen-de-viboral",
+              "label": "El Carmen de Viboral"
+            },
+            {
+              "slug": "carolina",
+              "label": "Carolina"
+            },
+            {
+              "slug": "caucasia",
+              "label": "Caucasia"
+            },
+            {
+              "slug": "chigorodo",
+              "label": "Chigorodó"
+            },
+            {
+              "slug": "cisneros",
+              "label": "Cisneros"
+            },
+            {
+              "slug": "cocorna",
+              "label": "Cocorná"
+            },
+            {
+              "slug": "concepcion-ant",
+              "label": "Concepción"
+            },
+            {
+              "slug": "concordia-ant",
+              "label": "Concordia"
+            },
+            {
+              "slug": "copacabana",
+              "label": "Copacabana"
+            },
+            {
+              "slug": "dabeiba",
+              "label": "Dabeiba"
+            },
+            {
+              "slug": "donmatias",
+              "label": "Donmatías"
+            },
+            {
+              "slug": "ebejico",
+              "label": "Ebéjico"
+            },
+            {
+              "slug": "el-bagre",
+              "label": "El Bagre"
+            },
+            {
+              "slug": "entrerrios",
+              "label": "Entrerríos"
+            },
+            {
+              "slug": "envigado",
+              "label": "Envigado"
+            },
+            {
+              "slug": "fredonia",
+              "label": "Fredonia"
+            },
+            {
+              "slug": "frontino",
+              "label": "Frontino"
+            },
+            {
+              "slug": "giraldo",
+              "label": "Giraldo"
+            },
+            {
+              "slug": "girardota",
+              "label": "Girardota"
+            },
+            {
+              "slug": "gomez-plata",
+              "label": "Gómez Plata"
+            },
+            {
+              "slug": "granada-ant",
+              "label": "Granada"
+            },
+            {
+              "slug": "guadalupe-ant",
+              "label": "Guadalupe"
+            },
+            {
+              "slug": "guarne",
+              "label": "Guarne"
+            },
+            {
+              "slug": "guatape",
+              "label": "Guatapé"
+            },
+            {
+              "slug": "heliconia",
+              "label": "Heliconia"
+            },
+            {
+              "slug": "hispania",
+              "label": "Hispania"
+            },
+            {
+              "slug": "itagui",
+              "label": "Itaguí"
+            },
+            {
+              "slug": "ituango",
+              "label": "Ituango"
+            },
+            {
+              "slug": "jardin",
+              "label": "Jardín"
+            },
+            {
+              "slug": "jerico-ant",
+              "label": "Jericó"
+            },
+            {
+              "slug": "la-ceja",
+              "label": "La Ceja"
+            },
+            {
+              "slug": "la-estrella",
+              "label": "La Estrella"
+            },
+            {
+              "slug": "la-pintada",
+              "label": "La Pintada"
+            },
+            {
+              "slug": "la-union-ant",
+              "label": "La Unión"
+            },
+            {
+              "slug": "liborina",
+              "label": "Liborina"
+            },
+            {
+              "slug": "maceo",
+              "label": "Maceo"
+            },
+            {
+              "slug": "marinilla",
+              "label": "Marinilla"
+            },
+            {
+              "slug": "montebello",
+              "label": "Montebello"
+            },
+            {
+              "slug": "murindo",
+              "label": "Murindó"
+            },
+            {
+              "slug": "mutata",
+              "label": "Mutatá"
+            },
+            {
+              "slug": "narino-ant",
+              "label": "Nariño"
+            },
+            {
+              "slug": "necocli",
+              "label": "Necoclí"
+            },
+            {
+              "slug": "nechi",
+              "label": "Nechí"
+            },
+            {
+              "slug": "olaya",
+              "label": "Olaya"
+            },
+            {
+              "slug": "penol",
+              "label": "Peñol"
+            },
+            {
+              "slug": "peque",
+              "label": "Peque"
+            },
+            {
+              "slug": "pueblorrico",
+              "label": "Pueblorrico"
+            },
+            {
+              "slug": "puerto-berrio",
+              "label": "Puerto Berrío"
+            },
+            {
+              "slug": "puerto-nare",
+              "label": "Puerto Nare"
+            },
+            {
+              "slug": "puerto-triunfo",
+              "label": "Puerto Triunfo"
+            },
+            {
+              "slug": "remedios",
+              "label": "Remedios"
+            },
+            {
+              "slug": "retiro",
+              "label": "Retiro"
+            },
+            {
+              "slug": "rionegro-ant",
+              "label": "Rionegro"
+            },
+            {
+              "slug": "sabanalarga-ant",
+              "label": "Sabanalarga"
+            },
+            {
+              "slug": "sabaneta",
+              "label": "Sabaneta"
+            },
+            {
+              "slug": "salgar",
+              "label": "Salgar"
+            },
+            {
+              "slug": "san-andres-de-cuerquia",
+              "label": "San Andrés de Cuerquía"
+            },
+            {
+              "slug": "san-carlos-ant",
+              "label": "San Carlos"
+            },
+            {
+              "slug": "san-francisco-ant",
+              "label": "San Francisco"
+            },
+            {
+              "slug": "san-jeronimo",
+              "label": "San Jerónimo"
+            },
+            {
+              "slug": "san-jose-de-la-montana",
+              "label": "San José de la Montaña"
+            },
+            {
+              "slug": "san-juan-de-uraba",
+              "label": "San Juan de Urabá"
+            },
+            {
+              "slug": "san-luis-ant",
+              "label": "San Luis"
+            },
+            {
+              "slug": "san-pedro-de-los-milagros",
+              "label": "San Pedro de los Milagros"
+            },
+            {
+              "slug": "san-pedro-de-uraba",
+              "label": "San Pedro de Urabá"
+            },
+            {
+              "slug": "san-rafael",
+              "label": "San Rafael"
+            },
+            {
+              "slug": "san-roque",
+              "label": "San Roque"
+            },
+            {
+              "slug": "san-vicente-ferrer",
+              "label": "San Vicente Ferrer"
+            },
+            {
+              "slug": "santa-barbara-ant",
+              "label": "Santa Bárbara"
+            },
+            {
+              "slug": "santa-rosa-de-osos",
+              "label": "Santa Rosa de Osos"
+            },
+            {
+              "slug": "santo-domingo",
+              "label": "Santo Domingo"
+            },
+            {
+              "slug": "el-santuario",
+              "label": "El Santuario"
+            },
+            {
+              "slug": "segovia",
+              "label": "Segovia"
+            },
+            {
+              "slug": "sonson",
+              "label": "Sonsón"
+            },
+            {
+              "slug": "sopetran",
+              "label": "Sopetrán"
+            },
+            {
+              "slug": "tamesis",
+              "label": "Támesis"
+            },
+            {
+              "slug": "taraza",
+              "label": "Tarazá"
+            },
+            {
+              "slug": "tarso",
+              "label": "Tarso"
+            },
+            {
+              "slug": "titiribi",
+              "label": "Titiribí"
+            },
+            {
+              "slug": "toledo-ant",
+              "label": "Toledo"
+            },
+            {
+              "slug": "turbo",
+              "label": "Turbo"
+            },
+            {
+              "slug": "uramita",
+              "label": "Uramita"
+            },
+            {
+              "slug": "urrao",
+              "label": "Urrao"
+            },
+            {
+              "slug": "valdivia",
+              "label": "Valdivia"
+            },
+            {
+              "slug": "valparaiso-ant",
+              "label": "Valparaíso"
+            },
+            {
+              "slug": "vegachi",
+              "label": "Vegachí"
+            },
+            {
+              "slug": "venecia-ant",
+              "label": "Venecia"
+            },
+            {
+              "slug": "vigia-del-fuerte",
+              "label": "Vigía del Fuerte"
+            },
+            {
+              "slug": "yali",
+              "label": "Yalí"
+            },
+            {
+              "slug": "yarumal",
+              "label": "Yarumal"
+            },
+            {
+              "slug": "yolombo",
+              "label": "Yolombó"
+            },
+            {
+              "slug": "yondo",
+              "label": "Yondó"
+            },
+            {
+              "slug": "zaragoza",
+              "label": "Zaragoza"
+            }
+          ]
+        },
+        {
+          "slug": "atlantico",
+          "label": "Atlántico",
+          "children": [
+            {
+              "slug": "barranquilla",
+              "label": "Barranquilla"
+            },
+            {
+              "slug": "baranoa",
+              "label": "Baranoa"
+            },
+            {
+              "slug": "campo-de-la-cruz",
+              "label": "Campo de la Cruz"
+            },
+            {
+              "slug": "candelaria-atl",
+              "label": "Candelaria"
+            },
+            {
+              "slug": "galapa",
+              "label": "Galapa"
+            },
+            {
+              "slug": "juan-de-acosta",
+              "label": "Juan de Acosta"
+            },
+            {
+              "slug": "luruaco",
+              "label": "Luruaco"
+            },
+            {
+              "slug": "malambo",
+              "label": "Malambo"
+            },
+            {
+              "slug": "manati",
+              "label": "Manatí"
+            },
+            {
+              "slug": "palmar-de-varela",
+              "label": "Palmar de Varela"
+            },
+            {
+              "slug": "piojo",
+              "label": "Piojó"
+            },
+            {
+              "slug": "polonuevo",
+              "label": "Polonuevo"
+            },
+            {
+              "slug": "ponedera",
+              "label": "Ponedera"
+            },
+            {
+              "slug": "puerto-colombia",
+              "label": "Puerto Colombia"
+            },
+            {
+              "slug": "repelon",
+              "label": "Repelón"
+            },
+            {
+              "slug": "sabanagrande",
+              "label": "Sabanagrande"
+            },
+            {
+              "slug": "santa-lucia",
+              "label": "Santa Lucía"
+            },
+            {
+              "slug": "santo-tomas",
+              "label": "Santo Tomás"
+            },
+            {
+              "slug": "soledad",
+              "label": "Soledad"
+            },
+            {
+              "slug": "suan",
+              "label": "Suan"
+            },
+            {
+              "slug": "tubara",
+              "label": "Tubará"
+            },
+            {
+              "slug": "usiacuri",
+              "label": "Usiacurí"
+            }
+          ]
+        },
+        {
+          "slug": "bogota",
+          "label": "Bogotá, D.C.",
+          "children": [
+            {
+              "slug": "bogota-dc",
+              "label": "Bogotá, D.C."
+            }
+          ]
+        },
+        {
+          "slug": "bolivar",
+          "label": "Bolívar",
+          "children": [
+            {
+              "slug": "achi",
+              "label": "Achí"
+            },
+            {
+              "slug": "altos-del-rosario",
+              "label": "Altos del Rosario"
+            },
+            {
+              "slug": "arenal",
+              "label": "Arenal"
+            },
+            {
+              "slug": "arjona",
+              "label": "Arjona"
+            },
+            {
+              "slug": "arroyohondo",
+              "label": "Arroyohondo"
+            },
+            {
+              "slug": "barranco-de-loba",
+              "label": "Barranco de Loba"
+            },
+            {
+              "slug": "calamar-bol",
+              "label": "Calamar"
+            },
+            {
+              "slug": "cantagallo",
+              "label": "Cantagallo"
+            },
+            {
+              "slug": "cartagena",
+              "label": "Cartagena de Indias"
+            },
+            {
+              "slug": "cicuco",
+              "label": "Cicuco"
+            },
+            {
+              "slug": "clemencia",
+              "label": "Clemencia"
+            },
+            {
+              "slug": "cordoba-bol",
+              "label": "Córdoba"
+            },
+            {
+              "slug": "el-carmen-de-bolivar",
+              "label": "El Carmen de Bolívar"
+            },
+            {
+              "slug": "el-guamo",
+              "label": "El Guamo"
+            },
+            {
+              "slug": "el-penon-bol",
+              "label": "El Peñón"
+            },
+            {
+              "slug": "hatillo-de-loba",
+              "label": "Hatillo de Loba"
+            },
+            {
+              "slug": "magangue",
+              "label": "Magangué"
+            },
+            {
+              "slug": "mahates",
+              "label": "Mahates"
+            },
+            {
+              "slug": "margarita",
+              "label": "Margarita"
+            },
+            {
+              "slug": "maria-la-baja",
+              "label": "María la Baja"
+            },
+            {
+              "slug": "montecristo",
+              "label": "Montecristo"
+            },
+            {
+              "slug": "morales-bol",
+              "label": "Morales"
+            },
+            {
+              "slug": "norosi",
+              "label": "Norosí"
+            },
+            {
+              "slug": "pinillos",
+              "label": "Pinillos"
+            },
+            {
+              "slug": "regidor",
+              "label": "Regidor"
+            },
+            {
+              "slug": "rio-viejo",
+              "label": "Río Viejo"
+            },
+            {
+              "slug": "san-cristobal",
+              "label": "San Cristóbal"
+            },
+            {
+              "slug": "san-estanislao",
+              "label": "San Estanislao"
+            },
+            {
+              "slug": "san-fernando",
+              "label": "San Fernando"
+            },
+            {
+              "slug": "san-jacinto",
+              "label": "San Jacinto"
+            },
+            {
+              "slug": "san-jacinto-del-cauca",
+              "label": "San Jacinto del Cauca"
+            },
+            {
+              "slug": "san-juan-nepomuceno",
+              "label": "San Juan Nepomuceno"
+            },
+            {
+              "slug": "san-martin-de-loba",
+              "label": "San Martín de Loba"
+            },
+            {
+              "slug": "san-pablo-bol",
+              "label": "San Pablo"
+            },
+            {
+              "slug": "santa-catalina",
+              "label": "Santa Catalina"
+            },
+            {
+              "slug": "santa-cruz-de-mompox",
+              "label": "Santa Cruz de Mompox"
+            },
+            {
+              "slug": "santa-rosa-bol",
+              "label": "Santa Rosa"
+            },
+            {
+              "slug": "santa-rosa-del-sur",
+              "label": "Santa Rosa del Sur"
+            },
+            {
+              "slug": "simiti",
+              "label": "Simití"
+            },
+            {
+              "slug": "soplaviento",
+              "label": "Soplaviento"
+            },
+            {
+              "slug": "talaigua-nuevo",
+              "label": "Talaigua Nuevo"
+            },
+            {
+              "slug": "tiquisio",
+              "label": "Tiquisio"
+            },
+            {
+              "slug": "turbaco",
+              "label": "Turbaco"
+            },
+            {
+              "slug": "turbana",
+              "label": "Turbaná"
+            },
+            {
+              "slug": "villanueva-bol",
+              "label": "Villanueva"
+            },
+            {
+              "slug": "zambrano",
+              "label": "Zambrano"
+            }
+          ]
+        },
+        {
+          "slug": "boyaca",
+          "label": "Boyacá",
+          "children": [
+            {
+              "slug": "tunja",
+              "label": "Tunja"
+            },
+            {
+              "slug": "almeida",
+              "label": "Almeida"
+            },
+            {
+              "slug": "aquitania",
+              "label": "Aquitania"
+            },
+            {
+              "slug": "arcabuco",
+              "label": "Arcabuco"
+            },
+            {
+              "slug": "belen-boy",
+              "label": "Belén"
+            },
+            {
+              "slug": "berbeo",
+              "label": "Berbeo"
+            },
+            {
+              "slug": "beteitiva",
+              "label": "Betéitiva"
+            },
+            {
+              "slug": "boavita",
+              "label": "Boavita"
+            },
+            {
+              "slug": "boyaca-boy",
+              "label": "Boyacá"
+            },
+            {
+              "slug": "briceno-boy",
+              "label": "Briceño"
+            },
+            {
+              "slug": "buenavista-boy",
+              "label": "Buenavista"
+            },
+            {
+              "slug": "busbanza",
+              "label": "Busbanzá"
+            },
+            {
+              "slug": "caldas-boy",
+              "label": "Caldas"
+            },
+            {
+              "slug": "campohermoso",
+              "label": "Campohermoso"
+            },
+            {
+              "slug": "cerinza",
+              "label": "Cerinza"
+            },
+            {
+              "slug": "chinavita",
+              "label": "Chinavita"
+            },
+            {
+              "slug": "chiquinquira",
+              "label": "Chiquinquirá"
+            },
+            {
+              "slug": "chiscas",
+              "label": "Chiscas"
+            },
+            {
+              "slug": "chita",
+              "label": "Chita"
+            },
+            {
+              "slug": "chitaraque",
+              "label": "Chitaraque"
+            },
+            {
+              "slug": "chivata",
+              "label": "Chivatá"
+            },
+            {
+              "slug": "cienega",
+              "label": "Ciénega"
+            },
+            {
+              "slug": "combita",
+              "label": "Cómbita"
+            },
+            {
+              "slug": "coper",
+              "label": "Coper"
+            },
+            {
+              "slug": "corrales",
+              "label": "Corrales"
+            },
+            {
+              "slug": "covarachia",
+              "label": "Covarachía"
+            },
+            {
+              "slug": "cubara",
+              "label": "Cubará"
+            },
+            {
+              "slug": "cucaita",
+              "label": "Cucaita"
+            },
+            {
+              "slug": "cuitiva",
+              "label": "Cuítiva"
+            },
+            {
+              "slug": "chiquiza",
+              "label": "Chíquiza"
+            },
+            {
+              "slug": "chivor",
+              "label": "Chivor"
+            },
+            {
+              "slug": "duitama",
+              "label": "Duitama"
+            },
+            {
+              "slug": "el-cocuy",
+              "label": "El Cocuy"
+            },
+            {
+              "slug": "el-espino",
+              "label": "El Espino"
+            },
+            {
+              "slug": "firavitoba",
+              "label": "Firavitoba"
+            },
+            {
+              "slug": "floresta",
+              "label": "Floresta"
+            },
+            {
+              "slug": "gachantiva",
+              "label": "Gachantivá"
+            },
+            {
+              "slug": "gameza",
+              "label": "Gámeza"
+            },
+            {
+              "slug": "garagoa",
+              "label": "Garagoa"
+            },
+            {
+              "slug": "guacamayas",
+              "label": "Guacamayas"
+            },
+            {
+              "slug": "guateque",
+              "label": "Guateque"
+            },
+            {
+              "slug": "guayata",
+              "label": "Guayatá"
+            },
+            {
+              "slug": "guican-de-la-sierra",
+              "label": "Güicán de la Sierra"
+            },
+            {
+              "slug": "iza",
+              "label": "Iza"
+            },
+            {
+              "slug": "jenesano",
+              "label": "Jenesano"
+            },
+            {
+              "slug": "jerico-boy",
+              "label": "Jericó"
+            },
+            {
+              "slug": "labranzagrande",
+              "label": "Labranzagrande"
+            },
+            {
+              "slug": "la-capilla",
+              "label": "La Capilla"
+            },
+            {
+              "slug": "la-victoria-boy",
+              "label": "La Victoria"
+            },
+            {
+              "slug": "la-uvita",
+              "label": "La Uvita"
+            },
+            {
+              "slug": "villa-de-leyva",
+              "label": "Villa de Leyva"
+            },
+            {
+              "slug": "macanal",
+              "label": "Macanal"
+            },
+            {
+              "slug": "maripi",
+              "label": "Maripí"
+            },
+            {
+              "slug": "miraflores-boy",
+              "label": "Miraflores"
+            },
+            {
+              "slug": "mongua",
+              "label": "Mongua"
+            },
+            {
+              "slug": "mongui",
+              "label": "Monguí"
+            },
+            {
+              "slug": "moniquira",
+              "label": "Moniquirá"
+            },
+            {
+              "slug": "motavita",
+              "label": "Motavita"
+            },
+            {
+              "slug": "muzo",
+              "label": "Muzo"
+            },
+            {
+              "slug": "nobsa",
+              "label": "Nobsa"
+            },
+            {
+              "slug": "nuevo-colon",
+              "label": "Nuevo Colón"
+            },
+            {
+              "slug": "oicata",
+              "label": "Oicatá"
+            },
+            {
+              "slug": "otanche",
+              "label": "Otanche"
+            },
+            {
+              "slug": "pachavita",
+              "label": "Pachavita"
+            },
+            {
+              "slug": "paez-boy",
+              "label": "Páez"
+            },
+            {
+              "slug": "paipa",
+              "label": "Paipa"
+            },
+            {
+              "slug": "pajarito",
+              "label": "Pajarito"
+            },
+            {
+              "slug": "panqueba",
+              "label": "Panqueba"
+            },
+            {
+              "slug": "pauna",
+              "label": "Pauna"
+            },
+            {
+              "slug": "paya",
+              "label": "Paya"
+            },
+            {
+              "slug": "paz-de-rio",
+              "label": "Paz de Río"
+            },
+            {
+              "slug": "pesca",
+              "label": "Pesca"
+            },
+            {
+              "slug": "pisba",
+              "label": "Pisba"
+            },
+            {
+              "slug": "puerto-boyaca",
+              "label": "Puerto Boyacá"
+            },
+            {
+              "slug": "quipama",
+              "label": "Quípama"
+            },
+            {
+              "slug": "ramiriqui",
+              "label": "Ramiriquí"
+            },
+            {
+              "slug": "raquira",
+              "label": "Ráquira"
+            },
+            {
+              "slug": "rondon",
+              "label": "Rondón"
+            },
+            {
+              "slug": "saboya",
+              "label": "Saboyá"
+            },
+            {
+              "slug": "sachica",
+              "label": "Sáchica"
+            },
+            {
+              "slug": "samaca",
+              "label": "Samacá"
+            },
+            {
+              "slug": "san-eduardo",
+              "label": "San Eduardo"
+            },
+            {
+              "slug": "san-jose-de-pare",
+              "label": "San José de Pare"
+            },
+            {
+              "slug": "san-luis-de-gaceno",
+              "label": "San Luis de Gaceno"
+            },
+            {
+              "slug": "san-mateo",
+              "label": "San Mateo"
+            },
+            {
+              "slug": "san-miguel-de-sema",
+              "label": "San Miguel de Sema"
+            },
+            {
+              "slug": "san-pablo-de-borbur",
+              "label": "San Pablo de Borbur"
+            },
+            {
+              "slug": "santana",
+              "label": "Santana"
+            },
+            {
+              "slug": "santa-maria-boy",
+              "label": "Santa María"
+            },
+            {
+              "slug": "santa-rosa-de-viterbo",
+              "label": "Santa Rosa de Viterbo"
+            },
+            {
+              "slug": "santa-sofia",
+              "label": "Santa Sofía"
+            },
+            {
+              "slug": "sativanorte",
+              "label": "Sativanorte"
+            },
+            {
+              "slug": "sativasur",
+              "label": "Sativasur"
+            },
+            {
+              "slug": "siachoque",
+              "label": "Siachoque"
+            },
+            {
+              "slug": "soata",
+              "label": "Soatá"
+            },
+            {
+              "slug": "socota",
+              "label": "Socotá"
+            },
+            {
+              "slug": "socha",
+              "label": "Socha"
+            },
+            {
+              "slug": "sogamoso",
+              "label": "Sogamoso"
+            },
+            {
+              "slug": "somondoco",
+              "label": "Somondoco"
+            },
+            {
+              "slug": "sora",
+              "label": "Sora"
+            },
+            {
+              "slug": "sotaquira",
+              "label": "Sotaquirá"
+            },
+            {
+              "slug": "soraca",
+              "label": "Soracá"
+            },
+            {
+              "slug": "susacon",
+              "label": "Susacón"
+            },
+            {
+              "slug": "sutamarchan",
+              "label": "Sutamarchán"
+            },
+            {
+              "slug": "sutatenza",
+              "label": "Sutatenza"
+            },
+            {
+              "slug": "tasco",
+              "label": "Tasco"
+            },
+            {
+              "slug": "tenza",
+              "label": "Tenza"
+            },
+            {
+              "slug": "tibana",
+              "label": "Tibaná"
+            },
+            {
+              "slug": "tibasosa",
+              "label": "Tibasosa"
+            },
+            {
+              "slug": "tinjaca",
+              "label": "Tinjacá"
+            },
+            {
+              "slug": "tipacoque",
+              "label": "Tipacoque"
+            },
+            {
+              "slug": "toca",
+              "label": "Toca"
+            },
+            {
+              "slug": "togui",
+              "label": "Togüí"
+            },
+            {
+              "slug": "topaga",
+              "label": "Tópaga"
+            },
+            {
+              "slug": "tota",
+              "label": "Tota"
+            },
+            {
+              "slug": "tunungua",
+              "label": "Tununguá"
+            },
+            {
+              "slug": "turmeque",
+              "label": "Turmequé"
+            },
+            {
+              "slug": "tuta",
+              "label": "Tuta"
+            },
+            {
+              "slug": "tutaza",
+              "label": "Tutazá"
+            },
+            {
+              "slug": "umbita",
+              "label": "Úmbita"
+            },
+            {
+              "slug": "ventaquemada",
+              "label": "Ventaquemada"
+            },
+            {
+              "slug": "viracacha",
+              "label": "Viracachá"
+            },
+            {
+              "slug": "zetaquira",
+              "label": "Zetaquira"
+            }
+          ]
+        },
+        {
+          "slug": "caldas",
+          "label": "Caldas",
+          "children": [
+            {
+              "slug": "manizales",
+              "label": "Manizales"
+            },
+            {
+              "slug": "aguadas",
+              "label": "Aguadas"
+            },
+            {
+              "slug": "anserma",
+              "label": "Anserma"
+            },
+            {
+              "slug": "aranzazu",
+              "label": "Aranzazu"
+            },
+            {
+              "slug": "belalcazar",
+              "label": "Belalcázar"
+            },
+            {
+              "slug": "chinchina",
+              "label": "Chinchiná"
+            },
+            {
+              "slug": "filadelfia",
+              "label": "Filadelfia"
+            },
+            {
+              "slug": "la-dorada",
+              "label": "La Dorada"
+            },
+            {
+              "slug": "la-merced",
+              "label": "La Merced"
+            },
+            {
+              "slug": "manzanares",
+              "label": "Manzanares"
+            },
+            {
+              "slug": "marmato",
+              "label": "Marmato"
+            },
+            {
+              "slug": "marquetalia",
+              "label": "Marquetalia"
+            },
+            {
+              "slug": "marulanda",
+              "label": "Marulanda"
+            },
+            {
+              "slug": "neira",
+              "label": "Neira"
+            },
+            {
+              "slug": "norcasia",
+              "label": "Norcasia"
+            },
+            {
+              "slug": "pacora",
+              "label": "Pácora"
+            },
+            {
+              "slug": "palestina-cal",
+              "label": "Palestina"
+            },
+            {
+              "slug": "pensilvania",
+              "label": "Pensilvania"
+            },
+            {
+              "slug": "riosucio-cal",
+              "label": "Riosucio"
+            },
+            {
+              "slug": "risaralda-cal",
+              "label": "Risaralda"
+            },
+            {
+              "slug": "salamina-cal",
+              "label": "Salamina"
+            },
+            {
+              "slug": "samana",
+              "label": "Samaná"
+            },
+            {
+              "slug": "san-jose",
+              "label": "San José"
+            },
+            {
+              "slug": "supia",
+              "label": "Supía"
+            },
+            {
+              "slug": "victoria",
+              "label": "Victoria"
+            },
+            {
+              "slug": "villamaria",
+              "label": "Villamaría"
+            },
+            {
+              "slug": "viterbo",
+              "label": "Viterbo"
+            }
+          ]
+        },
+        {
+          "slug": "caqueta",
+          "label": "Caquetá",
+          "children": [
+            {
+              "slug": "florencia-caq",
+              "label": "Florencia"
+            },
+            {
+              "slug": "albania-caq",
+              "label": "Albania"
+            },
+            {
+              "slug": "belen-de-los-andaquies",
+              "label": "Belén de los Andaquíes"
+            },
+            {
+              "slug": "cartagena-del-chaira",
+              "label": "Cartagena del Chairá"
+            },
+            {
+              "slug": "curillo",
+              "label": "Curillo"
+            },
+            {
+              "slug": "el-doncello",
+              "label": "El Doncello"
+            },
+            {
+              "slug": "el-paujil",
+              "label": "El Paujíl"
+            },
+            {
+              "slug": "la-montanita",
+              "label": "La Montañita"
+            },
+            {
+              "slug": "milan",
+              "label": "Milán"
+            },
+            {
+              "slug": "morelia",
+              "label": "Morelia"
+            },
+            {
+              "slug": "puerto-rico-caq",
+              "label": "Puerto Rico"
+            },
+            {
+              "slug": "san-jose-del-fragua",
+              "label": "San José del Fragua"
+            },
+            {
+              "slug": "san-vicente-del-caguan",
+              "label": "San Vicente del Caguán"
+            },
+            {
+              "slug": "solano",
+              "label": "Solano"
+            },
+            {
+              "slug": "solita",
+              "label": "Solita"
+            },
+            {
+              "slug": "valparaiso-caq",
+              "label": "Valparaíso"
+            }
+          ]
+        },
+        {
+          "slug": "cauca",
+          "label": "Cauca",
+          "children": [
+            {
+              "slug": "popayan",
+              "label": "Popayán"
+            },
+            {
+              "slug": "almaguer",
+              "label": "Almaguer"
+            },
+            {
+              "slug": "argelia-cau",
+              "label": "Argelia"
+            },
+            {
+              "slug": "balboa-cau",
+              "label": "Balboa"
+            },
+            {
+              "slug": "bolivar-cau",
+              "label": "Bolívar"
+            },
+            {
+              "slug": "buenos-aires",
+              "label": "Buenos Aires"
+            },
+            {
+              "slug": "cajibio",
+              "label": "Cajibío"
+            },
+            {
+              "slug": "caldono",
+              "label": "Caldono"
+            },
+            {
+              "slug": "caloto",
+              "label": "Caloto"
+            },
+            {
+              "slug": "corinto",
+              "label": "Corinto"
+            },
+            {
+              "slug": "el-tambo-cau",
+              "label": "El Tambo"
+            },
+            {
+              "slug": "florencia-cau",
+              "label": "Florencia"
+            },
+            {
+              "slug": "guachene",
+              "label": "Guachené"
+            },
+            {
+              "slug": "guapi",
+              "label": "Guapi"
+            },
+            {
+              "slug": "inza",
+              "label": "Inzá"
+            },
+            {
+              "slug": "jambalo",
+              "label": "Jambaló"
+            },
+            {
+              "slug": "la-sierra",
+              "label": "La Sierra"
+            },
+            {
+              "slug": "la-vega-cau",
+              "label": "La Vega"
+            },
+            {
+              "slug": "lopez-de-micay",
+              "label": "López de Micay"
+            },
+            {
+              "slug": "mercaderes",
+              "label": "Mercaderes"
+            },
+            {
+              "slug": "miranda",
+              "label": "Miranda"
+            },
+            {
+              "slug": "morales-cau",
+              "label": "Morales"
+            },
+            {
+              "slug": "padilla",
+              "label": "Padilla"
+            },
+            {
+              "slug": "paez-cau",
+              "label": "Páez"
+            },
+            {
+              "slug": "patia",
+              "label": "Patía"
+            },
+            {
+              "slug": "piamonte",
+              "label": "Piamonte"
+            },
+            {
+              "slug": "piendamo-tunia",
+              "label": "Piendamó - Tunía"
+            },
+            {
+              "slug": "puerto-tejada",
+              "label": "Puerto Tejada"
+            },
+            {
+              "slug": "purace",
+              "label": "Puracé"
+            },
+            {
+              "slug": "rosas",
+              "label": "Rosas"
+            },
+            {
+              "slug": "san-sebastian",
+              "label": "San Sebastián"
+            },
+            {
+              "slug": "santander-de-quilichao",
+              "label": "Santander de Quilichao"
+            },
+            {
+              "slug": "santa-rosa-cau",
+              "label": "Santa Rosa"
+            },
+            {
+              "slug": "silvia",
+              "label": "Silvia"
+            },
+            {
+              "slug": "sotara-paispamba",
+              "label": "Sotará - Paispamba"
+            },
+            {
+              "slug": "suarez-cau",
+              "label": "Suárez"
+            },
+            {
+              "slug": "sucre-cau",
+              "label": "Sucre"
+            },
+            {
+              "slug": "timbio",
+              "label": "Timbío"
+            },
+            {
+              "slug": "timbiqui",
+              "label": "Timbiquí"
+            },
+            {
+              "slug": "toribio",
+              "label": "Toribío"
+            },
+            {
+              "slug": "totoro",
+              "label": "Totoró"
+            },
+            {
+              "slug": "villa-rica",
+              "label": "Villa Rica"
+            }
+          ]
+        },
+        {
+          "slug": "cesar",
+          "label": "Cesar",
+          "children": [
+            {
+              "slug": "valledupar",
+              "label": "Valledupar"
+            },
+            {
+              "slug": "aguachica",
+              "label": "Aguachica"
+            },
+            {
+              "slug": "agustin-codazzi",
+              "label": "Agustín Codazzi"
+            },
+            {
+              "slug": "astrea",
+              "label": "Astrea"
+            },
+            {
+              "slug": "becerril",
+              "label": "Becerril"
+            },
+            {
+              "slug": "bosconia",
+              "label": "Bosconia"
+            },
+            {
+              "slug": "chimichagua",
+              "label": "Chimichagua"
+            },
+            {
+              "slug": "chiriguana",
+              "label": "Chiriguaná"
+            },
+            {
+              "slug": "curumani",
+              "label": "Curumaní"
+            },
+            {
+              "slug": "el-copey",
+              "label": "El Copey"
+            },
+            {
+              "slug": "el-paso",
+              "label": "El Paso"
+            },
+            {
+              "slug": "gamarra",
+              "label": "Gamarra"
+            },
+            {
+              "slug": "gonzalez",
+              "label": "González"
+            },
+            {
+              "slug": "la-gloria",
+              "label": "La Gloria"
+            },
+            {
+              "slug": "la-jagua-de-ibirico",
+              "label": "La Jagua de Ibirico"
+            },
+            {
+              "slug": "manaure-balcon-del-cesar",
+              "label": "Manaure Balcón del Cesar"
+            },
+            {
+              "slug": "pailitas",
+              "label": "Pailitas"
+            },
+            {
+              "slug": "pelaya",
+              "label": "Pelaya"
+            },
+            {
+              "slug": "pueblo-bello",
+              "label": "Pueblo Bello"
+            },
+            {
+              "slug": "rio-de-oro",
+              "label": "Río de Oro"
+            },
+            {
+              "slug": "la-paz-ces",
+              "label": "La Paz"
+            },
+            {
+              "slug": "san-alberto",
+              "label": "San Alberto"
+            },
+            {
+              "slug": "san-diego",
+              "label": "San Diego"
+            },
+            {
+              "slug": "san-martin-ces",
+              "label": "San Martín"
+            },
+            {
+              "slug": "tamalameque",
+              "label": "Tamalameque"
+            }
+          ]
+        },
+        {
+          "slug": "cordoba",
+          "label": "Córdoba"
+        },
+        {
+          "slug": "cundinamarca",
+          "label": "Cundinamarca",
+          "children": [
+            {
+              "slug": "agua-de-dios",
+              "label": "Agua de Dios"
+            },
+            {
+              "slug": "alban-cun",
+              "label": "Albán"
+            },
+            {
+              "slug": "anapoima",
+              "label": "Anapoima"
+            },
+            {
+              "slug": "anolaima",
+              "label": "Anolaima"
+            },
+            {
+              "slug": "arbelaez",
+              "label": "Arbeláez"
+            },
+            {
+              "slug": "beltran",
+              "label": "Beltrán"
+            },
+            {
+              "slug": "bituima",
+              "label": "Bituima"
+            },
+            {
+              "slug": "bojaca",
+              "label": "Bojacá"
+            },
+            {
+              "slug": "cabrera-cun",
+              "label": "Cabrera"
+            },
+            {
+              "slug": "cachipay",
+              "label": "Cachipay"
+            },
+            {
+              "slug": "cajica",
+              "label": "Cajicá"
+            },
+            {
+              "slug": "caparrapi",
+              "label": "Caparrapí"
+            },
+            {
+              "slug": "caqueza",
+              "label": "Cáqueza"
+            },
+            {
+              "slug": "carmen-de-carupa",
+              "label": "Carmen de Carupa"
+            },
+            {
+              "slug": "chaguani",
+              "label": "Chaguaní"
+            },
+            {
+              "slug": "chia",
+              "label": "Chía"
+            },
+            {
+              "slug": "chipaque",
+              "label": "Chipaque"
+            },
+            {
+              "slug": "choachi",
+              "label": "Choachí"
+            },
+            {
+              "slug": "choconta",
+              "label": "Chocontá"
+            },
+            {
+              "slug": "cogua",
+              "label": "Cogua"
+            },
+            {
+              "slug": "cota",
+              "label": "Cota"
+            },
+            {
+              "slug": "cucunuba",
+              "label": "Cucunubá"
+            },
+            {
+              "slug": "el-colegio",
+              "label": "El Colegio"
+            },
+            {
+              "slug": "el-penon-cun",
+              "label": "El Peñón"
+            },
+            {
+              "slug": "el-rosal",
+              "label": "El Rosal"
+            },
+            {
+              "slug": "facatativa",
+              "label": "Facatativá"
+            },
+            {
+              "slug": "fomeque",
+              "label": "Fómeque"
+            },
+            {
+              "slug": "fosca",
+              "label": "Fosca"
+            },
+            {
+              "slug": "funza",
+              "label": "Funza"
+            },
+            {
+              "slug": "fuquene",
+              "label": "Fúquene"
+            },
+            {
+              "slug": "fusagasuga",
+              "label": "Fusagasugá"
+            },
+            {
+              "slug": "gachala",
+              "label": "Gachalá"
+            },
+            {
+              "slug": "gachancipa",
+              "label": "Gachancipá"
+            },
+            {
+              "slug": "gacheta",
+              "label": "Gachetá"
+            },
+            {
+              "slug": "gama",
+              "label": "Gama"
+            },
+            {
+              "slug": "girardot",
+              "label": "Girardot"
+            },
+            {
+              "slug": "granada-cun",
+              "label": "Granada"
+            },
+            {
+              "slug": "guacheta",
+              "label": "Guachetá"
+            },
+            {
+              "slug": "guaduas",
+              "label": "Guaduas"
+            },
+            {
+              "slug": "guasca",
+              "label": "Guasca"
+            },
+            {
+              "slug": "guataqui",
+              "label": "Guataquí"
+            },
+            {
+              "slug": "guatavita",
+              "label": "Guatavita"
+            },
+            {
+              "slug": "guayabal-de-siquima",
+              "label": "Guayabal de Síquima"
+            },
+            {
+              "slug": "guayabetal",
+              "label": "Guayabetal"
+            },
+            {
+              "slug": "gutierrez",
+              "label": "Gutiérrez"
+            },
+            {
+              "slug": "jerusalen",
+              "label": "Jerusalén"
+            },
+            {
+              "slug": "junin",
+              "label": "Junín"
+            },
+            {
+              "slug": "la-calera",
+              "label": "La Calera"
+            },
+            {
+              "slug": "la-mesa",
+              "label": "La Mesa"
+            },
+            {
+              "slug": "la-palma",
+              "label": "La Palma"
+            },
+            {
+              "slug": "la-pena",
+              "label": "La Peña"
+            },
+            {
+              "slug": "la-vega-cun",
+              "label": "La Vega"
+            },
+            {
+              "slug": "lenguazaque",
+              "label": "Lenguazaque"
+            },
+            {
+              "slug": "macheta",
+              "label": "Machetá"
+            },
+            {
+              "slug": "madrid",
+              "label": "Madrid"
+            },
+            {
+              "slug": "manta",
+              "label": "Manta"
+            },
+            {
+              "slug": "medina",
+              "label": "Medina"
+            },
+            {
+              "slug": "mosquera-cun",
+              "label": "Mosquera"
+            },
+            {
+              "slug": "narino-cun",
+              "label": "Nariño"
+            },
+            {
+              "slug": "nemocon",
+              "label": "Nemocón"
+            },
+            {
+              "slug": "nilo",
+              "label": "Nilo"
+            },
+            {
+              "slug": "nimaima",
+              "label": "Nimaima"
+            },
+            {
+              "slug": "nocaima",
+              "label": "Nocaima"
+            },
+            {
+              "slug": "venecia-cun",
+              "label": "Venecia"
+            },
+            {
+              "slug": "pacho",
+              "label": "Pacho"
+            },
+            {
+              "slug": "paime",
+              "label": "Paime"
+            },
+            {
+              "slug": "pandi",
+              "label": "Pandi"
+            },
+            {
+              "slug": "paratebueno",
+              "label": "Paratebueno"
+            },
+            {
+              "slug": "pasca",
+              "label": "Pasca"
+            },
+            {
+              "slug": "puerto-salgar",
+              "label": "Puerto Salgar"
+            },
+            {
+              "slug": "puli",
+              "label": "Pulí"
+            },
+            {
+              "slug": "quebradanegra",
+              "label": "Quebradanegra"
+            },
+            {
+              "slug": "quetame",
+              "label": "Quetame"
+            },
+            {
+              "slug": "quipile",
+              "label": "Quipile"
+            },
+            {
+              "slug": "apulo",
+              "label": "Apulo"
+            },
+            {
+              "slug": "ricaurte-cun",
+              "label": "Ricaurte"
+            },
+            {
+              "slug": "san-antonio-del-tequendama",
+              "label": "San Antonio del Tequendama"
+            },
+            {
+              "slug": "san-bernardo-cun",
+              "label": "San Bernardo"
+            },
+            {
+              "slug": "san-cayetano-cun",
+              "label": "San Cayetano"
+            },
+            {
+              "slug": "san-francisco-cun",
+              "label": "San Francisco"
+            },
+            {
+              "slug": "san-juan-de-rioseco",
+              "label": "San Juan de Rioseco"
+            },
+            {
+              "slug": "sasaima",
+              "label": "Sasaima"
+            },
+            {
+              "slug": "sesquile",
+              "label": "Sesquilé"
+            },
+            {
+              "slug": "sibate",
+              "label": "Sibaté"
+            },
+            {
+              "slug": "silvania",
+              "label": "Silvania"
+            },
+            {
+              "slug": "simijaca",
+              "label": "Simijaca"
+            },
+            {
+              "slug": "soacha",
+              "label": "Soacha"
+            },
+            {
+              "slug": "sopo",
+              "label": "Sopó"
+            },
+            {
+              "slug": "subachoque",
+              "label": "Subachoque"
+            },
+            {
+              "slug": "suesca",
+              "label": "Suesca"
+            },
+            {
+              "slug": "supata",
+              "label": "Supatá"
+            },
+            {
+              "slug": "susa",
+              "label": "Susa"
+            },
+            {
+              "slug": "sutatausa",
+              "label": "Sutatausa"
+            },
+            {
+              "slug": "tabio",
+              "label": "Tabio"
+            },
+            {
+              "slug": "tausa",
+              "label": "Tausa"
+            },
+            {
+              "slug": "tena",
+              "label": "Tena"
+            },
+            {
+              "slug": "tenjo",
+              "label": "Tenjo"
+            },
+            {
+              "slug": "tibacuy",
+              "label": "Tibacuy"
+            },
+            {
+              "slug": "tibirita",
+              "label": "Tibirita"
+            },
+            {
+              "slug": "tocaima",
+              "label": "Tocaima"
+            },
+            {
+              "slug": "tocancipa",
+              "label": "Tocancipá"
+            },
+            {
+              "slug": "topaipi",
+              "label": "Topaipí"
+            },
+            {
+              "slug": "ubala",
+              "label": "Ubalá"
+            },
+            {
+              "slug": "ubaque",
+              "label": "Ubaque"
+            },
+            {
+              "slug": "villa-de-san-diego-de-ubate",
+              "label": "Villa de San Diego de Ubaté"
+            },
+            {
+              "slug": "une",
+              "label": "Une"
+            },
+            {
+              "slug": "utica",
+              "label": "Útica"
+            },
+            {
+              "slug": "vergara",
+              "label": "Vergara"
+            },
+            {
+              "slug": "viani",
+              "label": "Vianí"
+            },
+            {
+              "slug": "villagomez",
+              "label": "Villagómez"
+            },
+            {
+              "slug": "villapinzon",
+              "label": "Villapinzón"
+            },
+            {
+              "slug": "villeta",
+              "label": "Villeta"
+            },
+            {
+              "slug": "viota",
+              "label": "Viotá"
+            },
+            {
+              "slug": "yacopi",
+              "label": "Yacopí"
+            },
+            {
+              "slug": "zipacon",
+              "label": "Zipacón"
+            },
+            {
+              "slug": "zipaquira",
+              "label": "Zipaquirá"
+            }
+          ]
+        },
+        {
+          "slug": "choco",
+          "label": "Chocó",
+          "children": [
+            {
+              "slug": "quibdo",
+              "label": "Quibdó"
+            },
+            {
+              "slug": "acandi",
+              "label": "Acandí"
+            },
+            {
+              "slug": "alto-baudo",
+              "label": "Alto Baudó"
+            },
+            {
+              "slug": "atrato",
+              "label": "Atrato"
+            },
+            {
+              "slug": "bagado",
+              "label": "Bagadó"
+            },
+            {
+              "slug": "bahia-solano",
+              "label": "Bahía Solano"
+            },
+            {
+              "slug": "bajo-baudo",
+              "label": "Bajo Baudó"
+            },
+            {
+              "slug": "bojaya",
+              "label": "Bojayá"
+            },
+            {
+              "slug": "el-canton-del-san-pablo",
+              "label": "El Cantón del San Pablo"
+            },
+            {
+              "slug": "carmen-del-darien",
+              "label": "Carmen del Darién"
+            },
+            {
+              "slug": "certegui",
+              "label": "Cértegui"
+            },
+            {
+              "slug": "condoto",
+              "label": "Condoto"
+            },
+            {
+              "slug": "el-carmen-de-atrato",
+              "label": "El Carmen de Atrato"
+            },
+            {
+              "slug": "el-litoral-del-san-juan",
+              "label": "El Litoral del San Juan"
+            },
+            {
+              "slug": "istmina",
+              "label": "Istmina"
+            },
+            {
+              "slug": "jurado",
+              "label": "Juradó"
+            },
+            {
+              "slug": "lloro",
+              "label": "Lloró"
+            },
+            {
+              "slug": "medio-atrato",
+              "label": "Medio Atrato"
+            },
+            {
+              "slug": "medio-baudo",
+              "label": "Medio Baudó"
+            },
+            {
+              "slug": "medio-san-juan",
+              "label": "Medio San Juan"
+            },
+            {
+              "slug": "novita",
+              "label": "Nóvita"
+            },
+            {
+              "slug": "nuqui",
+              "label": "Nuquí"
+            },
+            {
+              "slug": "rio-iro",
+              "label": "Río Iró"
+            },
+            {
+              "slug": "rio-quito",
+              "label": "Río Quito"
+            },
+            {
+              "slug": "riosucio-cho",
+              "label": "Riosucio"
+            },
+            {
+              "slug": "san-jose-del-palmar",
+              "label": "San José del Palmar"
+            },
+            {
+              "slug": "sipi",
+              "label": "Sipí"
+            },
+            {
+              "slug": "tado",
+              "label": "Tadó"
+            },
+            {
+              "slug": "unguia",
+              "label": "Unguía"
+            },
+            {
+              "slug": "union-panamericana",
+              "label": "Unión Panamericana"
+            },
+            {
+              "slug": "monteria",
+              "label": "Montería"
+            },
+            {
+              "slug": "ayapel",
+              "label": "Ayapel"
+            },
+            {
+              "slug": "buenavista-cho",
+              "label": "Buenavista"
+            },
+            {
+              "slug": "canalete",
+              "label": "Canalete"
+            },
+            {
+              "slug": "cerete",
+              "label": "Cereté"
+            },
+            {
+              "slug": "chima-cho",
+              "label": "Chimá"
+            },
+            {
+              "slug": "chinu",
+              "label": "Chinú"
+            },
+            {
+              "slug": "cienaga-de-oro",
+              "label": "Ciénaga de Oro"
+            },
+            {
+              "slug": "cotorra",
+              "label": "Cotorra"
+            },
+            {
+              "slug": "la-apartada",
+              "label": "La Apartada"
+            },
+            {
+              "slug": "lorica",
+              "label": "Lorica"
+            },
+            {
+              "slug": "los-cordobas",
+              "label": "Los Córdobas"
+            },
+            {
+              "slug": "momil",
+              "label": "Momil"
+            },
+            {
+              "slug": "montelibano",
+              "label": "Montelíbano"
+            },
+            {
+              "slug": "monitos",
+              "label": "Moñitos"
+            },
+            {
+              "slug": "planeta-rica",
+              "label": "Planeta Rica"
+            },
+            {
+              "slug": "pueblo-nuevo",
+              "label": "Pueblo Nuevo"
+            },
+            {
+              "slug": "puerto-escondido",
+              "label": "Puerto Escondido"
+            },
+            {
+              "slug": "puerto-libertador",
+              "label": "Puerto Libertador"
+            },
+            {
+              "slug": "purisima-de-la-concepcion",
+              "label": "Purísima de la Concepción"
+            },
+            {
+              "slug": "sahagun",
+              "label": "Sahagún"
+            },
+            {
+              "slug": "san-andres-de-sotavento",
+              "label": "San Andrés de Sotavento"
+            },
+            {
+              "slug": "san-antero",
+              "label": "San Antero"
+            },
+            {
+              "slug": "san-bernardo-del-viento",
+              "label": "San Bernardo del Viento"
+            },
+            {
+              "slug": "san-carlos-cho",
+              "label": "San Carlos"
+            },
+            {
+              "slug": "san-jose-de-ure",
+              "label": "San José de Uré"
+            },
+            {
+              "slug": "san-pelayo",
+              "label": "San Pelayo"
+            },
+            {
+              "slug": "tierralta",
+              "label": "Tierralta"
+            },
+            {
+              "slug": "tuchin",
+              "label": "Tuchín"
+            },
+            {
+              "slug": "valencia",
+              "label": "Valencia"
+            }
+          ]
+        },
+        {
+          "slug": "huila",
+          "label": "Huila",
+          "children": [
+            {
+              "slug": "neiva",
+              "label": "Neiva"
+            },
+            {
+              "slug": "acevedo",
+              "label": "Acevedo"
+            },
+            {
+              "slug": "agrado",
+              "label": "Agrado"
+            },
+            {
+              "slug": "aipe",
+              "label": "Aipe"
+            },
+            {
+              "slug": "algeciras",
+              "label": "Algeciras"
+            },
+            {
+              "slug": "altamira",
+              "label": "Altamira"
+            },
+            {
+              "slug": "baraya",
+              "label": "Baraya"
+            },
+            {
+              "slug": "campoalegre",
+              "label": "Campoalegre"
+            },
+            {
+              "slug": "colombia-hui",
+              "label": "Colombia"
+            },
+            {
+              "slug": "elias",
+              "label": "Elías"
+            },
+            {
+              "slug": "garzon",
+              "label": "Garzón"
+            },
+            {
+              "slug": "gigante",
+              "label": "Gigante"
+            },
+            {
+              "slug": "guadalupe-hui",
+              "label": "Guadalupe"
+            },
+            {
+              "slug": "hobo",
+              "label": "Hobo"
+            },
+            {
+              "slug": "iquira",
+              "label": "Íquira"
+            },
+            {
+              "slug": "isnos",
+              "label": "Isnos"
+            },
+            {
+              "slug": "la-argentina",
+              "label": "La Argentina"
+            },
+            {
+              "slug": "la-plata",
+              "label": "La Plata"
+            },
+            {
+              "slug": "nataga",
+              "label": "Nátaga"
+            },
+            {
+              "slug": "oporapa",
+              "label": "Oporapa"
+            },
+            {
+              "slug": "paicol",
+              "label": "Paicol"
+            },
+            {
+              "slug": "palermo",
+              "label": "Palermo"
+            },
+            {
+              "slug": "palestina-hui",
+              "label": "Palestina"
+            },
+            {
+              "slug": "pital",
+              "label": "Pital"
+            },
+            {
+              "slug": "pitalito",
+              "label": "Pitalito"
+            },
+            {
+              "slug": "rivera",
+              "label": "Rivera"
+            },
+            {
+              "slug": "saladoblanco",
+              "label": "Saladoblanco"
+            },
+            {
+              "slug": "san-agustin",
+              "label": "San Agustín"
+            },
+            {
+              "slug": "santa-maria-hui",
+              "label": "Santa María"
+            },
+            {
+              "slug": "suaza",
+              "label": "Suaza"
+            },
+            {
+              "slug": "tarqui",
+              "label": "Tarqui"
+            },
+            {
+              "slug": "tesalia",
+              "label": "Tesalia"
+            },
+            {
+              "slug": "tello",
+              "label": "Tello"
+            },
+            {
+              "slug": "teruel",
+              "label": "Teruel"
+            },
+            {
+              "slug": "timana",
+              "label": "Timaná"
+            },
+            {
+              "slug": "villavieja",
+              "label": "Villavieja"
+            },
+            {
+              "slug": "yaguara",
+              "label": "Yaguará"
+            }
+          ]
+        },
+        {
+          "slug": "la-guajira",
+          "label": "La Guajira",
+          "children": [
+            {
+              "slug": "riohacha",
+              "label": "Riohacha"
+            },
+            {
+              "slug": "albania-lag",
+              "label": "Albania"
+            },
+            {
+              "slug": "barrancas",
+              "label": "Barrancas"
+            },
+            {
+              "slug": "dibulla",
+              "label": "Dibulla"
+            },
+            {
+              "slug": "distraccion",
+              "label": "Distracción"
+            },
+            {
+              "slug": "el-molino",
+              "label": "El Molino"
+            },
+            {
+              "slug": "fonseca",
+              "label": "Fonseca"
+            },
+            {
+              "slug": "hatonuevo",
+              "label": "Hatonuevo"
+            },
+            {
+              "slug": "la-jagua-del-pilar",
+              "label": "La Jagua del Pilar"
+            },
+            {
+              "slug": "maicao",
+              "label": "Maicao"
+            },
+            {
+              "slug": "manaure",
+              "label": "Manaure"
+            },
+            {
+              "slug": "san-juan-del-cesar",
+              "label": "San Juan del Cesar"
+            },
+            {
+              "slug": "uribia",
+              "label": "Uribia"
+            },
+            {
+              "slug": "urumita",
+              "label": "Urumita"
+            },
+            {
+              "slug": "villanueva-lag",
+              "label": "Villanueva"
+            }
+          ]
+        },
+        {
+          "slug": "magdalena",
+          "label": "Magdalena",
+          "children": [
+            {
+              "slug": "santa-marta",
+              "label": "Santa Marta"
+            },
+            {
+              "slug": "algarrobo",
+              "label": "Algarrobo"
+            },
+            {
+              "slug": "aracataca",
+              "label": "Aracataca"
+            },
+            {
+              "slug": "ariguani",
+              "label": "Ariguaní"
+            },
+            {
+              "slug": "cerro-de-san-antonio",
+              "label": "Cerro de San Antonio"
+            },
+            {
+              "slug": "chivolo",
+              "label": "Chivolo"
+            },
+            {
+              "slug": "cienaga",
+              "label": "Ciénaga"
+            },
+            {
+              "slug": "concordia-mag",
+              "label": "Concordia"
+            },
+            {
+              "slug": "el-banco",
+              "label": "El Banco"
+            },
+            {
+              "slug": "el-pinon",
+              "label": "El Piñón"
+            },
+            {
+              "slug": "el-reten",
+              "label": "El Retén"
+            },
+            {
+              "slug": "fundacion",
+              "label": "Fundación"
+            },
+            {
+              "slug": "guamal-mag",
+              "label": "Guamal"
+            },
+            {
+              "slug": "nueva-granada",
+              "label": "Nueva Granada"
+            },
+            {
+              "slug": "pedraza",
+              "label": "Pedraza"
+            },
+            {
+              "slug": "pijino-del-carmen",
+              "label": "Pijiño del Carmen"
+            },
+            {
+              "slug": "pivijay",
+              "label": "Pivijay"
+            },
+            {
+              "slug": "plato",
+              "label": "Plato"
+            },
+            {
+              "slug": "puebloviejo",
+              "label": "Puebloviejo"
+            },
+            {
+              "slug": "remolino",
+              "label": "Remolino"
+            },
+            {
+              "slug": "sabanas-de-san-angel",
+              "label": "Sabanas de San Ángel"
+            },
+            {
+              "slug": "salamina-mag",
+              "label": "Salamina"
+            },
+            {
+              "slug": "san-sebastian-de-buenavista",
+              "label": "San Sebastián de Buenavista"
+            },
+            {
+              "slug": "san-zenon",
+              "label": "San Zenón"
+            },
+            {
+              "slug": "santa-ana",
+              "label": "Santa Ana"
+            },
+            {
+              "slug": "santa-barbara-de-pinto",
+              "label": "Santa Bárbara de Pinto"
+            },
+            {
+              "slug": "sitionuevo",
+              "label": "Sitionuevo"
+            },
+            {
+              "slug": "tenerife",
+              "label": "Tenerife"
+            },
+            {
+              "slug": "zapayan",
+              "label": "Zapayán"
+            },
+            {
+              "slug": "zona-bananera",
+              "label": "Zona Bananera"
+            }
+          ]
+        },
+        {
+          "slug": "meta",
+          "label": "Meta",
+          "children": [
+            {
+              "slug": "villavicencio",
+              "label": "Villavicencio"
+            },
+            {
+              "slug": "acacias",
+              "label": "Acacías"
+            },
+            {
+              "slug": "barranca-de-upia",
+              "label": "Barranca de Upía"
+            },
+            {
+              "slug": "cabuyaro",
+              "label": "Cabuyaro"
+            },
+            {
+              "slug": "castilla-la-nueva",
+              "label": "Castilla la Nueva"
+            },
+            {
+              "slug": "cubarral",
+              "label": "Cubarral"
+            },
+            {
+              "slug": "cumaral",
+              "label": "Cumaral"
+            },
+            {
+              "slug": "el-calvario",
+              "label": "El Calvario"
+            },
+            {
+              "slug": "el-castillo",
+              "label": "El Castillo"
+            },
+            {
+              "slug": "el-dorado",
+              "label": "El Dorado"
+            },
+            {
+              "slug": "fuente-de-oro",
+              "label": "Fuente de Oro"
+            },
+            {
+              "slug": "granada-met",
+              "label": "Granada"
+            },
+            {
+              "slug": "guamal-met",
+              "label": "Guamal"
+            },
+            {
+              "slug": "mapiripan",
+              "label": "Mapiripán"
+            },
+            {
+              "slug": "mesetas",
+              "label": "Mesetas"
+            },
+            {
+              "slug": "la-macarena",
+              "label": "La Macarena"
+            },
+            {
+              "slug": "uribe",
+              "label": "Uribe"
+            },
+            {
+              "slug": "lejanias",
+              "label": "Lejanías"
+            },
+            {
+              "slug": "puerto-concordia",
+              "label": "Puerto Concordia"
+            },
+            {
+              "slug": "puerto-gaitan",
+              "label": "Puerto Gaitán"
+            },
+            {
+              "slug": "puerto-lopez",
+              "label": "Puerto López"
+            },
+            {
+              "slug": "puerto-lleras",
+              "label": "Puerto Lleras"
+            },
+            {
+              "slug": "puerto-rico-met",
+              "label": "Puerto Rico"
+            },
+            {
+              "slug": "restrepo-met",
+              "label": "Restrepo"
+            },
+            {
+              "slug": "san-carlos-de-guaroa",
+              "label": "San Carlos de Guaroa"
+            },
+            {
+              "slug": "san-juan-de-arama",
+              "label": "San Juan de Arama"
+            },
+            {
+              "slug": "san-juanito",
+              "label": "San Juanito"
+            },
+            {
+              "slug": "san-martin-met",
+              "label": "San Martín"
+            },
+            {
+              "slug": "vistahermosa",
+              "label": "Vistahermosa"
+            }
+          ]
+        },
+        {
+          "slug": "narino",
+          "label": "Nariño",
+          "children": [
+            {
+              "slug": "pasto",
+              "label": "Pasto"
+            },
+            {
+              "slug": "alban-nar",
+              "label": "Albán"
+            },
+            {
+              "slug": "aldana",
+              "label": "Aldana"
+            },
+            {
+              "slug": "ancuya",
+              "label": "Ancuya"
+            },
+            {
+              "slug": "arboleda",
+              "label": "Arboleda"
+            },
+            {
+              "slug": "barbacoas",
+              "label": "Barbacoas"
+            },
+            {
+              "slug": "belen-nar",
+              "label": "Belén"
+            },
+            {
+              "slug": "buesaco",
+              "label": "Buesaco"
+            },
+            {
+              "slug": "colon-nar",
+              "label": "Colón"
+            },
+            {
+              "slug": "consaca",
+              "label": "Consacá"
+            },
+            {
+              "slug": "contadero",
+              "label": "Contadero"
+            },
+            {
+              "slug": "cordoba-nar",
+              "label": "Córdoba"
+            },
+            {
+              "slug": "cuaspud",
+              "label": "Cuaspud"
+            },
+            {
+              "slug": "cumbal",
+              "label": "Cumbal"
+            },
+            {
+              "slug": "cumbitara",
+              "label": "Cumbitara"
+            },
+            {
+              "slug": "chachagui",
+              "label": "Chachagüí"
+            },
+            {
+              "slug": "el-charco",
+              "label": "El Charco"
+            },
+            {
+              "slug": "el-penol",
+              "label": "El Peñol"
+            },
+            {
+              "slug": "el-rosario",
+              "label": "El Rosario"
+            },
+            {
+              "slug": "el-tablon-de-gomez",
+              "label": "El Tablón de Gómez"
+            },
+            {
+              "slug": "el-tambo-nar",
+              "label": "El Tambo"
+            },
+            {
+              "slug": "funes",
+              "label": "Funes"
+            },
+            {
+              "slug": "guachucal",
+              "label": "Guachucal"
+            },
+            {
+              "slug": "guaitarilla",
+              "label": "Guaitarilla"
+            },
+            {
+              "slug": "gualmatan",
+              "label": "Gualmatán"
+            },
+            {
+              "slug": "iles",
+              "label": "Iles"
+            },
+            {
+              "slug": "imues",
+              "label": "Imués"
+            },
+            {
+              "slug": "ipiales",
+              "label": "Ipiales"
+            },
+            {
+              "slug": "la-cruz",
+              "label": "La Cruz"
+            },
+            {
+              "slug": "la-florida",
+              "label": "La Florida"
+            },
+            {
+              "slug": "la-llanada",
+              "label": "La Llanada"
+            },
+            {
+              "slug": "la-tola",
+              "label": "La Tola"
+            },
+            {
+              "slug": "la-union-nar",
+              "label": "La Unión"
+            },
+            {
+              "slug": "leiva",
+              "label": "Leiva"
+            },
+            {
+              "slug": "linares",
+              "label": "Linares"
+            },
+            {
+              "slug": "los-andes",
+              "label": "Los Andes"
+            },
+            {
+              "slug": "magui",
+              "label": "Magüí"
+            },
+            {
+              "slug": "mallama",
+              "label": "Mallama"
+            },
+            {
+              "slug": "mosquera-nar",
+              "label": "Mosquera"
+            },
+            {
+              "slug": "narino-nar",
+              "label": "Nariño"
+            },
+            {
+              "slug": "olaya-herrera",
+              "label": "Olaya Herrera"
+            },
+            {
+              "slug": "ospina",
+              "label": "Ospina"
+            },
+            {
+              "slug": "francisco-pizarro",
+              "label": "Francisco Pizarro"
+            },
+            {
+              "slug": "policarpa",
+              "label": "Policarpa"
+            },
+            {
+              "slug": "potosi",
+              "label": "Potosí"
+            },
+            {
+              "slug": "providencia-nar",
+              "label": "Providencia"
+            },
+            {
+              "slug": "puerres",
+              "label": "Puerres"
+            },
+            {
+              "slug": "pupiales",
+              "label": "Pupiales"
+            },
+            {
+              "slug": "ricaurte-nar",
+              "label": "Ricaurte"
+            },
+            {
+              "slug": "roberto-payan",
+              "label": "Roberto Payán"
+            },
+            {
+              "slug": "samaniego",
+              "label": "Samaniego"
+            },
+            {
+              "slug": "sandona",
+              "label": "Sandoná"
+            },
+            {
+              "slug": "san-bernardo-nar",
+              "label": "San Bernardo"
+            },
+            {
+              "slug": "san-lorenzo",
+              "label": "San Lorenzo"
+            },
+            {
+              "slug": "san-pablo-nar",
+              "label": "San Pablo"
+            },
+            {
+              "slug": "san-pedro-de-cartago",
+              "label": "San Pedro de Cartago"
+            },
+            {
+              "slug": "santa-barbara-nar",
+              "label": "Santa Bárbara"
+            },
+            {
+              "slug": "santacruz",
+              "label": "Santacruz"
+            },
+            {
+              "slug": "sapuyes",
+              "label": "Sapuyes"
+            },
+            {
+              "slug": "taminango",
+              "label": "Taminango"
+            },
+            {
+              "slug": "tangua",
+              "label": "Tangua"
+            },
+            {
+              "slug": "san-andres-de-tumaco",
+              "label": "San Andrés de Tumaco"
+            },
+            {
+              "slug": "tuquerres",
+              "label": "Túquerres"
+            },
+            {
+              "slug": "yacuanquer",
+              "label": "Yacuanquer"
+            }
+          ]
+        },
+        {
+          "slug": "norte-santander",
+          "label": "Norte de Santander",
+          "children": [
+            {
+              "slug": "san-jose-de-cucuta",
+              "label": "San José de Cúcuta"
+            },
+            {
+              "slug": "abrego",
+              "label": "Ábrego"
+            },
+            {
+              "slug": "arboledas",
+              "label": "Arboledas"
+            },
+            {
+              "slug": "bochalema",
+              "label": "Bochalema"
+            },
+            {
+              "slug": "bucarasica",
+              "label": "Bucarasica"
+            },
+            {
+              "slug": "cacota",
+              "label": "Cácota"
+            },
+            {
+              "slug": "cachira",
+              "label": "Cáchira"
+            },
+            {
+              "slug": "chinacota",
+              "label": "Chinácota"
+            },
+            {
+              "slug": "chitaga",
+              "label": "Chitagá"
+            },
+            {
+              "slug": "convencion",
+              "label": "Convención"
+            },
+            {
+              "slug": "cucutilla",
+              "label": "Cucutilla"
+            },
+            {
+              "slug": "durania",
+              "label": "Durania"
+            },
+            {
+              "slug": "el-carmen",
+              "label": "El Carmen"
+            },
+            {
+              "slug": "el-tarra",
+              "label": "El Tarra"
+            },
+            {
+              "slug": "el-zulia",
+              "label": "El Zulia"
+            },
+            {
+              "slug": "gramalote",
+              "label": "Gramalote"
+            },
+            {
+              "slug": "hacari",
+              "label": "Hacarí"
+            },
+            {
+              "slug": "herran",
+              "label": "Herrán"
+            },
+            {
+              "slug": "labateca",
+              "label": "Labateca"
+            },
+            {
+              "slug": "la-esperanza",
+              "label": "La Esperanza"
+            },
+            {
+              "slug": "la-playa",
+              "label": "La Playa"
+            },
+            {
+              "slug": "los-patios",
+              "label": "Los Patios"
+            },
+            {
+              "slug": "lourdes",
+              "label": "Lourdes"
+            },
+            {
+              "slug": "mutiscua",
+              "label": "Mutiscua"
+            },
+            {
+              "slug": "ocana",
+              "label": "Ocaña"
+            },
+            {
+              "slug": "pamplona",
+              "label": "Pamplona"
+            },
+            {
+              "slug": "pamplonita",
+              "label": "Pamplonita"
+            },
+            {
+              "slug": "puerto-santander-nsa",
+              "label": "Puerto Santander"
+            },
+            {
+              "slug": "ragonvalia",
+              "label": "Ragonvalia"
+            },
+            {
+              "slug": "salazar",
+              "label": "Salazar"
+            },
+            {
+              "slug": "san-calixto",
+              "label": "San Calixto"
+            },
+            {
+              "slug": "san-cayetano-nsa",
+              "label": "San Cayetano"
+            },
+            {
+              "slug": "santiago-nsa",
+              "label": "Santiago"
+            },
+            {
+              "slug": "sardinata",
+              "label": "Sardinata"
+            },
+            {
+              "slug": "silos",
+              "label": "Silos"
+            },
+            {
+              "slug": "teorama",
+              "label": "Teorama"
+            },
+            {
+              "slug": "tibu",
+              "label": "Tibú"
+            },
+            {
+              "slug": "toledo-nsa",
+              "label": "Toledo"
+            },
+            {
+              "slug": "villa-caro",
+              "label": "Villa Caro"
+            },
+            {
+              "slug": "villa-del-rosario",
+              "label": "Villa del Rosario"
+            }
+          ]
+        },
+        {
+          "slug": "quindio",
+          "label": "Quindío",
+          "children": [
+            {
+              "slug": "armenia-qui",
+              "label": "Armenia"
+            },
+            {
+              "slug": "buenavista-qui",
+              "label": "Buenavista"
+            },
+            {
+              "slug": "calarca",
+              "label": "Calarcá"
+            },
+            {
+              "slug": "circasia",
+              "label": "Circasia"
+            },
+            {
+              "slug": "cordoba-qui",
+              "label": "Córdoba"
+            },
+            {
+              "slug": "filandia",
+              "label": "Filandia"
+            },
+            {
+              "slug": "genova",
+              "label": "Génova"
+            },
+            {
+              "slug": "la-tebaida",
+              "label": "La Tebaida"
+            },
+            {
+              "slug": "montenegro",
+              "label": "Montenegro"
+            },
+            {
+              "slug": "pijao",
+              "label": "Pijao"
+            },
+            {
+              "slug": "quimbaya",
+              "label": "Quimbaya"
+            },
+            {
+              "slug": "salento",
+              "label": "Salento"
+            }
+          ]
+        },
+        {
+          "slug": "risaralda",
+          "label": "Risaralda",
+          "children": [
+            {
+              "slug": "pereira",
+              "label": "Pereira"
+            },
+            {
+              "slug": "apia",
+              "label": "Apía"
+            },
+            {
+              "slug": "balboa-ris",
+              "label": "Balboa"
+            },
+            {
+              "slug": "belen-de-umbria",
+              "label": "Belén de Umbría"
+            },
+            {
+              "slug": "dosquebradas",
+              "label": "Dosquebradas"
+            },
+            {
+              "slug": "guatica",
+              "label": "Guática"
+            },
+            {
+              "slug": "la-celia",
+              "label": "La Celia"
+            },
+            {
+              "slug": "la-virginia",
+              "label": "La Virginia"
+            },
+            {
+              "slug": "marsella",
+              "label": "Marsella"
+            },
+            {
+              "slug": "mistrato",
+              "label": "Mistrató"
+            },
+            {
+              "slug": "pueblo-rico",
+              "label": "Pueblo Rico"
+            },
+            {
+              "slug": "quinchia",
+              "label": "Quinchía"
+            },
+            {
+              "slug": "santa-rosa-de-cabal",
+              "label": "Santa Rosa de Cabal"
+            },
+            {
+              "slug": "santuario",
+              "label": "Santuario"
+            }
+          ]
+        },
+        {
+          "slug": "santander",
+          "label": "Santander",
+          "children": [
+            {
+              "slug": "bucaramanga",
+              "label": "Bucaramanga"
+            },
+            {
+              "slug": "aguada",
+              "label": "Aguada"
+            },
+            {
+              "slug": "albania-san",
+              "label": "Albania"
+            },
+            {
+              "slug": "aratoca",
+              "label": "Aratoca"
+            },
+            {
+              "slug": "barbosa-san",
+              "label": "Barbosa"
+            },
+            {
+              "slug": "barichara",
+              "label": "Barichara"
+            },
+            {
+              "slug": "barrancabermeja",
+              "label": "Barrancabermeja"
+            },
+            {
+              "slug": "betulia-san",
+              "label": "Betulia"
+            },
+            {
+              "slug": "bolivar-san",
+              "label": "Bolívar"
+            },
+            {
+              "slug": "cabrera-san",
+              "label": "Cabrera"
+            },
+            {
+              "slug": "california",
+              "label": "California"
+            },
+            {
+              "slug": "capitanejo",
+              "label": "Capitanejo"
+            },
+            {
+              "slug": "carcasi",
+              "label": "Carcasí"
+            },
+            {
+              "slug": "cepita",
+              "label": "Cepitá"
+            },
+            {
+              "slug": "cerrito",
+              "label": "Cerrito"
+            },
+            {
+              "slug": "charala",
+              "label": "Charalá"
+            },
+            {
+              "slug": "charta",
+              "label": "Charta"
+            },
+            {
+              "slug": "chima-san",
+              "label": "Chima"
+            },
+            {
+              "slug": "chipata",
+              "label": "Chipatá"
+            },
+            {
+              "slug": "cimitarra",
+              "label": "Cimitarra"
+            },
+            {
+              "slug": "concepcion-san",
+              "label": "Concepción"
+            },
+            {
+              "slug": "confines",
+              "label": "Confines"
+            },
+            {
+              "slug": "contratacion",
+              "label": "Contratación"
+            },
+            {
+              "slug": "coromoro",
+              "label": "Coromoro"
+            },
+            {
+              "slug": "curiti",
+              "label": "Curití"
+            },
+            {
+              "slug": "el-carmen-de-chucuri",
+              "label": "El Carmen de Chucurí"
+            },
+            {
+              "slug": "el-guacamayo",
+              "label": "El Guacamayo"
+            },
+            {
+              "slug": "el-penon-san",
+              "label": "El Peñón"
+            },
+            {
+              "slug": "el-playon",
+              "label": "El Playón"
+            },
+            {
+              "slug": "encino",
+              "label": "Encino"
+            },
+            {
+              "slug": "enciso",
+              "label": "Enciso"
+            },
+            {
+              "slug": "florian",
+              "label": "Florián"
+            },
+            {
+              "slug": "floridablanca",
+              "label": "Floridablanca"
+            },
+            {
+              "slug": "galan",
+              "label": "Galán"
+            },
+            {
+              "slug": "gambita",
+              "label": "Gámbita"
+            },
+            {
+              "slug": "giron",
+              "label": "Girón"
+            },
+            {
+              "slug": "guaca",
+              "label": "Guaca"
+            },
+            {
+              "slug": "guadalupe-san",
+              "label": "Guadalupe"
+            },
+            {
+              "slug": "guapota",
+              "label": "Guapotá"
+            },
+            {
+              "slug": "guavata",
+              "label": "Guavatá"
+            },
+            {
+              "slug": "guepsa",
+              "label": "Güepsa"
+            },
+            {
+              "slug": "hato",
+              "label": "Hato"
+            },
+            {
+              "slug": "jesus-maria",
+              "label": "Jesús María"
+            },
+            {
+              "slug": "jordan",
+              "label": "Jordán"
+            },
+            {
+              "slug": "la-belleza",
+              "label": "La Belleza"
+            },
+            {
+              "slug": "landazuri",
+              "label": "Landázuri"
+            },
+            {
+              "slug": "la-paz-san",
+              "label": "La Paz"
+            },
+            {
+              "slug": "lebrija",
+              "label": "Lebrija"
+            },
+            {
+              "slug": "los-santos",
+              "label": "Los Santos"
+            },
+            {
+              "slug": "macaravita",
+              "label": "Macaravita"
+            },
+            {
+              "slug": "malaga",
+              "label": "Málaga"
+            },
+            {
+              "slug": "matanza",
+              "label": "Matanza"
+            },
+            {
+              "slug": "mogotes",
+              "label": "Mogotes"
+            },
+            {
+              "slug": "molagavita",
+              "label": "Molagavita"
+            },
+            {
+              "slug": "ocamonte",
+              "label": "Ocamonte"
+            },
+            {
+              "slug": "oiba",
+              "label": "Oiba"
+            },
+            {
+              "slug": "onzaga",
+              "label": "Onzaga"
+            },
+            {
+              "slug": "palmar",
+              "label": "Palmar"
+            },
+            {
+              "slug": "palmas-del-socorro",
+              "label": "Palmas del Socorro"
+            },
+            {
+              "slug": "paramo",
+              "label": "Páramo"
+            },
+            {
+              "slug": "piedecuesta",
+              "label": "Piedecuesta"
+            },
+            {
+              "slug": "pinchote",
+              "label": "Pinchote"
+            },
+            {
+              "slug": "puente-nacional",
+              "label": "Puente Nacional"
+            },
+            {
+              "slug": "puerto-parra",
+              "label": "Puerto Parra"
+            },
+            {
+              "slug": "puerto-wilches",
+              "label": "Puerto Wilches"
+            },
+            {
+              "slug": "rionegro-san",
+              "label": "Rionegro"
+            },
+            {
+              "slug": "sabana-de-torres",
+              "label": "Sabana de Torres"
+            },
+            {
+              "slug": "san-andres-san",
+              "label": "San Andrés"
+            },
+            {
+              "slug": "san-benito",
+              "label": "San Benito"
+            },
+            {
+              "slug": "san-gil",
+              "label": "San Gil"
+            },
+            {
+              "slug": "san-joaquin",
+              "label": "San Joaquín"
+            },
+            {
+              "slug": "san-jose-de-miranda",
+              "label": "San José de Miranda"
+            },
+            {
+              "slug": "san-miguel-san",
+              "label": "San Miguel"
+            },
+            {
+              "slug": "san-vicente-de-chucuri",
+              "label": "San Vicente de Chucurí"
+            },
+            {
+              "slug": "santa-barbara-san",
+              "label": "Santa Bárbara"
+            },
+            {
+              "slug": "santa-helena-del-opon",
+              "label": "Santa Helena del Opón"
+            },
+            {
+              "slug": "simacota",
+              "label": "Simacota"
+            },
+            {
+              "slug": "socorro",
+              "label": "Socorro"
+            },
+            {
+              "slug": "suaita",
+              "label": "Suaita"
+            },
+            {
+              "slug": "sucre-san",
+              "label": "Sucre"
+            },
+            {
+              "slug": "surata",
+              "label": "Suratá"
+            },
+            {
+              "slug": "tona",
+              "label": "Tona"
+            },
+            {
+              "slug": "valle-de-san-jose",
+              "label": "Valle de San José"
+            },
+            {
+              "slug": "velez",
+              "label": "Vélez"
+            },
+            {
+              "slug": "vetas",
+              "label": "Vetas"
+            },
+            {
+              "slug": "villanueva-san",
+              "label": "Villanueva"
+            },
+            {
+              "slug": "zapatoca",
+              "label": "Zapatoca"
+            }
+          ]
+        },
+        {
+          "slug": "sucre",
+          "label": "Sucre",
+          "children": [
+            {
+              "slug": "sincelejo",
+              "label": "Sincelejo"
+            },
+            {
+              "slug": "buenavista-suc",
+              "label": "Buenavista"
+            },
+            {
+              "slug": "caimito",
+              "label": "Caimito"
+            },
+            {
+              "slug": "coloso",
+              "label": "Colosó"
+            },
+            {
+              "slug": "corozal",
+              "label": "Corozal"
+            },
+            {
+              "slug": "covenas",
+              "label": "Coveñas"
+            },
+            {
+              "slug": "chalan",
+              "label": "Chalán"
+            },
+            {
+              "slug": "el-roble",
+              "label": "El Roble"
+            },
+            {
+              "slug": "galeras",
+              "label": "Galeras"
+            },
+            {
+              "slug": "guaranda",
+              "label": "Guaranda"
+            },
+            {
+              "slug": "la-union-suc",
+              "label": "La Unión"
+            },
+            {
+              "slug": "los-palmitos",
+              "label": "Los Palmitos"
+            },
+            {
+              "slug": "majagual",
+              "label": "Majagual"
+            },
+            {
+              "slug": "morroa",
+              "label": "Morroa"
+            },
+            {
+              "slug": "ovejas",
+              "label": "Ovejas"
+            },
+            {
+              "slug": "palmito",
+              "label": "Palmito"
+            },
+            {
+              "slug": "sampues",
+              "label": "Sampués"
+            },
+            {
+              "slug": "san-benito-abad",
+              "label": "San Benito Abad"
+            },
+            {
+              "slug": "san-juan-de-betulia",
+              "label": "San Juan de Betulia"
+            },
+            {
+              "slug": "san-marcos",
+              "label": "San Marcos"
+            },
+            {
+              "slug": "san-onofre",
+              "label": "San Onofre"
+            },
+            {
+              "slug": "san-pedro-suc",
+              "label": "San Pedro"
+            },
+            {
+              "slug": "san-luis-de-since",
+              "label": "San Luis de Sincé"
+            },
+            {
+              "slug": "sucre-suc",
+              "label": "Sucre"
+            },
+            {
+              "slug": "santiago-de-tolu",
+              "label": "Santiago de Tolú"
+            },
+            {
+              "slug": "san-jose-de-toluviejo",
+              "label": "San José de Toluviejo"
+            }
+          ]
+        },
+        {
+          "slug": "tolima",
+          "label": "Tolima",
+          "children": [
+            {
+              "slug": "ibague",
+              "label": "Ibagué"
+            },
+            {
+              "slug": "alpujarra",
+              "label": "Alpujarra"
+            },
+            {
+              "slug": "alvarado",
+              "label": "Alvarado"
+            },
+            {
+              "slug": "ambalema",
+              "label": "Ambalema"
+            },
+            {
+              "slug": "anzoategui",
+              "label": "Anzoátegui"
+            },
+            {
+              "slug": "armero",
+              "label": "Armero"
+            },
+            {
+              "slug": "ataco",
+              "label": "Ataco"
+            },
+            {
+              "slug": "cajamarca",
+              "label": "Cajamarca"
+            },
+            {
+              "slug": "carmen-de-apicala",
+              "label": "Carmen de Apicalá"
+            },
+            {
+              "slug": "casabianca",
+              "label": "Casabianca"
+            },
+            {
+              "slug": "chaparral",
+              "label": "Chaparral"
+            },
+            {
+              "slug": "coello",
+              "label": "Coello"
+            },
+            {
+              "slug": "coyaima",
+              "label": "Coyaima"
+            },
+            {
+              "slug": "cunday",
+              "label": "Cunday"
+            },
+            {
+              "slug": "dolores",
+              "label": "Dolores"
+            },
+            {
+              "slug": "espinal",
+              "label": "Espinal"
+            },
+            {
+              "slug": "falan",
+              "label": "Falan"
+            },
+            {
+              "slug": "flandes",
+              "label": "Flandes"
+            },
+            {
+              "slug": "fresno",
+              "label": "Fresno"
+            },
+            {
+              "slug": "guamo",
+              "label": "Guamo"
+            },
+            {
+              "slug": "herveo",
+              "label": "Herveo"
+            },
+            {
+              "slug": "honda",
+              "label": "Honda"
+            },
+            {
+              "slug": "icononzo",
+              "label": "Icononzo"
+            },
+            {
+              "slug": "lerida",
+              "label": "Lérida"
+            },
+            {
+              "slug": "libano",
+              "label": "Líbano"
+            },
+            {
+              "slug": "san-sebastian-de-mariquita",
+              "label": "San Sebastián de Mariquita"
+            },
+            {
+              "slug": "melgar",
+              "label": "Melgar"
+            },
+            {
+              "slug": "murillo",
+              "label": "Murillo"
+            },
+            {
+              "slug": "natagaima",
+              "label": "Natagaima"
+            },
+            {
+              "slug": "ortega",
+              "label": "Ortega"
+            },
+            {
+              "slug": "palocabildo",
+              "label": "Palocabildo"
+            },
+            {
+              "slug": "piedras",
+              "label": "Piedras"
+            },
+            {
+              "slug": "planadas",
+              "label": "Planadas"
+            },
+            {
+              "slug": "prado",
+              "label": "Prado"
+            },
+            {
+              "slug": "purificacion",
+              "label": "Purificación"
+            },
+            {
+              "slug": "rioblanco",
+              "label": "Rioblanco"
+            },
+            {
+              "slug": "roncesvalles",
+              "label": "Roncesvalles"
+            },
+            {
+              "slug": "rovira",
+              "label": "Rovira"
+            },
+            {
+              "slug": "saldana",
+              "label": "Saldaña"
+            },
+            {
+              "slug": "san-antonio",
+              "label": "San Antonio"
+            },
+            {
+              "slug": "san-luis-tol",
+              "label": "San Luis"
+            },
+            {
+              "slug": "santa-isabel",
+              "label": "Santa Isabel"
+            },
+            {
+              "slug": "suarez-tol",
+              "label": "Suárez"
+            },
+            {
+              "slug": "valle-de-san-juan",
+              "label": "Valle de San Juan"
+            },
+            {
+              "slug": "venadillo",
+              "label": "Venadillo"
+            },
+            {
+              "slug": "villahermosa",
+              "label": "Villahermosa"
+            },
+            {
+              "slug": "villarrica",
+              "label": "Villarrica"
+            }
+          ]
+        },
+        {
+          "slug": "valle-del-cauca",
+          "label": "Valle del Cauca",
+          "children": [
+            {
+              "slug": "cali",
+              "label": "Cali"
+            },
+            {
+              "slug": "alcala",
+              "label": "Alcalá"
+            },
+            {
+              "slug": "andalucia",
+              "label": "Andalucía"
+            },
+            {
+              "slug": "ansermanuevo",
+              "label": "Ansermanuevo"
+            },
+            {
+              "slug": "argelia-vac",
+              "label": "Argelia"
+            },
+            {
+              "slug": "bolivar-vac",
+              "label": "Bolívar"
+            },
+            {
+              "slug": "buenaventura",
+              "label": "Buenaventura"
+            },
+            {
+              "slug": "guadalajara-de-buga",
+              "label": "Guadalajara de Buga"
+            },
+            {
+              "slug": "bugalagrande",
+              "label": "Bugalagrande"
+            },
+            {
+              "slug": "caicedonia",
+              "label": "Caicedonia"
+            },
+            {
+              "slug": "calima",
+              "label": "Calima"
+            },
+            {
+              "slug": "candelaria-vac",
+              "label": "Candelaria"
+            },
+            {
+              "slug": "cartago",
+              "label": "Cartago"
+            },
+            {
+              "slug": "dagua",
+              "label": "Dagua"
+            },
+            {
+              "slug": "el-aguila",
+              "label": "El Águila"
+            },
+            {
+              "slug": "el-cairo",
+              "label": "El Cairo"
+            },
+            {
+              "slug": "el-cerrito",
+              "label": "El Cerrito"
+            },
+            {
+              "slug": "el-dovio",
+              "label": "El Dovio"
+            },
+            {
+              "slug": "florida",
+              "label": "Florida"
+            },
+            {
+              "slug": "ginebra",
+              "label": "Ginebra"
+            },
+            {
+              "slug": "guacari",
+              "label": "Guacarí"
+            },
+            {
+              "slug": "jamundi",
+              "label": "Jamundí"
+            },
+            {
+              "slug": "la-cumbre",
+              "label": "La Cumbre"
+            },
+            {
+              "slug": "la-union-vac",
+              "label": "La Unión"
+            },
+            {
+              "slug": "la-victoria-vac",
+              "label": "La Victoria"
+            },
+            {
+              "slug": "obando",
+              "label": "Obando"
+            },
+            {
+              "slug": "palmira",
+              "label": "Palmira"
+            },
+            {
+              "slug": "pradera",
+              "label": "Pradera"
+            },
+            {
+              "slug": "restrepo-vac",
+              "label": "Restrepo"
+            },
+            {
+              "slug": "riofrio",
+              "label": "Riofrío"
+            },
+            {
+              "slug": "roldanillo",
+              "label": "Roldanillo"
+            },
+            {
+              "slug": "san-pedro-vac",
+              "label": "San Pedro"
+            },
+            {
+              "slug": "sevilla",
+              "label": "Sevilla"
+            },
+            {
+              "slug": "toro",
+              "label": "Toro"
+            },
+            {
+              "slug": "trujillo",
+              "label": "Trujillo"
+            },
+            {
+              "slug": "tulua",
+              "label": "Tuluá"
+            },
+            {
+              "slug": "ulloa",
+              "label": "Ulloa"
+            },
+            {
+              "slug": "versalles",
+              "label": "Versalles"
+            },
+            {
+              "slug": "vijes",
+              "label": "Vijes"
+            },
+            {
+              "slug": "yotoco",
+              "label": "Yotoco"
+            },
+            {
+              "slug": "yumbo",
+              "label": "Yumbo"
+            },
+            {
+              "slug": "zarzal",
+              "label": "Zarzal"
+            }
+          ]
+        },
+        {
+          "slug": "arauca",
+          "label": "Arauca",
+          "children": [
+            {
+              "slug": "arauca-ara",
+              "label": "Arauca"
+            },
+            {
+              "slug": "arauquita",
+              "label": "Arauquita"
+            },
+            {
+              "slug": "cravo-norte",
+              "label": "Cravo Norte"
+            },
+            {
+              "slug": "fortul",
+              "label": "Fortul"
+            },
+            {
+              "slug": "puerto-rondon",
+              "label": "Puerto Rondón"
+            },
+            {
+              "slug": "saravena",
+              "label": "Saravena"
+            },
+            {
+              "slug": "tame",
+              "label": "Tame"
+            }
+          ]
+        },
+        {
+          "slug": "casanare",
+          "label": "Casanare",
+          "children": [
+            {
+              "slug": "yopal",
+              "label": "Yopal"
+            },
+            {
+              "slug": "aguazul",
+              "label": "Aguazul"
+            },
+            {
+              "slug": "chameza",
+              "label": "Chámeza"
+            },
+            {
+              "slug": "hato-corozal",
+              "label": "Hato Corozal"
+            },
+            {
+              "slug": "la-salina",
+              "label": "La Salina"
+            },
+            {
+              "slug": "mani",
+              "label": "Maní"
+            },
+            {
+              "slug": "monterrey",
+              "label": "Monterrey"
+            },
+            {
+              "slug": "nunchia",
+              "label": "Nunchía"
+            },
+            {
+              "slug": "orocue",
+              "label": "Orocué"
+            },
+            {
+              "slug": "paz-de-ariporo",
+              "label": "Paz de Ariporo"
+            },
+            {
+              "slug": "pore",
+              "label": "Pore"
+            },
+            {
+              "slug": "recetor",
+              "label": "Recetor"
+            },
+            {
+              "slug": "sabanalarga-cas",
+              "label": "Sabanalarga"
+            },
+            {
+              "slug": "sacama",
+              "label": "Sácama"
+            },
+            {
+              "slug": "san-luis-de-palenque",
+              "label": "San Luis de Palenque"
+            },
+            {
+              "slug": "tamara",
+              "label": "Támara"
+            },
+            {
+              "slug": "tauramena",
+              "label": "Tauramena"
+            },
+            {
+              "slug": "trinidad",
+              "label": "Trinidad"
+            },
+            {
+              "slug": "villanueva-cas",
+              "label": "Villanueva"
+            }
+          ]
+        },
+        {
+          "slug": "putumayo",
+          "label": "Putumayo",
+          "children": [
+            {
+              "slug": "mocoa",
+              "label": "Mocoa"
+            },
+            {
+              "slug": "colon-put",
+              "label": "Colón"
+            },
+            {
+              "slug": "orito",
+              "label": "Orito"
+            },
+            {
+              "slug": "puerto-asis",
+              "label": "Puerto Asís"
+            },
+            {
+              "slug": "puerto-caicedo",
+              "label": "Puerto Caicedo"
+            },
+            {
+              "slug": "puerto-guzman",
+              "label": "Puerto Guzmán"
+            },
+            {
+              "slug": "puerto-leguizamo",
+              "label": "Puerto Leguízamo"
+            },
+            {
+              "slug": "sibundoy",
+              "label": "Sibundoy"
+            },
+            {
+              "slug": "san-francisco-put",
+              "label": "San Francisco"
+            },
+            {
+              "slug": "san-miguel-put",
+              "label": "San Miguel"
+            },
+            {
+              "slug": "santiago-put",
+              "label": "Santiago"
+            },
+            {
+              "slug": "valle-del-guamuez",
+              "label": "Valle del Guamuez"
+            },
+            {
+              "slug": "villagarzon",
+              "label": "Villagarzón"
+            }
+          ]
+        },
+        {
+          "slug": "san-andres-providencia",
+          "label": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+          "children": [
+            {
+              "slug": "san-andres-sap",
+              "label": "San Andrés"
+            },
+            {
+              "slug": "providencia-sap",
+              "label": "Providencia"
+            }
+          ]
+        },
+        {
+          "slug": "amazonas",
+          "label": "Amazonas",
+          "children": [
+            {
+              "slug": "leticia",
+              "label": "Leticia"
+            },
+            {
+              "slug": "el-encanto",
+              "label": "El Encanto"
+            },
+            {
+              "slug": "la-chorrera",
+              "label": "La Chorrera"
+            },
+            {
+              "slug": "la-pedrera",
+              "label": "La Pedrera"
+            },
+            {
+              "slug": "la-victoria-ama",
+              "label": "La Victoria"
+            },
+            {
+              "slug": "miriti-parana",
+              "label": "Mirití - Paraná"
+            },
+            {
+              "slug": "puerto-alegria",
+              "label": "Puerto Alegría"
+            },
+            {
+              "slug": "puerto-arica",
+              "label": "Puerto Arica"
+            },
+            {
+              "slug": "puerto-narino",
+              "label": "Puerto Nariño"
+            },
+            {
+              "slug": "puerto-santander-ama",
+              "label": "Puerto Santander"
+            },
+            {
+              "slug": "tarapaca",
+              "label": "Tarapacá"
+            }
+          ]
+        },
+        {
+          "slug": "guainia",
+          "label": "Guainía",
+          "children": [
+            {
+              "slug": "inirida",
+              "label": "Inírida"
+            },
+            {
+              "slug": "barrancominas",
+              "label": "Barrancominas"
+            }
+          ]
+        },
+        {
+          "slug": "guaviare",
+          "label": "Guaviare",
+          "children": [
+            {
+              "slug": "san-jose-del-guaviare",
+              "label": "San José del Guaviare"
+            },
+            {
+              "slug": "calamar-guv",
+              "label": "Calamar"
+            },
+            {
+              "slug": "el-retorno",
+              "label": "El Retorno"
+            },
+            {
+              "slug": "miraflores-guv",
+              "label": "Miraflores"
+            }
+          ]
+        },
+        {
+          "slug": "vaupes",
+          "label": "Vaupés",
+          "children": [
+            {
+              "slug": "mitu",
+              "label": "Mitú"
+            },
+            {
+              "slug": "caruru",
+              "label": "Carurú"
+            },
+            {
+              "slug": "taraira",
+              "label": "Taraira"
+            }
+          ]
+        },
+        {
+          "slug": "vichada",
+          "label": "Vichada",
+          "children": [
+            {
+              "slug": "puerto-carreno",
+              "label": "Puerto Carreño"
+            },
+            {
+              "slug": "la-primavera",
+              "label": "La Primavera"
+            },
+            {
+              "slug": "santa-rosalia",
+              "label": "Santa Rosalía"
+            },
+            {
+              "slug": "cumaribo",
+              "label": "Cumaribo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "territorios-indigenas",
+      "description": "Los resguardos indígenas son propiedad colectiva de las comunidades indígenas con un carácter legal y sociopolítico de carácter especial, conformada por una o más comunidades indígenas, que con un título de propiedad colectiva goza de las garantías de la propiedad privada. Poseen su territorio y se rigen para el manejo de éste y su vida interna por una organización autónoma amparada por el fuero indígena y su sistema normativo propio.",
+      "label": "Territorios indígenas",
+      "children": [
+        {
+          "slug": "resguardo-indigena-de-pialapi-pueblo-viejo",
+          "label": "Resguardo Indigena De Pialapi Pueblo Viejo"
+        }
+      ]
+    },
+    {
+      "slug": "reservas-naturales",
+      "description": "Áreas dentro de un territorio determinado que se encuentran protegidas por su importancia para la vida silvestre.",
+      "label": "Reservas naturales",
+      "children": [
+        {
+          "slug": "reserva-natural-la-planada",
+          "label": "Reserva natural La Planada"
+        }
+      ]
+    }
+  ]
+}

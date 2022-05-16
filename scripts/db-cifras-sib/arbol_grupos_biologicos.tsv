@@ -1,0 +1,77 @@
+parent	slug	label	description
+0	animales	Animales	
+0	plantas	Plantas	
+microorganismos	hongos	Hongos	Este grupo incluye solo el reino Fungi
+0	bacterias	Bacterias	
+plantas	destacadas-plantas	Destacadas plantas	Grupos de plantas que generan algún interes de conservación
+destacadas-plantas	epifitas	Epífitas	
+animales	destacadas-animales	Destacadas animales	
+hongos	destacadas-hongos	Destacadas hongos	
+animales	vertebrados	Vertebrados	
+vertebrados	mamiferos	Mamíferos	
+vertebrados	aves	Aves	
+vertebrados	reptiles	Reptiles	
+vertebrados	anfibios	Anfibios	
+vertebrados	peces	Peces	
+animales	invertebrados	Invertebrados	
+invertebrados	destacadas-invertebrados	Destacadas invertebrados	
+invertebrados	insectos	Insectos	
+insectos	escarabajos	Escarabajos	
+insectos	mariposas	Mariposas	
+insectos	dipteros	Dípteros	
+insectos	hormigas	Hormigas	
+insectos	abejas	Abejas	
+invertebrados	aracnidos	Arácnidos	
+invertebrados	moluscos	Moluscos	
+invertebrados	decapodos	Decápodos	
+invertebrados	crustaceos	Crustáceos	
+invertebrados	equinodermos	Equinodermos	
+invertebrados	esponjas	Esponjas	
+invertebrados	corales	Corales	
+destacadas-plantas	orquideas	Orquídeas	
+destacadas-plantas	magnolias-afines	Magnolias y afines	
+destacadas-plantas	palmas	Palmas	
+destacadas-plantas	frailejones	Frailejones	
+destacadas-plantas	cactus	Cactus	
+destacadas-plantas	bromelias-labiadas-pasifloras	Bromelias, labiadas y pasifloras	
+destacadas-plantas	pinos-afines	Pinos y afines	
+destacadas-plantas	faneragamas	Fanerágamas	
+destacadas-plantas	pastos-marinos	Pastos Marinos	
+destacadas-plantas	especies-maderables	Especies Maderables	
+destacadas-plantas	mangles	Mangles	
+destacadas-plantas	helechos	Helechos	
+destacadas-plantas	helechos-afines	Helechos y afines	
+destacadas-plantas	zamias	Zamias	
+destacadas-plantas	musgos	Musgos	
+destacadas-plantas	hepaticas	Hepáticas	
+destacadas-plantas	antocerotas	Antocerotas	
+destacadas-plantas	musgos-afines	Musgos y afines	
+0	algas	Algas	
+destacadas-hongos	royas-macrohongos	Royas-macrohongos	
+hongos	microhongos	Microhongos	
+destacadas-hongos	royas	Royas	
+destacadas-plantas	liquenes	Líquenes	
+plantas	angiospermas	Angiospermas	
+plantas	gimnospermas	Gimnospermas	
+microorganismos	virus	Virus	
+0	microorganismos	Microorganismos	Se consideran microorganismos bacterias, hongos, cromistas, protozoos y archeas
+microorganismos	archeas	Archeas	
+moluscos	moluscos-marino-costeros	Moluscos Marino-Costeros	
+invertebrados	crustaceos-marinos	Crustáceos Marinos	
+destacadas-invertebrados	platelmintos-marinos	Platelmintos Marinos	
+invertebrados	medusas	Medusas	
+reptiles	tortugas-marinas	Tortugas Marinas	
+mamiferos	mamiferos-marinos	Mamíferos Marinos	
+peces	peces-marinos	Peces Marinos	
+peces	peces-dulceacuicolas	Peces dulceacuícolas	
+epifitas	epifitas-hepaticas	Epífitas Hepáticas	
+epifitas	epifitas-musgos	Epífitas Musgos	
+epifitas	epifitas-antocherotales	Epífitas Antocherotales	
+epifitas	epifitas-araceae	Epífitas Araceae	
+epifitas	epifitas-bromeliaceae	Epífitas Bromeliaceae	
+epifitas	epifitas-cactaceae	Epífitas Cactaceae	
+epifitas	epifitas-cyclanthaceae	Epífitas Cyclanthaceae	
+epifitas	epifitas-ericaceae	Epífitas Ericaceae	
+epifitas	epifitas-gesneriaceae	Epífitas Gesneriaceae	
+epifitas	epifitas-melastomataceae	Epífitas Melastomataceae	
+epifitas	epifitas-orchidaceae	Epífitas Orchidaceae	

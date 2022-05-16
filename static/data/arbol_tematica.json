@@ -1,0 +1,180 @@
+{
+  "slug": "0",
+  "children": [
+    {
+      "slug": "amenzadas",
+      "label": "Amenazadas",
+      "children": [
+        {
+          "slug": "amenazadas-global",
+          "description": "La Lista Roja de UICN es un indicador crítico de la salud de la biodiversidad del mundo que permite agilizar acciones que fomente la conservación de la biodiversidad.",
+          "label": "Amenazadas global",
+          "tooltip": "IUCN",
+          "children": [
+            {
+              "slug": "iucn-ex",
+              "description": "Hace referencia a un taxón en el cual el último individuo vivo ha muerto y no se han logrado encontrar nuevos registros en hábitats con condiciones apropiadas al ciclo de vida y formas del taxón.",
+              "label": "EX",
+              "orden": 9,
+              "tooltip": "Extinto"
+            },
+            {
+              "slug": "iucn-ew",
+              "description": "El taxón solamente sobrevive en cultivo, cautividad o como poblaciones naturalizadas fuera de su distribución original.",
+              "label": "EW",
+              "orden": 8,
+              "tooltip": "Extinto en estado silvestre"
+            },
+            {
+              "slug": "iucn-cr",
+              "description": "Se ha reducido el tamaño de la población o se ha presentado disminución en la extensión de presencia o área de ocupación que genera un riesgo de extinción extremadamente alto en vida silvestre.",
+              "label": "CR",
+              "orden": 7,
+              "tooltip": "En peligro crítico"
+            },
+            {
+              "slug": "iucn-en",
+              "description": "Se ha reducido el tamaño de la población o se ha presentado disminución en la extensión de presencia o área de ocupación que genera un riesgo de extinción muy alto en vida silvestre.",
+              "label": "EN",
+              "orden": 6,
+              "tooltip": "En peligro"
+            },
+            {
+              "slug": "iucn-vu",
+              "description": "Se ha reducido el tamaño de la población o se ha presentado disminución en la extensión de presencia o área de ocupación que genera un riesgo de extinción alto en vida silvestre.",
+              "label": "VU",
+              "orden": 5,
+              "tooltip": "Vulnerable"
+            },
+            {
+              "slug": "iucn-nt",
+              "description": "Al realizar la evaluación no se encontraron los criterios para definirse como En peligro crítico, En peligro o Vulnerable. Sin embargo es posible que los cumpla en un futuro cercano.",
+              "label": "NT",
+              "orden": 4,
+              "tooltip": "Casi amenazado"
+            },
+            {
+              "slug": "iucn-lc",
+              "description": "Se realizo la evaluación de riesgo de extensión pero no se cumplieron los criterio para definirlo en alguna categoría de amenaza (En peligro crítico, En peligro, Vulnerable o Casi amenazado)",
+              "label": "LC",
+              "orden": 3,
+              "tooltip": "Preocupación menor"
+            },
+            {
+              "slug": "iucn-dd",
+              "description": "No se tiene la información adecuada para realizar una evaluación del riesgo de extensión basado en su distribución y/o condición de la población.",
+              "label": "DD",
+              "orden": 2,
+              "tooltip": "Datos insuficientes"
+            },
+            {
+              "slug": "iucn-ne",
+              "description": "No se ha llevado a cabo el proceso de clasificación de acuerdo a los criterios establecidos.",
+              "label": "NE",
+              "orden": 1,
+              "tooltip": "No evaluado"
+            }
+          ]
+        },
+        {
+          "slug": "amenazadas-nacional",
+          "description": "Mediante la resolución 1912 de 2017 se estableció un listado de especies silvestres continentales y marino costeras que se encuentran amenazadas para Colombia",
+          "label": "Amenazadas nacional",
+          "tooltip": "MADS resolución 1912 de 2017",
+          "children": [
+            {
+              "slug": "mads-cr",
+              "description": "Son aquellas especies que enfrentan un riesgo de extinción extremadamente alto en vida silvestre.",
+              "label": "CR",
+              "orden": 3,
+              "tooltip": "En peligro Crítico"
+            },
+            {
+              "slug": "mads-en",
+              "description": "Presentan un riesgo de extinción muy alto en estado de vida silvestre.",
+              "label": "EN",
+              "orden": 2,
+              "tooltip": "En peligro"
+            },
+            {
+              "slug": "mads-vu",
+              "description": "Especies que presentan un riesgo de extinción alto en estado de vida silvestre.",
+              "label": "Vulnerable MADS",
+              "orden": 1
+            },
+            {
+              "slug": "mads-invasora",
+              "label": "Invasora MADS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cites",
+      "description": "CITES es un acuerdo internacional concertado entre los gobiernos que tiene como finalidad velar por que el comercio internacional de especímenes de animales y plantas silvestres no constituye una amenaza para la supervivencia de las especies.",
+      "label": "CITES",
+      "tooltip": "Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestres",
+      "children": [
+        {
+          "slug": "cites-i",
+          "description": "Incluye las especies sobre las que se cierne el mayor grado de peligro entre las especies de fauna y de flora por lo cual, CITES prohíbe el comercio internacional de especímenes de esas especies, salvo cuando la importación se realiza con fines no comerciales.",
+          "label": "Apéndice CITES I",
+          "orden": 3
+        },
+        {
+          "slug": "cites-ii",
+          "description": "Incluye especies que no están necesariamente amenazadas de extinción pero que podrían llegar a estarlo a menos que se contrale estrictamente su comercio",
+          "label": "Apéndice CITES II",
+          "orden": 2
+        },
+        {
+          "slug": "cites-iii",
+          "description": "Corresponde a las especies incluidas a solicitud de una Parte que ya reglamenta el comercio de dicha especie y necesita la cooperación de otros países para evitar la explotación insostenible o ilegal de las mismas",
+          "label": "Apéndice CITES III",
+          "orden": 1
+        }
+      ]
+    },
+    {
+      "slug": "endemicas",
+      "description": "Las especies se encuentra limitadas a una zona geográfica, en este caso son especies que solo se encuentra dentro del territorio Colombiano",
+      "label": "Endémicas"
+    },
+    {
+      "slug": "exoticas",
+      "description": "Especies que no son nativas del país y que llegaron de manera intencional o accidental, en la mayoría de los casos por actividad humana.",
+      "label": "Exoticas",
+      "children": [
+        {
+          "slug": "invasoras",
+          "description": "Organismos que se adaptan a regiones fuera de su distribución natural, causando daños al ecosistema, las especies nativas, salud o economía de la región.",
+          "label": "Invasoras"
+        }
+      ]
+    },
+    {
+      "slug": "migratorias",
+      "description": "Especies que se desplazan estacional y cíclicamente de una región a otra por cambios en la disponibilidad de alimento, condiciones ambientales o zonas de reproducción y cría.",
+      "label": "Migratorias"
+    },
+    {
+      "slug": "griis",
+      "label": "GRIIS",
+      "children": [
+        {
+          "slug": "griis_invasora",
+          "label": "Invasoras GRIIS"
+        }
+      ]
+    },
+    {
+      "slug": "erraticas",
+      "label": "Erráticas"
+    },
+    {
+      "slug": "residente",
+      "label": "Residente"
+    }
+  ]
+}

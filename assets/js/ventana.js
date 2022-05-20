@@ -10,9 +10,6 @@ import {
     SubMenu
 } from '@szhsin/react-menu';
 
-
-// console.log(grupos_biologicos)
-
 const BiologicGroups = ({ data, name, isActive }) => {
   const { items } = data
   const result = items.filter(i => i.name === name)[0]
@@ -192,7 +189,6 @@ const TreeItem = ({ item,BiologicGroup, color, isActive, setIsActive, valueBread
   const hasChildren = "children" in itemToRender;
   
   handleUpdateBreadCrumb = (e) => {
-    console.log(e)
     const target=e.target.ariaLabel || e.target.innerText || e.target.closest('button').value ||e.target.closest('img').alt
     setValueBreadCrumb((prevState) => {
        if (categorysReduce.includes(target)) {
@@ -203,7 +199,6 @@ const TreeItem = ({ item,BiologicGroup, color, isActive, setIsActive, valueBread
     if (valueBreadCrumb[0] === item.name) {
       setIsActive(true)
     } 
-    console.log(valueBreadCrumb)
   };
 
   return (

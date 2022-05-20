@@ -14,7 +14,7 @@ l <- ToListExplicit(tree, unname = TRUE, nameName = "slug",
                     childrenName = "children")
 l
 
-jsonlite::write_json(l, "../static/data/arbol_regiones.json",
+jsonlite::write_json(l, "../data/arbol_regiones.json",
                      auto_unbox = TRUE, pretty = TRUE)
 
 ## Grupos biológicos
@@ -28,7 +28,7 @@ l <- ToListExplicit(tree, unname = TRUE, nameName = "slug",
                     childrenName = "children")
 l
 
-jsonlite::write_json(l, "../static/data/arbol_grupos_biologicos.json",
+jsonlite::write_json(l, "../data/arbol_grupos_biologicos.json",
                      auto_unbox = TRUE, pretty = TRUE)
 
 
@@ -44,7 +44,7 @@ l <- ToListExplicit(tree, unname = TRUE, nameName = "slug",
                     childrenName = "children")
 l
 
-jsonlite::write_json(l, "../static/data/arbol_tematica.json",
+jsonlite::write_json(l, "../data/arbol_tematica.json",
                      auto_unbox = TRUE, pretty = TRUE)
 
 ## Publicadores
@@ -54,7 +54,7 @@ publicadores <- read_delim("db-cifras-sib/publicadores.tsv")
 pubs <- publicadores |> 
   select(-slug_region) |> 
   distinct()
-jsonlite::write_json(pubs, "../static/data/publicadores.json",
+jsonlite::write_json(pubs, "../data/publicadores.json",
                      auto_unbox = TRUE, pretty = TRUE)
 
 

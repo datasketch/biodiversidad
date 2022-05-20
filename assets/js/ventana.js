@@ -1,9 +1,17 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom'
-import { ButtonToolbar, Dropdown } from 'rsuite'
-import { groups } from './data/cifras'
+import { groups } from './data/cifras';
+import grupos_biologicos from './data/arbol_grupos_biologicos.json'
+import {
+    Menu,
+    MenuItem,
+    MenuButton,
+    SubMenu
+} from '@szhsin/react-menu';
 
+
+// console.log(grupos_biologicos)
 
 const BiologicGroups = ({ data, name, isActive }) => {
   const { items } = data
@@ -142,6 +150,11 @@ const Thematics = ({ data, name, isActive }) => {
 
 const Regiones = ({ data }) => {
   const renderRegiones = data.items.filter(item => item.name === 'Municipios')[0];
+
+  const handleChangeMunicipality = (e) => {
+    window.location.href = `${location.href + e.target.value.toLowerCase()}`
+  };
+
   return (
     <>
       <div className="space-y-8 text-center font-bold">
@@ -168,30 +181,34 @@ const Regiones = ({ data }) => {
     </>
   )
 }
-const handleChangeMunicipality = (e) => {
-  window.location.href = `${location.href + e.target.value.toLowerCase()}`
-}
-
-const TreeItem = ({ item, color, isActive, setIsActive, valueBreadCrumb, setValueBreadCrumb }) => {
-  const isActiveItem = isActive && item.name === valueBreadCrumb;
 
 
-const handleShowDropdown = (e) => {
-  console.log(e)
-  }
+const TreeItem = ({ item,BiologicGroup, color, isActive, setIsActive, valueBreadCrumb, setValueBreadCrumb }) => {
+  const isActiveItem = isActive && item.name === valueBreadCrumb[0];
+  const { children: categorys } = BiologicGroup;
   
-
-  const handleClick = (e) => {
-    setValueBreadCrumb(e.target.closest('button').dataset.name)
-    if (valueBreadCrumb === item.name) {
-      setIsActive(!isActive)
-    } else {
+  const itemToRender = categorys.filter(render => render.label === item.name)[0] ||  {};
+  const categorysReduce = categorys.reduce((acc, curr) => [...acc, curr.label], '')
+  const hasChildren = "children" in itemToRender;
+  
+  handleUpdateBreadCrumb = (e) => {
+    console.log(e)
+    const target=e.target.ariaLabel || e.target.innerText || e.target.closest('button').value ||e.target.closest('img').alt
+    setValueBreadCrumb((prevState) => {
+       if (categorysReduce.includes(target)) {
+        return prevState=[target]
+      }
+      return [...prevState, target]; 
+    });
+    if (valueBreadCrumb[0] === item.name) {
       setIsActive(true)
-    }
-  }
+    } 
+    console.log(valueBreadCrumb)
+  };
+
   return (
     <div className={`${isActiveItem ? `bg-${color}` : 'bg-white-3 '}`}>
-      <button data-name={item.name} className={`w-full border ${isActiveItem ? 'border-white-3' : `border-t-${color} border-l-${color} border-r-${color}`}`} onClick={handleClick}>
+      <button data-name={itemToRender.label} className={`w-full border ${isActiveItem ? 'border-white-3' : `border-t-${color} border-l-${color} border-r-${color}`}`} onClick={handleUpdateBreadCrumb}>
         <div className="py-8 px-2 text-center h-36">
           {
             item.image
@@ -201,28 +218,54 @@ const handleShowDropdown = (e) => {
           <p className={`mt-4 font-bold text-lg ${isActiveItem ? 'text-white-3' : 'text-black'}`}>{item.name}</p>
         </div>
       </button>
-     <button className={`block w-full border py-3 border-${color} ${isActiveItem ? 'cursor-pointer border-opacity-100': 'cursor-not-allowed border-opacity-50'}`} disabled={isActive && item.name == valueBreadCrumb ? false : true } onClick={handleShowDropdown}>
-      <img className={`mx-auto h-3 ${isActiveItem ? 'opacity-100' : 'opacity-50'}`} src={isActiveItem ? '/images/public/arrow-bottom-white.svg' : `/images/public/arrow-bottom-${color}.svg`} alt="arrow" /> 
-      </button>
+
+	    <Menu
+        menuClassName={`bg-${color} text-white text-lg rounded-none`}
+        menuButton={<MenuButton className={`block w-full border py-3 border-${color} ${isActiveItem ? 'cursor-pointer border-opacity-100' : 'cursor-not-allowed border-opacity-50'}`} disabled={isActive && item.name === valueBreadCrumb[0] ? false : true}>
+        <img className={`mx-auto h-3 ${isActiveItem ? 'opacity-100' : 'opacity-50'}`} src={isActiveItem ? '/images/public/arrow-bottom-white.svg' : `/images/public/arrow-bottom-${color}.svg`} alt="arrow" /> 
+        </MenuButton>}
+        onClick={handleUpdateBreadCrumb}
+      >
+        { hasChildren && itemToRender.children?.map((child, i) => <SubMenuGroups child={child} color={color} key={i} />)}
+      </Menu>
     </div>
   )
 }
 
 
+const SubMenuGroups = ({ child,color }) => {
+  const hasChildren = child.children && child.children.length > 0;
+  return (<>
+    { hasChildren && (<SubMenu openTrigger='clickOnly' menuClassName={`bg-${color} text-white rounded-none`} className="hover:text-blue hover:font-bold" aria-label={child.label} label={child.label}>
+      {child.children.map((subChild, i) => 
+        <SubMenuGroups child={subChild} key={i} color={color} />
+      )}
+    </SubMenu>)}
+    {!hasChildren && <MenuItem className={'hover:bg-white hover:text-blue hover:font-bold'} value={child.label} aria-label={child.label}> {child.label}</MenuItem>}
+
+     </>
+     )
+};
+
+
 const LayoutGroup = ({ children, setIsActive, isActive, valueBreadCrumb, color }) => {
-  return (
+   return (
     <div className={'bg-white py-12 lg:py-16 xl:py-20 -mt-9'}>
       <div className={`mx-auto w-10/12 max-w-screen-xl bg-white-3 ${!isActive && 'hidden'}`}>
         <div className="space-y-8">
-          <div className="flex justify-between items-center">
-            <div>
-              <p className={`inline-flex items-center space-x-2 font-open-sans-condensed text-white bg-${color} py-2 px-6`}>
-                <span>
-                  {valueBreadCrumb}
-                </span>
-                <img src="/images/public/breadcrumbs-arrow.svg" alt="breadcrum" />
-              </p>
-            </div>
+           <div className="flex justify-between items-center">
+             <div className={`inline-flex items-center font-open-sans-condensed`}>
+                 {valueBreadCrumb.map((value,index,array) => (
+                 <div key={value} className={`flex space-x-1 px-3 py-2 items-center ${array.length-1 === index && 'bg-blue text-white'}`}>
+                  <span >
+                    {value}
+                     </span>
+                     <div className='h-11/12 my-auto'>
+                      <img src={`${array.length-1 === index ?'/images/public/breadcrumbs-arrow.svg':'/images/public/breadcrumbs-arrow-green.svg'}`} alt="breadcrum" />
+                     </div>
+                 </div>
+                  ))}
+                </div>
             <button onClick={() => setIsActive(!isActive)} className="pr-2">
               <img className="w-6 h-6" src="/images/public/close.svg" alt="close" />
             </button>
@@ -234,9 +277,9 @@ const LayoutGroup = ({ children, setIsActive, isActive, valueBreadCrumb, color }
   )
 }
 
-const Group = ({ group }) => {
-  const [isActive, setIsActive] = useState(false)
-  const [valueBreadCrumb, setValueBreadCrumb] = useState('')
+const Group = ({ group, BiologicGroup }) => {
+    const [isActive, setIsActive] = useState(false)
+  const [valueBreadCrumb, setValueBreadCrumb] = useState([])
   return (
     <div>
       <div className={`pt-24 px-6 bg-${group.color}`}>
@@ -247,14 +290,14 @@ const Group = ({ group }) => {
           <ul className={`grid grid-cols-1 lg:grid-cols-${group.cols} gap-8 mt-16`}>
             {group.items.map((item, index) => {
               return (
-                <TreeItem item={item} color={group.color} isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb} setValueBreadCrumb={setValueBreadCrumb} key={index} />
+                <TreeItem item={item} BiologicGroup={BiologicGroup} color={group.color} isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb} setValueBreadCrumb={setValueBreadCrumb} key={index} />
               )
             })}
           </ul>
         </div>
       </div>
       <LayoutGroup isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb} color={group.color}>
-        {
+        {/* {
           group.id === 'grupos-biologicos' && <BiologicGroups data={group} name={valueBreadCrumb} isActive={isActive} />
         }
         {
@@ -262,7 +305,7 @@ const Group = ({ group }) => {
         }
         {
           group.id === 'regiones' && <Regiones data={group} name={valueBreadCrumb} isActive={isActive} />
-        }
+        } */}
       </LayoutGroup>
     </div>
   )
@@ -272,7 +315,7 @@ const App = () => {
   return (
     <>
       {groups.map(group => {
-        return <Group group={group} key={group.id} />
+        return <Group group={group} BiologicGroup={grupos_biologicos} key={group.id} />
       })}
     </>
   )

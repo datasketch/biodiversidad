@@ -3,7 +3,7 @@ export const groups = [
     id: 'grupos-biologicos',
     name: 'Grupos biológicos',
     color: 'green',
-    cols: 4,
+    cols: 5,
     items: [
       {
         name: 'Animales',
@@ -84,12 +84,12 @@ export const groups = [
         ]
       },
       {
-        name: 'Hongos',
-        image: '/images/grupos-biologicos/hongos-bg.svg',
-        image_active: '/images/grupos-biologicos/hongos-white-bg.svg',
+        name: 'Bacterias',
+        image: '/images/grupos-biologicos/bacterias-bg.svg',
+        image_active: '/images/grupos-biologicos/bacterias-white-bg.svg',
         statistics: [
           {
-            label: 'Hongos',
+            label: 'Bacterias',
             value: 'x',
             image: '/images/public/chart.svg',
             details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
@@ -109,12 +109,37 @@ export const groups = [
         ]
       },
       {
-        name: 'Bacterias',
-        image: '/images/grupos-biologicos/bacterias-bg.svg',
-        image_active: '/images/grupos-biologicos/bacterias-white-bg.svg',
+        name: 'Algas',
+        image: '/images/grupos-biologicos/hongos-bg.svg',
+        image_active: '/images/grupos-biologicos/hongos-white-bg.svg',
         statistics: [
           {
-            label: 'Bacterias',
+            label: 'Algas',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies CITES',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          },
+          {
+            label: 'Especies endémicas',
+            value: 'x',
+            image: '/images/public/chart.svg',
+            details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']
+          }
+        ]
+      },
+      {
+        name: 'Microorganismos',
+        image: '/images/grupos-biologicos/hongos-bg.svg',
+        image_active: '/images/grupos-biologicos/hongos-white-bg.svg',
+        statistics: [
+          {
+            label: 'Microorganismos',
             value: 'x',
             image: '/images/public/chart.svg',
             details: ['Lorem ipsum dolor sit', 'Lorem ipsum dolor sit', 'Lorem ipsum dolor sit']

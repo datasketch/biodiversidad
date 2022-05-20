@@ -3,6 +3,7 @@ menu:
   main:
     parent: departamentos
 title: Nariño
+slug: narino
 type: departamentos
 featured: yes
 layout: single

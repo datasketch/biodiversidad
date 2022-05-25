@@ -1,28 +1,46 @@
 {{ define "main" }}
 {{ partial "banner.html" (dict "banner" "banner-publicadores-desktop" "titleBanner" "publicadores") }}
+{{ $publicadores := .Site.Data.publicadores }}
+{{ $pais_publicacion := slice}}
+
+{{ range $publicadores }}
+{{ if .pais_publicacion}}
+{{ $pais_publicacion = $pais_publicacion | append .pais_publicacion }}
+{{ end }}
+{{ end }}
+
 <div class="py-12 lg:py-16 xl:py-20">
     <div class="w-10/12 mx-auto space-y-16">
-        <div class="flex flex-col sm:flex-row space-y-4 md:space-y-0 sm:justify-between">
-            <div class="w-full my-auto h-full py-3 md:w-4/12 flex border-2 border-blue-section px-2 space-x-1 sm:space-x-5">
-                <img class="" src="/images/public/icon-search.svg" alt="icon search" />
-                <input class="placeholder-italic appearance-none  sm:w-full text-blue-section text-sm lg:text-xl leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Buscar departamento">
+        <div
+            class="filters flex flex-col items-center lg:flex-row space-y-4 sm:space-y-8 lg:space-y-0 lg:justify-between">
+            <div class="relative w-full lg:max-w-xs">
+                <img class="absolute top-2 left-3" src="/images/public/icon-search.svg" alt="icon search" />
+                <input id="search" class="block w-full focus:outline-none py-2 pl-12 pr-8 border-2 border-grey-dark"
+                    type="text" placeholder="Buscar">
             </div>
+            <div class="flex flex-col sm:flex-row w-full sm:gap-x-10 space-y-4 sm:space-y-0 sm:justify-between lg:justify-start"
+                style="max-width: 475px;">
+                <select class="text-blue-section flex space-x-2 border-2 border-blue-section px-3 py-2 items-center"
+                    id="publicationCountry">
+                    <option selected disabled value="">Pais de publicación</option>
+                    {{ range sort (uniq $pais_publicacion) "value" "asc" }}
+                    <option value="{{ . }}">{{ . }}</option>
+                    {{ end }}
+                </select>
+                <select class="text-blue-section flex space-x-2 border-2 border-blue-section px-3 py-2 items-center"
+                    id="orderBy">
+                    <option selected disabled value="">Ordenar por</option>
+                    <option value="A">Alfabéticamente (A-Z)</option>
+                    <option value="Z">Alfabéticamente (Z-A)</option>
+                </select>
 
-            <div class="flex w-full md:w-6/12 gap-x-4 sm:gap-x-10 justify-end">
-                <div class="cursor-pointer text-blue-section flex space-x-2 border-2 border-blue-section px-3 py-1 items-center">
-                    <p class="font-s">País de publicación</p>
-                    <img class="h-1/2 my-auto" src="/images/public/arrow-dropdown.svg" alt="icon arrow down" />
-                </div>
-                <div class="cursor-pointer text-blue-section flex space-x-4 border-2 border-blue-section px-3 py-1 items-center">
-                    <p>Ordenar por</p>
-                    <img class="h-1/2 my-auto" src="/images/public/arrow-dropdown.svg" alt="icon arrow down" />
-                </div>
             </div>
         </div>
 
-        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div id="publishers" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {{ range .Site.Data.publicadores }}
-                {{ partial "card-publicadores.html" (dict "paisPublicacion" .pais_publicacion "publicadores" .label "logotipo" .url_logo "observaciones" .registros "totalEspecies" .especies) }}
+            {{ partial "card-publicadores.html" (dict "paisPublicacion" .pais_publicacion "publicadores" .label
+            "logotipo" .url_logo "observaciones" .registros "totalEspecies" .especies) }}
             {{ end }}
         </div>
     </div>
@@ -38,27 +56,35 @@
                 <div class="swiper-slide">
                     <div class="flex justify-between">
                         <div class="space-y-3 sm:w-5/12">
-                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales de Colombia
+                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales
+                                de Colombia
                             </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                exerci tation
                                 ullamcorper
-                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                                dolor in
                                 hendrerit in vulputate velit
-                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit,
+                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer
+                                adipiscing elit,
                                 sed diam
-                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim
                                 veniam, quis nostrud
                                 exerci.
                             </p>
                         </div>
                         <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
-                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs. reservas
+                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs.
+                                reservas
                                 naturales de Colombia
                             </h3>
                             <div class="mx-auto w-11/12 h-full">
-                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg" alt="grafica circular">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
                             </div>
                         </div>
                     </div>
@@ -66,27 +92,35 @@
                 <div class="swiper-slide">
                     <div class="flex justify-between">
                         <div class="space-y-3 sm:w-5/12">
-                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales de Colombia
+                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales
+                                de Colombia
                             </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                exerci tation
                                 ullamcorper
-                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                                dolor in
                                 hendrerit in vulputate velit
-                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit,
+                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer
+                                adipiscing elit,
                                 sed diam
-                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim
                                 veniam, quis nostrud
                                 exerci.
                             </p>
                         </div>
                         <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
-                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs. reservas
+                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs.
+                                reservas
                                 naturales de Colombia
                             </h3>
                             <div class="mx-auto w-11/12 h-full">
-                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg" alt="grafica circular">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
                             </div>
                         </div>
                     </div>
@@ -94,27 +128,35 @@
                 <div class="swiper-slide">
                     <div class="flex justify-between">
                         <div class="space-y-3 sm:w-5/12">
-                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales de Colombia
+                            <h2 class="text-xl lg:text-3xl font-bold">Reserva natural La Planada vs. reservas naturales
+                                de Colombia
                             </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                exerci tation
                                 ullamcorper
-                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                                dolor in
                                 hendrerit in vulputate velit
-                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit,
+                                esse molestie consequat, vel illum dolor. Lorem ipsum dolor sit amet, cons ectetuer
+                                adipiscing elit,
                                 sed diam
-                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim
                                 veniam, quis nostrud
                                 exerci.
                             </p>
                         </div>
                         <div class="hidden sm:block space-y-3 md:space-y-6 w-5/12">
-                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs. reservas
+                            <h3 class="text-xl sm:text-sm sm:space-y-10 font-semibold">Reserva natural La Planada vs.
+                                reservas
                                 naturales de Colombia
                             </h3>
                             <div class="mx-auto w-11/12 h-full">
-                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg" alt="grafica circular">
+                                <img class="mx-auto my-auto" src="/images/public/grafica-circular.svg"
+                                    alt="grafica circular">
                             </div>
                         </div>
                     </div>
@@ -141,43 +183,29 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
+                {{ range .Site.Data.publicadores }}
                 <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad Nacional de Colombia" "logotipo" "/images/publicadores/universidad-nacional-colombia.jpg" "observaciones" "14020" "totalEspecies" "3434") }}
+                    {{ partial "card-publicadores.html" (dict "paisPublicacion" .pais_publicacion "publicadores" .label
+                    "logotipo" .url_logo "observaciones" .registros "totalEspecies" .especies) }}
                 </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "US" "publicadores" "Missouri Botanical Garden" "logotipo" "/images/publicadores/missouri.jpg" "observaciones" "10845" "totalEspecies" "2905") }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad de nariño" "logotipo" "/images/publicadores/universidad-narino.jpg" "observaciones" "17801" "totalEspecies" "2647") }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt" "logotipo" "/images/publicadores/humbolt.jpg" "observaciones" "385640" "totalEspecies" "2193") }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad Nacional de Colombia" "logotipo" "/images/publicadores/universidad-nacional-colombia.jpg" "observaciones" "14020" "totalEspecies" "3434") }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "US" "publicadores" "Missouri Botanical Garden" "logotipo" "/images/publicadores/missouri.jpg" "observaciones" "10845" "totalEspecies" "2905") }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Universidad de nariño" "logotipo" "/images/publicadores/universidad-narino.jpg" "observaciones" "17801" "totalEspecies" "2647") }}
-                </div>
-                <div class="swiper-slide" style="max-width: 340px;">
-                    {{ partial "card-publicadores.html" (dict "paisPublicacion" "CO" "publicadores" "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt" "logotipo" "/images/publicadores/humbolt.jpg" "observaciones" "385640" "totalEspecies" "2193") }}
-                </div>
+                {{ end }}
+
             </div>
             <div class="hidden lg:block">
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev swiper-button-prev-netflix swiper-button-prev-netflix--blue" style="top: 22px; left: 0; height: 100%; width: 52px;">
+                <div class="swiper-button-prev swiper-button-prev-netflix swiper-button-prev-netflix--blue"
+                    style="top: 22px; left: 0; height: 100%; width: 52px;">
                     <img src="/images/home/arrow-left.svg" alt="arrow left">
                 </div>
-                <div class="swiper-button-next swiper-button-next-netflix swiper-button-next-netflix--blue" style="top: 22px; right: 0; height: 100%; width: 52px;">
+                <div class="swiper-button-next swiper-button-next-netflix swiper-button-next-netflix--blue"
+                    style="top: 22px; right: 0; height: 100%; width: 52px;">
                     <img src="/images/home/arrow-right.svg" alt="arrow right">
                 </div>
             </div>
         </div>
         <div class="text-center">
-            <a class="font-open-sans py-3 px-6 text-base lg:text-lg border-2 border-white text-white text-center" href="#">
+            <a class="font-open-sans py-3 px-6 text-base lg:text-lg border-2 border-white text-white text-center"
+                href="#">
                 Conocer más
             </a>
         </div>

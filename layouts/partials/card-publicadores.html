@@ -2,33 +2,32 @@
     <div class="mx-auto w-10/12 h-full">
         <div class="flex flex-col justify-between h-full">
             <div>
-                <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">{{ .paisPublicacion }}</span>
+                <p class="text-blue-section italic">Pais de publicacion: <span class="font-semibold">{{ .paisPublicacion
+                        }}</span>
                 </p>
-                <div class="absolute top-0 right-0"> 
+                <div class="absolute top-0 right-0">
                     <img class="w-20 h-20" src="{{ .logotipo }}" alt="{{ .publicadores }}">
                 </div>
                 <p class="font-open-sans text-lg font-bold text-blue-section">
                     {{ .publicadores }}
                 </p>
             </div>
-            <div>
-                <table class="xl:mx-auto xl:w-11/12">
-                    <tbody>
-                        <tr class="px-10 text-sm">
-                            <th class="text-left bg-gray-light">Observaciones</th>
-                            <th class="text-blue-section border-l bg-gray-light border-blue-section">
-                                {{ .observaciones }}
-                            </th>
-                        </tr>
-                        <tr class="text-sm">
-                            <th class="text-left">Total Especies</th>
-                            <th class="border-l border-blue-section">
-                                {{ .totalEspecies }}
-                            </th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <table class="xl:mx-auto xl:w-11/12">
+                <tbody>
+                    <tr class="text-sm">
+                        <th class="text-left bg-gray-light">Observaciones</th>
+                        <th class="text-blue-section border-l bg-gray-light border-blue-section">
+                            {{ .observaciones }}
+                        </th>
+                    </tr>
+                    <tr class="text-sm">
+                        <th class="text-left">Total Especies</th>
+                        <th class="border-l border-blue-section">
+                            {{ .totalEspecies }}
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

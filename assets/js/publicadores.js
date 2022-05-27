@@ -5,6 +5,7 @@ const search = document.getElementById('search')
 const publicationCountry = document.getElementById('publicationCountry')
 const orderBy = document.getElementById('orderBy')
 const publishers = document.getElementById('publishers')
+const pagination = document.querySelector('.pagination')
 
 // eslint-disable-next-line no-unused-vars
 const swiper_default = defaultSwiper('.swiper-summary',
@@ -27,7 +28,10 @@ const state = {
     search: [],
     publicationCountry: [],
     orderBy: []
-  }
+  },
+  itemsPerPage: 15,
+  currentPage: 1,
+  numberOfPages: 4
 }
 
 function filterData () {
@@ -39,12 +43,15 @@ function filterData () {
   state.filteredData = originalData
 
   if (hasLabelFilter) {
-    state.filteredData = state.filteredData.filter((item) => item.label.includes(filters.search[0]))
-    console.log(state.filteredData)
+    state.filteredData = state.filteredData.filter((item) => item.label.toLowerCase().includes(filters.search[0].toLowerCase()))
   }
+
   if (hasPublicationCountryFilter) {
-    state.filteredData = state.filteredData.filter((item) => filters.publicationCountry.includes(item.pais_publicacion))
+    if (filters.publicationCountry[0] !== '-') {
+      state.filteredData = state.filteredData.filter((item) => filters.publicationCountry.includes(item.pais_publicacion))
+    }
   }
+
   if (hasOrderBy) {
     if (filters.orderBy[0] === 'A') {
       state.filteredData.sort((a, b) => a.label.localeCompare(b.label))
@@ -53,7 +60,9 @@ function filterData () {
       state.filteredData.sort((a, b) => b.label.localeCompare(a.label))
     }
   }
-  state.filteredData.forEach((item) => render(publishers, item))
+
+  paginate(state.currentPage, state.itemsPerPage, state.filteredData).forEach((item) => render(publishers, item))
+  renderButtons(pagination, state.currentPage, state.itemsPerPage, state.filteredData)
 }
 
 search.addEventListener('keyup', (e) => {
@@ -77,9 +86,60 @@ orderBy.addEventListener('change', (e) => {
   filterData()
 })
 
+pagination.addEventListener('click', (e) => {
+  e.stopPropagation()
+  const { value } = e.target
+  console.log(Number(value))
+  state.currentPage = Number(value)
+  filterData()
+})
+
+console.log(state.currentPage)
 window.addEventListener('load', () => {
   filterData()
 })
+
+const paginate = (page = 1, itemsPerPagination, data) => {
+  const start = (page - 1) * itemsPerPagination
+  const end = page * itemsPerPagination
+  return data.slice(start, end)
+}
+
+const renderButtons = (parentEl, currentPage, itemsPerPage, data) => {
+  parentEl.innerHTML = ''
+  const totalPages = Math.ceil(data.length / itemsPerPage)
+  let maxButtonsLeft = currentPage - Math.floor(state.numberOfPages / 2)
+  let maxButtonsRight = currentPage + Math.floor(state.numberOfPages / 2)
+
+  if (maxButtonsLeft < 1) {
+    maxButtonsLeft = 1
+    maxButtonsRight = state.numberOfPages
+  }
+  if (maxButtonsRight > totalPages) {
+    maxButtonsLeft = totalPages - (state.numberOfPages - 1)
+    maxButtonsRight = totalPages
+
+    if (maxButtonsLeft < 1) {
+      maxButtonsLeft = 1
+    }
+  }
+
+  // if (state.currentPage !== 1) {
+  //   parentEl.innerHTML += `<button value=${1} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white"> < </button>`
+  // }
+
+  for (let page = maxButtonsLeft; page <= maxButtonsRight; page++) {
+    if (page === currentPage) {
+      parentEl.innerHTML += `<button value=${page} class="page px-2 py-1 font-bold text-white bg-blue-section hover:bg-blue-section hover:text-white">${page}</button>`
+    } else {
+      parentEl.innerHTML += `<button value=${page} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white">${page}</button>`
+    }
+  }
+
+  // if (state.currentPage !== totalPages) {
+  //   parentEl.innerHTML += `<button value=${totalPages} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white"> > </button>`
+  // }
+}
 
 const render = (parentEl, item) => {
   const html = `
@@ -119,3 +179,5 @@ const render = (parentEl, item) => {
 
   parentEl.insertAdjacentHTML('beforeend', html)
 }
+
+// console.log(pagination.children.length)

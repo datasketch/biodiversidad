@@ -65,36 +65,34 @@ function filterData () {
   renderButtons(pagination, state.currentPage, state.itemsPerPage, state.filteredData)
 }
 
-search.addEventListener('keyup', (e) => {
+search?.addEventListener('keyup', (e) => {
   const { id: key, value } = e.target
   const filterKeyValue = state.filters[key]
   filterKeyValue[0] = value
   filterData()
 })
 
-publicationCountry.addEventListener('change', (e) => {
+publicationCountry?.addEventListener('change', (e) => {
   const { id: key, value } = e.target
   const filterKeyValue = state.filters[key]
   filterKeyValue[0] = value
   filterData()
 })
 
-orderBy.addEventListener('change', (e) => {
+orderBy?.addEventListener('change', (e) => {
   const { id: key, value } = e.target
   const filterKeyValue = state.filters[key]
   filterKeyValue[0] = value
   filterData()
 })
 
-pagination.addEventListener('click', (e) => {
+pagination?.addEventListener('click', (e) => {
   e.stopPropagation()
   const { value } = e.target
-  console.log(Number(value))
   state.currentPage = Number(value)
   filterData()
 })
 
-console.log(state.currentPage)
 window.addEventListener('load', () => {
   filterData()
 })
@@ -124,10 +122,11 @@ const renderButtons = (parentEl, currentPage, itemsPerPage, data) => {
     }
   }
 
-  // if (state.currentPage !== 1) {
-  //   parentEl.innerHTML += `<button value=${1} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white"> < </button>`
-  // }
-
+  if (state.currentPage !== 1) {
+    parentEl.innerHTML += `<button value=${1} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white"> << </button>`
+    parentEl.innerHTML += `<button value=${currentPage-1} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white"> Pagina anterior </button>`
+  }
+  
   for (let page = maxButtonsLeft; page <= maxButtonsRight; page++) {
     if (page === currentPage) {
       parentEl.innerHTML += `<button value=${page} class="page px-2 py-1 font-bold text-white bg-blue-section hover:bg-blue-section hover:text-white">${page}</button>`
@@ -135,10 +134,11 @@ const renderButtons = (parentEl, currentPage, itemsPerPage, data) => {
       parentEl.innerHTML += `<button value=${page} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white">${page}</button>`
     }
   }
-
-  // if (state.currentPage !== totalPages) {
-  //   parentEl.innerHTML += `<button value=${totalPages} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white"> > </button>`
-  // }
+  
+  if (state.currentPage !== totalPages) {
+    parentEl.innerHTML += `<button value=${currentPage+1} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white"> Pagina Siguiente </button>`
+    parentEl.innerHTML += `<button value=${currentPage+2} class="page px-2 py-1 font-bold text-blue-section hover:bg-blue-section hover:text-white"> >> </button>`
+  }
 }
 
 const render = (parentEl, item) => {
@@ -179,5 +179,3 @@ const render = (parentEl, item) => {
 
   parentEl.insertAdjacentHTML('beforeend', html)
 }
-
-// console.log(pagination.children.length)

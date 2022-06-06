@@ -7,8 +7,11 @@ import {
     Menu,
     MenuItem,
     MenuButton,
-    SubMenu
+    SubMenu,
+
 } from '@szhsin/react-menu';
+import jsonQ from 'jsonq';
+
 
 const BiologicGroups = ({ data, name, isActive }) => {
   const { items } = data
@@ -181,25 +184,53 @@ const Regiones = ({ data }) => {
 
 
 const TreeItem = ({ item,BiologicGroup, color, isActive, setIsActive, valueBreadCrumb, setValueBreadCrumb }) => {
+  // const [numberClicks, setNumberClicks] = useState(0);
   const isActiveItem = isActive && item.name === valueBreadCrumb[0];
   const { children: categorys } = BiologicGroup;
   
   const itemToRender = categorys.filter(render => render.label === item.name)[0] ||  {};
   const categorysReduce = categorys.reduce((acc, curr) => [...acc, curr.label], '')
   const hasChildren = "children" in itemToRender;
-  
+
+  useEffect(() => {    
+    if (valueBreadCrumb[0] === item.name) {
+      setIsActive(true)
+    }
+  }, [valueBreadCrumb])
+
   handleUpdateBreadCrumb = (e) => {
     const target=e.target.ariaLabel || e.target.innerText || e.target.closest('button').value ||e.target.closest('img').alt
     setValueBreadCrumb((prevState) => {
-       if (categorysReduce.includes(target)) {
-        return prevState=[target]
+
+      if (prevState.includes(target)) {
+        const iof = prevState.indexOf(target)
+        return prevState.slice(0, iof+1)
       }
-      return [...prevState, target]; 
+      if (categorysReduce.includes(target)) {
+        return prevState = [target]
+      }
+      return [...prevState, target];
+
     });
-    if (valueBreadCrumb[0] === item.name) {
-      setIsActive(true)
-    } 
+    console.log(itemToRender)
+    
+   
+      // setNumberClicks(numberClicks + 1)
   };
+
+  // const search = (data, parent, target) => {
+  //   console.log('padre', parent)
+  //   console.log('target', target)
+  //   if (data !== undefined) {
+  //     console.log(data)
+  //   }
+  //   setTree(prevState => {
+  //     if (prevState.includes(parent))
+  //       return [...prevState, target]
+  //     return [...prevState, parent, target]
+  //   })
+  // }
+  // console.log(tree)
 
   return (
     <div className={`${isActiveItem ? `bg-${color}` : 'bg-white-3 '}`}>
@@ -213,7 +244,6 @@ const TreeItem = ({ item,BiologicGroup, color, isActive, setIsActive, valueBread
           <p className={`mt-4 font-bold text-lg ${isActiveItem ? 'text-white-3' : 'text-black'}`}>{item.name}</p>
         </div>
       </button>
-
 	    <Menu
         menuClassName={`bg-${color} text-white text-lg rounded-none`}
         menuButton={<MenuButton className={`block w-full border py-3 border-${color} ${isActiveItem ? 'cursor-pointer border-opacity-100' : 'cursor-not-allowed border-opacity-50'}`} disabled={isActive && item.name === valueBreadCrumb[0] ? false : true}>
@@ -221,14 +251,14 @@ const TreeItem = ({ item,BiologicGroup, color, isActive, setIsActive, valueBread
         </MenuButton>}
         onClick={handleUpdateBreadCrumb}
       >
-        { hasChildren && itemToRender.children?.map((child, i) => <SubMenuGroups child={child} color={color} key={i} />)}
+        {hasChildren && itemToRender.children?.map((child, i) => <SubMenuGroups child={child} color={color} key={i} />)}
       </Menu>
     </div>
   )
 }
 
 
-const SubMenuGroups = ({ child,color }) => {
+const SubMenuGroups = ({ child,color,name }) => {
   const hasChildren = child.children && child.children.length > 0;
   return (<>
     { hasChildren && (<SubMenu openTrigger='clickOnly' menuClassName={`bg-${color} text-white rounded-none`} className="hover:text-blue hover:font-bold" aria-label={child.label} label={child.label}>
@@ -243,7 +273,7 @@ const SubMenuGroups = ({ child,color }) => {
 };
 
 
-const LayoutGroup = ({ children, setIsActive, isActive, valueBreadCrumb, color }) => {
+const LayoutGroup = ({ children, setIsActive, isActive, valueBreadCrumb,setValueBreadCrumb, color }) => {
    return (
     <div className={'bg-white py-12 lg:py-16 xl:py-20 -mt-9'}>
       <div className={`mx-auto w-10/12 max-w-screen-xl bg-white-3 ${!isActive && 'hidden'}`}>
@@ -261,7 +291,10 @@ const LayoutGroup = ({ children, setIsActive, isActive, valueBreadCrumb, color }
                  </div>
                   ))}
                 </div>
-            <button onClick={() => setIsActive(!isActive)} className="pr-2">
+             <button onClick={() => {
+               setIsActive(!isActive)
+               setValueBreadCrumb([])
+             }} className="pr-2">
               <img className="w-6 h-6" src="/images/public/close.svg" alt="close" />
             </button>
           </div>
@@ -291,7 +324,7 @@ const Group = ({ group, BiologicGroup }) => {
           </ul>
         </div>
       </div>
-      <LayoutGroup isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb} color={group.color}>
+      <LayoutGroup isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb} setValueBreadCrumb={setValueBreadCrumb} color={group.color}>
         {/* {
           group.id === 'grupos-biologicos' && <BiologicGroups data={group} name={valueBreadCrumb} isActive={isActive} />
         }

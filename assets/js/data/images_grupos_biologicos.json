@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Animales",
+        "image": "/images/grupos-biologicos/animales-bg.svg",
+        "image_active": "/images/grupos-biologicos/animales-white-bg.svg"
+    },
+    {
+      "name": "Plantas",
+      "image": "/images/grupos-biologicos/plantas-bg.svg",
+      "image_active": "/images/grupos-biologicos/plantas-white-bg.svg"
+    },
+    {
+      "name": "Bacterias",
+      "image": "/images/grupos-biologicos/bacterias-bg.svg",
+      "image_active": "/images/grupos-biologicos/bacterias-white-bg.svg"
+    },
+    {
+      "name": "Algas",
+      "image": "/images/grupos-biologicos/hongos-bg.svg",
+      "image_active": "/images/grupos-biologicos/hongos-white-bg.svg"
+    },
+    {
+      "name": "Microorganismos",
+      "image": "/images/grupos-biologicos/hongos-bg.svg",
+      "image_active": "/images/grupos-biologicos/hongos-white-bg.svg"
+    }
+]

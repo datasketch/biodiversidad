@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Especies amenazadas",
+        "image": "/images/tematicas/especies-amenazadas.svg",
+        "image_active": "/images/tematicas/especies-white-amenazadas.svg"
+    },
+    {
+        "name": "Especies endémicas",
+        "image": "/images/tematicas/especies-endemicas.svg",
+        "image_active": "/images/tematicas/especies-white-endemicas.svg"
+    },
+    {
+        "name": "Especies exóticas",
+        "image": "/images/tematicas/especies-exoticas.svg",
+        "image_active": "/images/tematicas/especies-white-exoticas.svg"
+    },
+    {
+        "name": "Especies CITES",
+        "image": "/images/tematicas/especies-CITES.svg",
+        "image_active": "/images/tematicas/especies-white-CITES.svg"
+    },
+    {
+        "name": "Especies migratorias",
+        "image": "/images/tematicas/especies-migratorias.svg",
+        "image_active": "/images/tematicas/especies-white-migratorias.svg"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Áreas protegidas",
+        "image": "/images/regiones/areas-protegidas.svg",
+        "image_active": "/images/regiones/areas-protegidas-white.svg"
+    },
+    {
+        "name": "Áreas marinas",
+        "image": "/images/regiones/areas-marinas.svg",
+        "image_active": "/images/regiones/areas-marinas-white.svg"
+    },
+    {
+        "name": "Regiones naturales",
+        "image": "/images/regiones/regiones-naturales.svg",
+        "image_active": "/images/regiones/regiones-naturales-white.svg"
+    },
+    {
+        "name": "Municipios",
+        "image": "/images/regiones/departamentos.svg",
+        "image_active": "/images/regiones/departamentos-white.svg"
+    },
+    {
+        "name": "Ecosistemas estratégicos",
+        "image": "/images/regiones/ecosistemas-estratetigicos.svg",
+        "image_active": "/images/regiones/ecosistemas-estratetigicos-white.svg"
+    },
+    {
+        "name": "Territorios indígenas",
+        "image": "/images/regiones/territorios-indigenas.svg",
+        "image_active": "/images/regiones/territorios-indigenas-white.svg"
+    }
+]

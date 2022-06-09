@@ -1,5 +1,7 @@
 ---
 title: Más
 weight: 6
-menu: main
+menu:
+  main:
+    identifier: mas
 ---

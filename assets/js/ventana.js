@@ -8,11 +8,9 @@ import {
   SubMenu,
 
 } from '@szhsin/react-menu';
-import jsonQ from 'jsonq';
 import { groups } from './data'
 
 const BiologicGroups = ({ data={}, name, isActive }) => {
-    
     return (
     <>
       <div>

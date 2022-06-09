@@ -11,16 +11,25 @@ import {
 import jsonQ from 'jsonq';
 import { groups } from './data'
 
-const BiologicGroups = ({ data , name, isActive, valueBreadCrumb }) => {
-  console.log(data);
-  return (
+const BiologicGroups = ({ data={}, name, isActive }) => {
+    
+    return (
     <>
       <div>
         <h2 className="text-center font-bold text-xl xl:text-2xl">
-          {isActive && valueBreadCrumb[valueBreadCrumb.length - 1]}
+          {isActive && name}
         </h2>
       </div>
       <div className="mx-auto lg:w-11/12 pb-8">
+          {Object.entries(data).map(([key, value], i) => {
+             return (
+                <ul key={i} className="space-x-2">
+                  <span>{key}: </span>
+                  <span>{value}</span>
+                </ul>
+              )
+          })
+        }
         {/* <div className="flex flex-col lg:flex-row space-y-12  lg:space-y-0 justify-evenly">
           {isActive && data.map(s => {
             return (
@@ -288,7 +297,7 @@ const Group = ({ item }) => {
   const [isActive, setIsActive] = useState(false)
   const [valueBreadCrumb, setValueBreadCrumb] = useState([])
   const [valueLabel, setValueLabel] = useState('')
-  const filterByLabel = data.filter((item) => item.label === valueLabel)
+  const filterByLabel = data.filter((item) => item.label === valueLabel)[0]
   // console.log(data);
   return (
     <div>
@@ -308,7 +317,7 @@ const Group = ({ item }) => {
       </div>
       <LayoutGroup isActive={isActive} setIsActive={setIsActive} valueBreadCrumb={valueBreadCrumb} setValueBreadCrumb={setValueBreadCrumb} color={color}>
         {
-          id === 'grupos-biologicos' && <BiologicGroups data={filterByLabel} name={valueBreadCrumb} isActive={isActive} valueBreadCrumb={valueBreadCrumb} />
+          id === 'grupos-biologicos' && <BiologicGroups data={filterByLabel} name={valueBreadCrumb[valueBreadCrumb.length-1]} isActive={isActive} valueBreadCrumb={valueBreadCrumb} />
         }
         {/* {
           group.id === 'tematicas' && <Thematics data={group} name={valueBreadCrumb} isActive={isActive} />
